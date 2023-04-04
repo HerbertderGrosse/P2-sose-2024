@@ -96,7 +96,7 @@ Auf dem verschiebbaren Objekttisch des Mikroskops liegt ein planer Objektträger
 
 **Bestimmen Sie die Brennweite $f$ der Linse durch Autokollimation.**
 
-Ein "selbstleuchtender" Gegenstand (eine beleuchtete Mattscheibe mit scharfen Schatten) wird vor der Linse so verschoben, daß er seitenverkehrt wieder scharf auf sich (d.h. auf der Mattscheibe) abgebildet wird, wenn hinter der Linse ein Planspiegel das Licht reflektiert. Dabei ist der Abstand Spiegel-Linse unwesentlich.
+Ein "selbstleuchtender" Gegenstand (eine beleuchtete Mattscheibe mit scharfen Schatten) wird vor der Linse so verschoben, dass er seitenverkehrt wieder scharf auf sich (d.h. auf der Mattscheibe) abgebildet wird, wenn hinter der Linse ein Planspiegel das Licht reflektiert. Dabei ist der Abstand Spiegel-Linse unwesentlich.
 
 #### Aufgabe 1.4
 
