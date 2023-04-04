@@ -4,7 +4,7 @@
 
 ## Physikalisches Praktikum P2 für Studierende der Physik
 
-Versuch P2-56, 60, 61 (Stand: April 2023)
+Versuch P2-59, 60, 61 (Stand: April 2023)
 
 [Raum F1-15](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/layoutobjekte/Lageplan_P1.png)
 
@@ -99,8 +99,7 @@ Bestimmen Sie die Verstärkung in Abhängigkeit von der Frequenz ($10\:\mathrm{u
 
 ### Aufgabe 3: Die invertierende Grundschaltung
 
-Dies ist wohl die wichtigste Grundschaltung von Operationsver-
-stärkern.
+Dies ist wohl die wichtigste Grundschaltung von Operationsverstärkern.
 
 #### Aufgabe 3.1
 
@@ -157,6 +156,6 @@ Bauen Sie mit zwei Operationsverstärkern einen Generator für Dreieck- und Rech
 
 Bauen Sie die so genannte „Programmierte Differentialgleichung 2. Ordnung“ auf. Diese Generatorschaltung zur Erzeugung von Sinuswechselspannungen ermöglicht die Simulation einer Integralgleichung 2. Ordnung. Sie erkennen die beiden hintereinandergeschalteten Integrierer. Mit dem Potentiometer können Sie die Dämpfung der Schwingung einstellen. Die Schwingungsamplitude wächst an oder klingt ab, je nachdem ob Sie den Schleifer des Potentiometers aus der Mittelstellung nach rechts oder nach links gedreht haben.
 
-- Versuchen Sie, durch Variation des Potentiometerwiderstands die drei Fälle - Schwingfall, aperiodischer Grenzfall und Kriechfall - zu simulieren.
+- Versuchen Sie, durch Variation des Potentiometerwiderstands die drei Fälle (Schwingfall, aperiodischer Grenzfall und Kriechfall) zu simulieren.
 
 *Hinweis: Eine genaue Beschreibung dieser Schaltung finden Sie in "Tietze, Schenk: Halbleiterschaltungstechnik".*
