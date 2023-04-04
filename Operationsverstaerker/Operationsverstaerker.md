@@ -30,7 +30,7 @@ Dies ist der Arbeitsplatz an dem der Versuch durchegführt wird.
 Alle Schaltungen werden auf diesem Experimentierboard aufgebaut. Es besteht aus vier Bereichen, die für verschiedene Aufgabenteile verwendet werden.
 
 1. Transistor: Hier wird die Emitterschaltung aus Aufgabe 1 aufgebaut.
-2. Operationsverstärker 1 und 2: In diesem Bereich werden die Aufgaben 2.1 - 4.2 aufgebaut. Links und rechts beﬁndet sich jeweils ein bereits an die Spannungsversorgung angeschlossener Operationsverstärker. In der Mitte ist ein $10\,\mathrm{kΩ}$ Potentiometer angebracht.
+2. Operationsverstärker 1 und 2: In diesem Bereich werden die Aufgaben bis 4.2 aufgebaut. Links und rechts beﬁndet sich jeweils ein bereits an die Spannungsversorgung angeschlossener Operationsverstärker. In der Mitte ist ein $10\,\mathrm{kΩ}$ Potentiometer angebracht.
 3. Operationsverstärker 3: Dieser OPV ist nicht an die Spannungsversorgung angeschlossen und wird bei keiner der Aufgaben 1 bis 4 verwendet.
 4. Spannungsversorgung: Hier ist das Netzteil untergebracht, das die OPV mit $±15\,\mathrm{V}$ versorgt (blau: $−15\,\mathrm{V}$, weiß: $+15\,\mathrm{V}$, schwarz: $0\,\mathrm{V}$ / GND).
 
@@ -68,7 +68,7 @@ Entfernen Sie den Emitterkondensator $C_e$. Beobachten Sie wieder das Ausgangssi
 
 #### Aufgabe 1.4
 
-Bestimmen Sie die Verstärkung des Strom- und Gleichstromgegengekoppelten Verstärkers für verschiedene Frequenzen ($10,\:25,\:50,\:100\;\mathrm{und}\:500\,\mathrm{Hz}$ sowie  $1,\:5,\:10,\:50\:\mathrm{und}\:100\,\mathrm{kHz}$). Besonders wichtig ist hierbei der Frequenzbereich $10\,\mathrm{Hz}$ bis $500\,\mathrm{Hz}$.
+Bestimmen Sie die Verstärkung des Strom- und Gleichstromgegengekoppelten Verstärkers für verschiedene Frequenzen ($10,\:25,\:50,\:100\:\mathrm{und}\:500\,\mathrm{Hz}$ sowie  $1,\:5,\:10,\:50\:\mathrm{und}\:100\,\mathrm{kHz}$). Besonders wichtig ist hierbei der Frequenzbereich $10\,\mathrm{Hz}$ bis $500\,\mathrm{Hz}$.
 
 - Plotten Sie für beide Schaltungen den Verlauf der Verstärkung und erklären Sie diesen.
 
@@ -149,7 +149,7 @@ Bauen Sie mit einem Operationsverstärker einen idealen Einweggleichrichter auf 
 
 Bauen Sie mit zwei Operationsverstärkern einen Generator für Dreieck- und Rechtecksignale auf.
 
-- Erklären Sie die Funktionsweise der angegebenen Schaltung. 
+- Erklären Sie die Funktionsweise der angegebenen Schaltung.
 
 *Hinweis: Einer der Operationsverstärker arbeitet als Schwellenwertschalter, der andere als Integrierer.*
 
