@@ -18,7 +18,7 @@ Versuch P2-47, 48, 49 (Stand: März 2023)
 
 ## Motivation
 
-Die klassische Thermodynamik beschäftigt sich mit den Eigenschaften makroskopisch ausgedehnter Systeme, die durch Zustandsgrößen, wie Volumen ($V$), Druck ($p$) oder Temperatur ($T$) charakterisiert und mit Hilfe von Zustandsgleichungen beschrieben werden. Zustandsänderungen idealer Gase werden durch die [ideale Gasgleichung](https://de.wikipedia.org/wiki/Thermische_Zustandsgleichung_idealer_Gase) oder die [Adiabaten-Gleichungen](https://de.wikipedia.org/wiki/Adiabatische_Zustands%C3%A4nderung) beschrieben; Wärmeänderungen bei konstantem Druck oder Volumen durch die [kalorischen Zustandsgleichungen](https://de.wikipedia.org/wiki/Zustandsgleichung), die Änderungen der Temperatur ($\mathrm{d}T$) mit Änderungen der inneren Energie ($\mathrm{d}U$) oder Enthalpie ($\mathrm{d}H$) verknüpfen. Als Potentialgrößen hängen weder $U$ noch $H$ davon ab, wie ein betreffendes System in seinen Zustand im $pV$-Diagramm gelangt ist. Wärme ($Q$) hingegen ist keine Potentialgröße; Sie kann abhängig davon, auf welchem Weg ein System in seinen Zustand im $pV$-Diagramm gelangt zu unterschiedlichen Anteilen entweder zu Änderungen der inneren Energie ($\mathrm{d}U$) oder zur Verrichtung mechanischer Arbeit ($\delta W$) führen, was die Grundlage jeder Wärmekraftmaschiene ist. Die Entwicklung der klassischen Thermodynamik als Disziplin der Ingeneurswissenschaften hat ab Mitte des 19. Jahrunderts v.a. durch die Arbeiten von [Nicolas Carnot](https://de.wikipedia.org/wiki/Nicolas_L%C3%A9onard_Sadi_Carnot), [Julius Mayer](https://de.wikipedia.org/wiki/Julius_Robert_Mayer), [James Joule](https://de.wikipedia.org/wiki/James_Prescott_Joule) oder [Rudolf Clausius](https://de.wikipedia.org/wiki/Rudolf_Clausius) rasante Entwicklungen genommen. 
+Die klassische Thermodynamik beschäftigt sich mit den Eigenschaften makroskopisch ausgedehnter Systeme, die durch Zustandsgrößen, wie Volumen ($V$), Druck ($p$) oder Temperatur ($T$) charakterisiert und mit Hilfe von Zustandsgleichungen beschrieben werden. Zustandsänderungen idealer Gase werden durch die [ideale Gasgleichung](https://de.wikipedia.org/wiki/Thermische_Zustandsgleichung_idealer_Gase) oder die [Adiabaten-Gleichungen](https://de.wikipedia.org/wiki/Adiabatische_Zustands%C3%A4nderung) beschrieben; Wärmeänderungen bei konstantem Druck oder Volumen durch die [kalorischen Zustandsgleichungen](https://de.wikipedia.org/wiki/Zustandsgleichung), die Änderungen der Temperatur ($\mathrm{d}T$) mit Änderungen der inneren Energie ($\mathrm{d}U$) oder Enthalpie ($\mathrm{d}H$) verknüpfen. Als Potentialgrößen hängen weder $U$ noch $H$ davon ab, wie ein betreffendes System in seinen Zustand im $pV$-Diagramm gelangt ist. Wärme ($Q$) hingegen ist keine Potentialgröße; Sie kann abhängig davon, auf welchem Weg ein System in seinen Zustand im $pV$-Diagramm gelangt zu unterschiedlichen Anteilen entweder zu Änderungen der inneren Energie ($\mathrm{d}U$) oder zur Verrichtung mechanischer Arbeit ($\delta W$) führen, was die Grundlage jeder Wärmekraftmaschine ist. Die Entwicklung der klassischen Thermodynamik als Disziplin der Ingeneurswissenschaften hat ab Mitte des 19. Jahrunderts v.a. durch die Arbeiten von [Nicolas Carnot](https://de.wikipedia.org/wiki/Nicolas_L%C3%A9onard_Sadi_Carnot), [Julius Mayer](https://de.wikipedia.org/wiki/Julius_Robert_Mayer), [James Joule](https://de.wikipedia.org/wiki/James_Prescott_Joule) oder [Rudolf Clausius](https://de.wikipedia.org/wiki/Rudolf_Clausius) rasante Entwicklungen genommen. 
 
 Die hier angebotenen Versuche bieten Ihnen die Möglichkeit sich mit den nicht immer intuitiven Vorgängen der Thermodynamik experimentell vertraut zu machen. Sie führen Temperaturmessungen mit einem Gasthermometer durch, und bestimmen mit verschiedenen Methoden den [Adiabatenexponenten](https://de.wikipedia.org/wiki/Isentropenexponent) $\kappa=c_{p}/c_{V}$, wobei das verwendete Gas jeweils verschiedene Wege im $pV$-Diagramm durchläuft. Schließlich messen Sie eine Dampfdruckkurve aus, bei der sich die Phasenzustände "flüssig" und "gasförmig" im thermodynamischen Gleichgewicht befinden. 
 
@@ -29,7 +29,7 @@ Um diese Experimente erfolgreich durchführen zu können müssen Sie die Zustän
 Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem Versuch **Ideales und reales Gas** vermitteln möchten: 
 
 - Sie üben sich in der Durchführung thermodynamischer Experimente mit idealen und realen Gasen und präparieren dabei verschiedene Zustandsänderungen des verwendeten Arbeitsgases im $pV$-Diagramm.
-- Sie verwenden die ideale Gasgleichung zur Temperaturmessung mit Hilfe eines [Gasthermomenters](https://de.wikipedia.org/wiki/Gasthermometer). Dabei ermittlen Sie mit Hilfe des Gasthermometers die Temperatur des absoluten Nullpunkts in $^{\circ}\mathrm{C}$.
+- Sie verwenden die ideale Gasgleichung zur Temperaturmessung mit Hilfe eines [Gasthermometers](https://de.wikipedia.org/wiki/Gasthermometer). Dabei ermittlen Sie mit Hilfe des Gasthermometers die Temperatur des absoluten Nullpunkts in $^{\circ}\mathrm{C}$.
 - Sie bestimmen $\kappa$ für Luft und ggf. Argon: 
   - einmal nach der Methode von [Clément-Desormes](https://de.wikipedia.org/wiki/Experiment_von_Cl%C3%A9ment-Desormes), unter Herbeiführung *adiabatischer* und *isochorer* Zustandsänderungen; und 
   - einmal nach einer Schwingungsmethode, unter Herbeiführung ausschließlich *adiabatischer* Zustandsänderungen des Arbeitsgases.
@@ -58,7 +58,7 @@ Für die verschiedenen Versuchsteile stehen Ihnen vier verschiedene Versuchsaufb
 
 - Ein Wassergefäß ($V=2\,\mathrm{l}$). 
 
-- Ein Dampfdruckgefäß, das mit $1\,\mathrm{mol}$ n-Hexan beüllt und direkt mit einem Hg-Manometer verbunden ist.
+- Ein Dampfdruckgefäß, das mit $1\,\mathrm{mol}$ n-Hexan befüllt und direkt mit einem Hg-Manometer verbunden ist.
 
 - Ein Thermometer (Messbereich $0-50^{\circ}\mathrm{C}$).
 
@@ -71,7 +71,7 @@ Für die verschiedenen Versuchsteile stehen Ihnen vier verschiedene Versuchsaufb
 
 ## Wichtige Hinweise
 
-- Bei den hier verwendeten Glasgeräten handelt es sich um empfindliche Spezialanfertigungen und zum Teil um eigens angefertigte Präzisionsmessgeräte. Gehen Sie **vorsichtig mit diesen Gräten** um und halten Sie sie sauber. 
+- Bei den hier verwendeten Glasgeräten handelt es sich um empfindliche Spezialanfertigungen und zum Teil um eigens angefertigte Präzisionsmessgeräte. Gehen Sie **vorsichtig mit diesen Geräten** um und halten Sie sie sauber. 
 - Beginnen Sie alle im folgenden beschriebenen Versuche **erst nach Rücksprache** mit dem/der Tutor:in. 
 - Um Stromschlägen vorzubeugen fassen Sie bei Feuchtigkeit nicht in den eingeschalteten Heizpilz.
 

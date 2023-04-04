@@ -28,9 +28,9 @@ Dieser Versuch bietet Ihnen Einblicke in die Prinzipien der Vakuumerzeugung und 
 
 ## Lernziele
 
-Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem Versuch **Lichtgeschwindigkeit** vermitteln möchten: 
+Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem Versuch **Vakuum** vermitteln möchten: 
 
-- Sie lernen den Umgang mit zwei wichtigen Pumpen zur Erzeugung von Fein- ($10^{0}-10^{-3}\,\mathrm{mbar}$) und Hochvakua ($10^{-3}-10^{-7}\,\mathrm{mbar}$).
+- Sie lernen den Umgang mit zwei wichtigen Pumpentypen zur Erzeugung von Fein- ($10^{0}-10^{-3}\,\mathrm{mbar}$) und Hochvakua ($10^{-3}-10^{-7}\,\mathrm{mbar}$).
 - Sie erzeugen Hochvakua und führen verschiedene Versuche darin durch.
 - Sie untersuchen Gasentladungen und die Durchschlagfestigkeit zweier Kondensatorkugeln bei variierendem Luftdruck und vergegenwärtigen sich den jeweiligen Zusammenhang mit der mittleren freien Weglänge beschleunigter Ladungen.
 - Sie überprüfen den Leitwert eines Metallrohrs und die Saugleistung der verwendeten Pumpen. 
@@ -40,7 +40,7 @@ Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem
 
 Die wichtigsten Elemente des Versuchsaufbaus sind: 
 
-- Eine [Drehschieberpumpe](https://de.wikipedia.org/wiki/Drehschieberpumpe) (DSP, Saugvermögen $2,5\,\mathrm{m^{3}/h}$ für die Versuchsaufbauten 41 und 42, $1,6\,\mathrm{m^{3}/h}$ für Versuchsaufbau 44). 
+- Eine [Drehschieberpumpe](https://de.wikipedia.org/wiki/Drehschieberpumpe) (DSP, Saugvermögen $2,5\,\mathrm{m^{3}/h}$). 
 
 - Eine [Turbomolekularpumpe](https://de.wikipedia.org/wiki/Turbomolekularpumpe) (TMP, Saugvermögen $\geq30\,\mathrm{l/s}$, $7200\,\mathrm{min}^{-1}$, ca. $2\,\mathrm{min}$ Hochlaufzeit).
 
@@ -56,7 +56,7 @@ Die wichtigsten Elemente des Versuchsaufbaus sind:
 
 - Ein dünnes Metallrohr mit $d=2\,\mathrm{mm}$
 
-- Eine Glasglocke (mit $220\,\mathrm{mm}$ Durchmesser und $250\,\mathrm{mm}$ Höhe) auf einem Metallteller mit Gummidichtung bildet den *Rezipienten* (RE) in dem verschiedene Versuche durchgeführt werden können. Darin befinden zwei elektrisch aufladbare Kugelelektroden (KE) und ein elektrisch direkt beheizbares Verdampferschiffchen (HZ). Der RZ hat jeweils das Volumen:
+- Eine Glasglocke (mit $220\,\mathrm{mm}$ Durchmesser und $250\,\mathrm{mm}$ Höhe) auf einem Metallteller mit Gummidichtung bildet den *Rezipienten* (RE) in dem verschiedene Versuche durchgeführt werden können. Darin befinden sich zwei elektrisch aufladbare Kugelelektroden (KE) und ein elektrisch direkt beheizbares Verdampferschiffchen (HZ). Der RZ hat jeweils das Volumen:
 
   - $V_{\mathrm{RZ}} = 10,1\,\mathrm{l}$ (Apparatur 41),
   - $V_{\mathrm{RZ}} = 10,0\,\mathrm{l}$ (Apparatur 42),
@@ -66,7 +66,7 @@ Die wichtigsten Elemente des Versuchsaufbaus sind:
 
 - Das RV beträgt für alle Apparaturen $V_{\mathrm{RV}}=0,034\,\mathrm{l}$.
 
-Die KE sind an ein Netzgerät für Spannungen bis zu $10\,\mathrm{kV}$ angeschlossen. Die Spannung zwischen den KE bei der Gasentladung kann mit einem Digital-Multimeter abgelesen werden. Beachten Sie, dass dem Digital-Multimeter ein Widerstand von $10\,\mathrm{M\Omega}$ vorgeschaltet ist, die Anzeige auf dem Gerät ist daher durch 10 zu teilen, um die tatsächliche Spannung zu erhalten.  
+Die KE sind an ein Netzgerät für Spannungen bis zu $10\,\mathrm{kV}$ angeschlossen. Die Spannung zwischen den KE bei der Gasentladung kann mit einem Digital-Multimeter abgelesen werden. Beachten Sie, dass dem Digital-Multimeter ein Spannungsteiler von $10\,\mathrm{M\Omega}/1\,\mathrm{M\Omega}$ vorgeschaltet ist, die Anzeige auf dem Gerät ist daher durch 10 zu teilen, um die tatsächliche Spannung zu erhalten.  
 
 Das HZ ist mit einer Abschirmung mit Lochblende und einer von außen schwenkbaren Plexiglasplatte versehen. Es wird mit einem Netzgerät für $6\,\mathrm{V}$ und $50\,\mathrm{A}$ Wechselstrom beheizt. 
 
@@ -97,7 +97,7 @@ Die drei Versuchsaufbauten sind fast gleich; Apparatur 44 ist als einzige mit de
 
 ### Aufgabe 1: Gasentladung
 
-Diesen Versuch sollten alle Praktikumsteilnehmer:innen an Apparatur 44 durchführen. Evakuieren Sie den Rezipienten und die Gasentladungsröhre gemeinsam mit Hilfe der DSP (Ventile $\mathrm{V1}$ und $\mathrm{V2}$ öffnen). Die TMP bleibt für diesen Versuchsteil außer Betrieb. Das Hochspannungsgerät zur Erzeugung der Gasentladungen sollte zu jedem Zeitpunkt eingeschaltet sein. Senken Sie den Druck kontinuierlich, bis die Gasentladung erlischt. Skizzieren und beschreiben Sie die Gasentladung in Abhängigkeit vom Gasdruck. 
+Diesen Versuch kann nur an Apparatur 44 durchgeführt werden. Evakuieren Sie den Rezipienten und die Gasentladungsröhre gemeinsam mit Hilfe der DSP (Ventile $\mathrm{V1}$ und $\mathrm{V2}$ öffnen). Die TMP bleibt für diesen Versuchsteil außer Betrieb. Das Hochspannungsgerät zur Erzeugung der Gasentladungen sollte zu jedem Zeitpunkt eingeschaltet sein. Senken Sie den Druck kontinuierlich, bis die Gasentladung erlischt. Skizzieren und beschreiben Sie die Gasentladung in Abhängigkeit vom Gasdruck. 
 
 Schließen Sie nach dieser Aufgabe das Ventil zur Gasentladungsröhre für alle folgenden Aufgaben.
 
@@ -145,7 +145,7 @@ Lassen Sie die TMP für den nächsten Versuchsteil eingeschaltet.
 
 ---
 
-### Aufgabe 5: Statisches Kalibrierungsversahren
+### Aufgabe 5: Statisches Kalibrierungsverfahren
 
 Bei diesem Versuchsteil führen Sie, unter Anwendung des Gesetzes von [Boyle-Mariotte](https://en.wikipedia.org/wiki/Boyle%27s_law), ein einstufiges, statisches Kalibrierungsverfahren durch, wie man es z.B. zur Kalibration von Druckmessgeräten verwenden könnte. Gehen Sie hierzu iterativ wie folgt vor:
 
@@ -186,7 +186,7 @@ Bei dieser Aufgabe dampfen Sie bei drei verschiedenen Drücken jeweils eine Indi
 - $p\approx10^{-4}\,\mathrm{mbar}$ und 
 - $p\approx10^{-3}\,\mathrm{mbar}$ aufgedampft werden. 
 
-Beobachten den benötigten Heizstrom und diskutieren Sie die Randschärfe der aufgedampften Flecken. Gehen Sie wie dabei folgt vor: 
+Beobachten den benötigten Heizstrom und diskutieren Sie die Randschärfe der aufgedampften Flecken. Gehen Sie wie dabei wie folgt vor: 
 
 - Evakuieren Sie den RZ mit der TMP; 
 - dampfen Sie den ersten Fleck bei $p\lesssim8\times 10^{-5}\,\mathrm{mbar}$ auf; 
