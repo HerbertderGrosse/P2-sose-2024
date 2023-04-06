@@ -26,6 +26,8 @@ Die Eigenschaften eines elektrischen Bauelements hängen von vielen physikalisch
 
 ## Wichtige Hinweise
 
+- Sie benötigen einen USB-Stick zur Datensicherung.
+
 - **Aufgabe 1: Das Gehäuse des Ofens erhitzt sich stark! Vermeiden Sie jeglichen Kontakt mit der Oberfläche.**
 
 - **Aufgabe 5: Flüssiger Stickstoff ($T=-196°\mathrm{C}$) kann schwere Kälteverbrennungen verursachen! Daher stets Handschuhe und Schutzbrille tragen.**
@@ -34,7 +36,7 @@ Die Eigenschaften eines elektrischen Bauelements hängen von vielen physikalisch
 
 ### Aufgabe 1: Wheatstoneschen Brückenschaltung
 
-**Messen Sie mit Hilfe der Wheatstoneschen Brückenschaltung die $P(T)$-Abhängigkeit verschiedener Bauteile im Bereich von Zimmertemperatur bis $\approx 150\,°\mathrm{C}$.**
+**Messen Sie mit Hilfe der Wheatstoneschen Brückenschaltung die $P(T)$-Abhängigkeit verschiedener Bauteile im Bereich von Zimmertemperatur bis $\approx 150°\mathrm{C}$.**
 
 <img src="./figures/Wheatstonesche_Brueckenschaltung.png" style="zoom:40%;float:right;" />
 
@@ -44,22 +46,22 @@ Die Eigenschaften eines elektrischen Bauelements hängen von vielen physikalisch
 
 - Stellen Sie die $R(T)$-Abhängigkeiten jeweils graphisch dar und schließen Sie daraus auf die Eigenschaften des Bauteils.
 
-- Wählen Sie zur Auswertung für den NTC-Widerstand eine geeignete Auftragung, um die Koeffizienten $a$ und $b$ aus $R(T) = a ∙ e^{b/T}$ zu bestimmen. Überlegen Sie sich, wie man NTC-Widerstände zur Temperaturmessung, zur Füllstandsanzeige und zur Strombegrenzung verwenden kann.
+- Wählen Sie zur Auswertung für den NTC-Widerstand eine geeignete Auftragung, um die Koeffizienten $a$ und $b$ aus $R(T) = a \cdot e^{b/T}$ zu bestimmen. Überlegen Sie sich, wie man NTC-Widerstände zur Temperaturmessung, zur Füllstandsanzeige und zur Strombegrenzung verwenden kann.
 
-- Für den PT100 gilt $R(T) = R_0 + c ∙ T$. Bestimmen Sie die Konstante $c$ und überprüfen Sie den Widerstand $R_0$ bei $0°\mathrm{C}$. Diskutieren Sie auch hier mögliche Einsatzgebiete.
+- Für den PT100 gilt $R(T) = R_0 + c \cdot T$. Bestimmen Sie die Konstante $c$ und überprüfen Sie den Widerstand $R_0$ bei $0°\mathrm{C}$. Diskutieren Sie auch hier mögliche Einsatzgebiete.
 
 ---
 
 ### Aufgabe 2: Kennlinien
 
-Überlegen Sie sich im Vorfeld durch Anfertigung von Schaltskizzen,
+**Überlegen Sie sich im Vorfeld durch Anfertigung von Schaltskizzen,**
 
 - wie eine Spannungsstabilisierung mit einer Zenerdiode zu realisieren wäre.
 - wie der Varistor als Schutz gegen induzierte Spannungen an geschalteten Induktivitäten zu verwenden ist.
   
-#### Aufgabe 2a
+#### Aufgabe 2.1
 
-Nehmen Sie die Kennlinien folgender Bauteile am USB-Oszilloskop auf:
+**Nehmen Sie die Kennlinien folgender Bauteile am USB-Oszilloskop auf:**
 
 - Silizium-Diode (SID)
 - Germanium-Diode (GED)
@@ -81,7 +83,7 @@ Untersuchen Sie hierbei insbesondere:
 
 Interpretieren Sie die Kennlinien ausführlich und geben Sie charakteristische Punkte an. Berechnen Sie beim Photowiderstand aus der Steigung der Kennlinien den jeweiligen Widerstandswert. Schließen Sie auf typische Eigenschaften der Bauteile und leiten Sie daraus mögliche Anwendungen ab.
 
-#### Aufgabe 2b
+#### Aufgabe 2.2
 
 **Untersuchen Sie qualitativ die Frequenzabhängigkeit einiger Bauelemente (bei $f=0,1\,\mathrm{kHz}$ bis $f=10\,\mathrm{kHz}$ ).**
 
@@ -116,4 +118,4 @@ Messen Sie den Spannungsabfall am Hochtemperatursupraleiter mit Hilfe der fertig
 - Tragen Sie zur Auswertung den Widerstand $R=U_\mathrm{gem}/I$ über der Temperatur $T$ auf und geben Sie die Sprungtemperatur an.
 - Erklären Sie, warum zur Messung eine Vierleiterschaltung verwendet wird.
 
-Beachten Sie, daß die Anzeige des Thermometers bei tiefen Temperaturen entsprechend der angehängten Tabelle vom wahren Wert abweicht. Für die Beurteilung der Sprungtemperatur beachten Sie, dass am Ort von Temperatursensor und Supraleiter ein hoher Temperaturgradient vorliegt.
+Beachten Sie, dass die Anzeige des Thermometers bei tiefen Temperaturen entsprechend der im Datenblatt angegebenen Tabelle `params/Temperatur_Korrektur.csv` vom wahren Wert abweicht. Für die Beurteilung der Sprungtemperatur beachten Sie, dass am Ort von Temperatursensor und Supraleiter ein hoher Temperaturgradient vorliegt.

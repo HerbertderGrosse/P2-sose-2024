@@ -46,7 +46,7 @@ Das ist die am häufigsten verwendete Transistorverstärkerschaltung. Verwenden 
 
 #### Aufgabe 1.1
 
-Bauen Sie auf der Experimentier-Steckplatine den einstufigen gleichstromgegengekoppelten Transistorverstärker auf.
+**Bauen Sie auf der Experimentier-Steckplatine den einstufigen gleichstromgegengekoppelten Transistorverstärker auf.**
 
 - Welche Funktionen haben die einzelnen Bauelemente, speziell $R_e$?
 - Überprüfen Sie die Lage des Arbeitspunktes.
@@ -55,20 +55,20 @@ Bauen Sie auf der Experimentier-Steckplatine den einstufigen gleichstromgegengek
 
 #### Aufgabe 1.2
 
-Führen Sie dem Verstärker als Eingangssignal eine Dreieckspannung mittlerer Frequenz (ca. $1\,\mathrm{kHz}$) zu und beobachten Sie oszilloskopisch das Ausgangssignal und bestimmen Sie die Verstärkung.
+**Führen Sie dem Verstärker als Eingangssignal eine Dreieckspannung mittlerer Frequenz (ca. $1\,\mathrm{kHz}$) zu und beobachten Sie oszilloskopisch das Ausgangssignal und bestimmen Sie die Verstärkung.**
 
 - Stellen Sie durch Variation der Amplitude des Eingangssignals verschiedene Ausgangsamplituden (etwa $3V_{SS}$ und $10V_{SS}$) ein und beurteilen Sie die Qualität des Verstärkers.
 
 #### Aufgabe 1.3
 
-Entfernen Sie den Emitterkondensator $C_e$. Beobachten Sie wieder das Ausgangssignal bei verschiedenen Amplituden und bestimmen Sie die Verstärkung dieses stromgegengekoppelten Verstärkers.
+**Entfernen Sie den Emitterkondensator $C_e$. Beobachten Sie wieder das Ausgangssignal bei verschiedenen Amplituden und bestimmen Sie die Verstärkung dieses stromgegengekoppelten Verstärkers.**
 
 - Warum finden Sie gerade den Wert $R_c/R_e$ als Verstärkungsfaktor?
 - Erklären Sie die Wirkungsweise der Gegenkopplung durch $R_e$ (Stromgegengekoppelter Verstärker).
 
 #### Aufgabe 1.4
 
-Bestimmen Sie die Verstärkung des Strom- und Gleichstromgegengekoppelten Verstärkers für verschiedene Frequenzen ($10,\:25,\:50,\:100\:\mathrm{und}\:500\,\mathrm{Hz}$ sowie  $1,\:5,\:10,\:50\:\mathrm{und}\:100\,\mathrm{kHz}$). Besonders wichtig ist hierbei der Frequenzbereich $10\,\mathrm{Hz}$ bis $500\,\mathrm{Hz}$.
+**Bestimmen Sie die Verstärkung des Strom- und Gleichstromgegengekoppelten Verstärkers für verschiedene Frequenzen ($10,\:25,\:50,\:100\:\mathrm{und}\:500\,\mathrm{Hz}$ sowie  $1,\:5,\:10,\:50\:\mathrm{und}\:100\,\mathrm{kHz}$).** Besonders wichtig ist hierbei der Frequenzbereich $10\,\mathrm{Hz}$ bis $500\,\mathrm{Hz}$.
 
 - Plotten Sie für beide Schaltungen den Verlauf der Verstärkung und erklären Sie diesen.
 
@@ -78,7 +78,7 @@ Bestimmen Sie die Verstärkung des Strom- und Gleichstromgegengekoppelten Verst�
 
 #### Aufgabe 2.1
 
-Bauen Sie auf der Experimentier-Steckplatine mit einem Operationsverstärker einen nichtinvertierenden Verstärker mit etwa zehnfacher Verstärkung.
+**Bauen Sie auf der Experimentier-Steckplatine mit einem Operationsverstärker einen nichtinvertierenden Verstärker mit etwa zehnfacher Verstärkung.**
 
 - Überprüfen Sie die Funktion der Schaltung.
 - Führen Sie dem Eingang eine Dreieckspannung mittlerer Frequenz ($1\,\mathrm{kHz}$) zu und beobachten Sie oszilloskopisch das Ausgangssigna1.
@@ -86,11 +86,11 @@ Bauen Sie auf der Experimentier-Steckplatine mit einem Operationsverstärker ein
 
 #### Aufgabe 2.2
 
-Demonstrieren Sie den hohen Eingangswiderstand und den kleinen Ausgangswiderstand dieser Schaltung mit Hilfe geeigneter Verfahren.
+**Demonstrieren Sie den hohen Eingangswiderstand und den kleinen Ausgangswiderstand dieser Schaltung mit Hilfe geeigneter Verfahren.**
 
 #### Aufgabe 2.3
 
-Bestimmen Sie die Verstärkung in Abhängigkeit von der Frequenz ($10\:\mathrm{und}\:100\,\mathrm{Hz}$ sowie $1,\:10,\:25,\:50,\:75\:\mathrm{und}\:100\,\mathrm{kHz}$).
+**Bestimmen Sie die Verstärkung in Abhängigkeit von der Frequenz ($10\:\mathrm{und}\:100\,\mathrm{Hz}$ sowie $1,\:10,\:25,\:50,\:75\:\mathrm{und}\:100\,\mathrm{kHz}$).**
 
 - Wählen Sie als Eingangssignal eine Sinuswechselspannung mit einer Amplitude von $0,5V_{SS}$ und beobachten Sie das Ausgangssignal oszilloskopisch.
 - Können Sie die bei hohen Frequenzen auftretenden Verzerrungen erklären?
@@ -103,20 +103,20 @@ Dies ist wohl die wichtigste Grundschaltung von Operationsverstärkern.
 
 #### Aufgabe 3.1
 
-Bauen Sie mit einem Operationsverstärker einen invertierenden Verstärker mit zehnfacher Verstärkung auf.
+**Bauen Sie mit einem Operationsverstärker einen invertierenden Verstärker mit zehnfacher Verstärkung auf.**
 
 - Überprüfen Sie die Funktion und erklären Sie die Wirkungsweise der Schaltung.
 - Leiten Sie die Verstärkung her.
 
 #### Aufgabe 3.2
 
-Bauen Sie einen „Addierer“ für zwei Eingangssignale auf. Als Eingangssignale können Sie Dreieck-, Rechteck- oder Sinusspannung (bis $1\,\mathrm{kHz}$) und eine mit den auf der Platine vorhandenen Potentiometern realisierbare regelbare Gleichspannungen im Bereich $-15\,\mathrm{V}$ bis $+15\,\mathrm{V}$ verwenden.
+**Bauen Sie einen „Addierer“ für zwei Eingangssignale auf.** Als Eingangssignale können Sie Dreieck-, Rechteck- oder Sinusspannung (bis $1\,\mathrm{kHz}$) und eine mit den auf der Platine vorhandenen Potentiometern realisierbare regelbare Gleichspannungen im Bereich $-15\,\mathrm{V}$ bis $+15\,\mathrm{V}$ verwenden.
 
 - Beobachten Sie die Ausgangsspannung oszilloskopisch. Schalten Sie den Eingang des Oszilloskops auf „DC-Kopplung“, damit die Gleichspannung korrekt dargestellt wird.
 
 #### Aufgabe 3.3
 
-Bauen Sie den „lntegrierer“ auf. Schalten Sie wieder zurück auf „AC-Kopplung“. Verwenden Sie als Eingangssignal Rechteck- und Dreieckspannungen niedriger Frequenz (im Bereich $50\,\mathrm{Hz}$ bis $100\,\mathrm{Hz}$) und großer Amplitude.
+**Bauen Sie den „lntegrierer“ auf.** Schalten Sie wieder zurück auf „AC-Kopplung“. Verwenden Sie als Eingangssignal Rechteck- und Dreieckspannungen niedriger Frequenz (im Bereich $50\,\mathrm{Hz}$ bis $100\,\mathrm{Hz}$) und großer Amplitude.
 
 - Beobachten Sie wieder oszilloskopisch.
 - Erklären Sie die Wirkungsweise der Schaltung (ohne
@@ -124,7 +124,7 @@ Berücksichtigung des Widerstandes $R_s$, der nur der Stabilisierung des Integri
 
 #### Aufgabe 3.4
 
-Bauen Sie den „Differenzierer“ auf.
+**Bauen Sie den „Differenzierer“ auf.**
 
 - Testen Sie die Funktion mit Rechteck- und Dreiecksignalen (im Bereich $50\,\mathrm{Hz}$ bis $500\.\mathrm{Hz}$).
 - Erklären Sie die Wirkungsweise der Schaltung.
@@ -139,14 +139,14 @@ Im Folgenden werden nun einige etwas komplexere Schaltungen aufgebaut und unters
 
 #### Aufgabe 4.1
 
-Bauen Sie mit einem Operationsverstärker einen idealen Einweggleichrichter auf und überprüfen Sie seine Funktion mit verschiedenen Eingangswechselspannungssignalen ($f<1\,\mathrm{kHz}$).
+**Bauen Sie mit einem Operationsverstärker einen idealen Einweggleichrichter auf und überprüfen Sie seine Funktion mit verschiedenen Eingangswechselspannungssignalen ($f<1\,\mathrm{kHz}$).**
 
 - Was sind die Vorteile dieser Schaltung gegenüber einer einfachen Gleichrichterschaltung mit einer Diode und einem Widerstand? Probieren Sie es aus!
 - Wofür könnte ein solcher idealer Gleichrichter Verwendung finden?
 
 #### Aufgabe 4.2
 
-Bauen Sie mit zwei Operationsverstärkern einen Generator für Dreieck- und Rechtecksignale auf.
+**Bauen Sie mit zwei Operationsverstärkern einen Generator für Dreieck- und Rechtecksignale auf.**
 
 - Erklären Sie die Funktionsweise der angegebenen Schaltung.
 
@@ -154,7 +154,7 @@ Bauen Sie mit zwei Operationsverstärkern einen Generator für Dreieck- und Rech
 
 #### Aufgabe 4.3
 
-Bauen Sie die so genannte „Programmierte Differentialgleichung 2. Ordnung“ auf. Diese Generatorschaltung zur Erzeugung von Sinuswechselspannungen ermöglicht die Simulation einer Integralgleichung 2. Ordnung. Sie erkennen die beiden hintereinandergeschalteten Integrierer. Mit dem Potentiometer können Sie die Dämpfung der Schwingung einstellen. Die Schwingungsamplitude wächst an oder klingt ab, je nachdem ob Sie den Schleifer des Potentiometers aus der Mittelstellung nach rechts oder nach links gedreht haben.
+**Bauen Sie die so genannte „Programmierte Differentialgleichung 2. Ordnung“ auf.** Diese Generatorschaltung zur Erzeugung von Sinuswechselspannungen ermöglicht die Simulation einer Integralgleichung 2. Ordnung. Sie erkennen die beiden hintereinandergeschalteten Integrierer. Mit dem Potentiometer können Sie die Dämpfung der Schwingung einstellen. Die Schwingungsamplitude wächst an oder klingt ab, je nachdem ob Sie den Schleifer des Potentiometers aus der Mittelstellung nach rechts oder nach links gedreht haben.
 
 - Versuchen Sie, durch Variation des Potentiometerwiderstands die drei Fälle (Schwingfall, aperiodischer Grenzfall und Kriechfall) zu simulieren.
 
