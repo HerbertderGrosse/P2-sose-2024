@@ -22,7 +22,6 @@ In diesem Versuch lernen Sie die experimentelle Technik von Szintillationszähle
 
 <img src="./figures/Gammaspektroskopie.jpg" style="zoom:40%;" />
 
-
 ## Wichtige Hinweise
 
 - Die Kernphysik-Räume stellen einen innerbetrieblichen Überwachungsbereich dar. Hier gelten nach der Strahlenschutzverordnung besondere Regeln, die unbedingt zu beachten sind.
@@ -32,8 +31,70 @@ In diesem Versuch lernen Sie die experimentelle Technik von Szintillationszähle
 
 ## Durchführung
 
-### Aufgabe 1
+### Aufgabe 0: Einarbeitung in das CASSY–LAB Systems
+
+Die Datenerfassung erfolgt über das Vielkanal-Interface des CASSY–LAB Systems. Das Bedienungshandbuch des CASSY Systems ist vor Ort vorhanden und liegt [hier](http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/Manuals/CassyLab-2-Handbuch.pdf) in elektronischer Form vor.
+
+- Zur Durchführung des Versuches ist die Kenntnis der ersten dreißig Seiten von Nutzen und sollten schon zur Versuchsvorbereitung gelesen werden.
+- Starten Sie das CASSY Programm und machen Sie sich damit vertraut.
+- Stellen Sie die geeigneten Parameter in dem Messparameterfenster ein. Es empfiehlt sich, dieses Fenster für schnelleres Arbeiten weiterhin offen zu halten.
+- Der dynamische Bereich des Detektors soll durch geeignete Einstellung der Betriebsspannung am SEV (Sehen Sie sich die Ausgangsimpulse des SEV am Oszilloskop an.) und der Software-Verstärkung möglichst voll ausgenutzt werden. Die Spannung ist gut eingestellt, wenn die Signale der höchsten Gamma-Linie gerade noch nicht in Sättigung gehen ($\approx900\,\mathrm{V}$).
 
 ---
 
-### Aufgabe 2
+### Impulshöhenspektren
+
+#### Aufgabe 1.1
+
+**Messen Sie das Impulshöhenspektrum der $\gamma$-Strahlung von Cs-137, Na-22 und von Co-60 sowie das Untergrundspektrum mit Hilfe des 1024-Kanalbetriebs des Impulshöhenanalysators.**
+
+- Stellen Sie die Programmparameter in dem *Parameterfenster* entsprechend ein. Der dynamische Detektorbereich soll vom Impulshöhenspektrum der höherenergetischen Strahlung (Co-60, $1173\,\mathrm{keV}$ und $1333\,\mathrm{keV}$), ausgenutzt und unverändert auch bei der Messung an Cs-137 ($662\,\mathrm{keV}$) und Na-22 ($511\,\mathrm{keV}$ und $1275\,\mathrm{keV}$) benutzt werden.
+- Das Entstehen eines Impulshöhenspektrums mit der Zeit kann am Bildschirm verfolgt werden. Der Abstand Präparat - Szintillator soll jeweils so gewählt werden, dass die effektiven Zählraten für Co-60, Na-22 und Cs-137 etwa gleich sind und $400/\mathrm{s}$ bis $800/\mathrm{s}$ betragen. Diese effektive Zählrate (Mittel über alle Kanäle) wird im Fenster Eigenschaften angezeigt.
+- Überprüfen Sie, welchen Einfluss das Untergrundspektrum auf die Messung hat, und korrigieren Sie ggf. die Spektren.
+
+*Hinweis: Bitte vergessen Sie nicht, auch Zwischenergebnisse abzuspeichern, um etwaigen Datenverlust vor-
+zubeugen.*
+
+#### Aufgabe 1.2
+
+**Deuten Sie die erhaltenen Impulshöhenspektren aufgrund der verschiedenen Wechselwirkungsprozesse von $\gamma$-Strahlung mit Materie.**
+
+Dazu ist es zweckmäßig, anhand des Photopeaks von Cs-137 eine Energieskalierung vorzunehmen und dann die gemessenen und die berechneten Energien an Stellen, bei denen Besonderheiten im Impulshöhenspektrum zu erwarten sind, zu vergleichen.
+
+- Berechnen Sie dafür bereits in der Vorbereitung die Energien der Comptonkanten.
+
+Das Programm unterstützt den Benutzer bei der Analyse eines Spektrums: Zeigt der Cursor in das zu analysierende Spektrum und drückt man die rechte Maustaste, so werden verschiedene Analysewerkzeuge angeboten. Zusätzlich können Sie erklärenden Text in die Diagramme einfügen und diese dann ausdrucken.
+
+- Diskutieren Sie auch die statistischen Effekte, welche die "Verschmierung" des erhaltenen Impulshöhenspektrums, besonders deutlich bei den Photopeaks, bewirkt haben.
+- Schätzen Sie die Anzahl der Elektronen $n_e$ ab, die bei einem Impuls, der zum Photopeak bei Cs-137 beiträgt, von der Photokathode emittiert wurden. $n_e$ charakterisiert die Auflösung eines Detektors.
+- Überprüfen Sie die Linearität der Apparatur, indem Sie die Information aus den drei Spektren verwenden.
+- Mit unveränderten Einstellungen können noch Spektren (oder ein Überlagerungsspektrum) mit weiteren radioaktiven Quellen aufgenommen werden. Geeignet sind Am-241 ($59,5\,\mathrm{keV}$) und Co-57 ($122\,\mathrm{keV}$). Der Betreuer kann Ihnen diese Quellen aushändigen.
+
+---
+
+### Aufgabe 2: Aktivität des Cs-137-Präparats
+
+**Bestimmen Sie die Aktivität des Cs-137-Präparats.**
+
+Verwenden Sie die Zählraten, die vom Programm berechnet und angezeigt werden, und die Nachweiswahrscheinlichkeit (Diagramm "Quotient Anzahl der ... Quanten") des benutzten Szintillatorkristalls im gewählten Abstand und bei der betreffenden Strahlungsenergie.
+
+- Welche Effekte berücksichtigt das Diagramm, wenn bei seiner Verwendung kein weiterer Effekt mehr in die Rechnung einfließen muss?
+- Bei wenigstens drei verschiedenen Abständen Quelle-Szintillatorstirnfläche sollte gemessen und ein Ausgleichswert berechnet werden.
+- Prüfen Sie, ob eine Totzeitkorrektur der Zählraten notwendig ist.
+
+---
+
+### Aufgabe 3: Röntgenemission
+
+Verwenden Sie die Cs-Quelle um an Materialien mit schwerem $Z$ Röntgenemission zu erzeugen. Legen Sie dazu die entsprechenden Materialien direkt auf den Szintillator. Erhöhen Sie die Messgenauigkeit für niedrige Energien durch Erhöhen der Detektorspannung. Zur genauen Peakbestimmung sollte der Gaussfit
+verwendet werden.
+
+#### Aufgabe 3.1
+
+**Führen Sie eine Energiekalibration anhand der Ba- $K_\alpha$ und Pb- $K_\alpha$ Röntgenlinie durch und stellen Sie die gemessene Energie gegen $Z^2$ für alle vorhandenen Elemente auf**
+
+Informationen zum Moseleyschen Gesetz befinden sich [hier](https://de.wikipedia.org/wiki/Moseleysches_Gesetz) und eine Tabelle der $K_\alpha$-Übergangsenergien ist in `params/Moseley-Gesetz.csv`.
+
+#### Aufgabe 3.2
+
+**Bestimmen Sie anhand Ihres Diagramms das "unbekannte Element".**
