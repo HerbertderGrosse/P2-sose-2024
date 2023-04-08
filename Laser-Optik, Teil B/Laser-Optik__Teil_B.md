@@ -64,7 +64,7 @@ Messen Sie in einem 'on-line'-Experiment die Beugungsfigur eines Spaltes aus und
 
 ---
 
-### **Aufgabe 2: Anwendungen des [Michelson-Interferometers](https://en.wikipedia.org/wiki/Michelson_interferometer) **
+### **Aufgabe 2: Anwendungen des [Michelson-Interferometers](https://en.wikipedia.org/wiki/Michelson_interferometer)**
 
 **2.1:** Beobachten Sie interferometrisch die sehr geringe magnetostriktive Längenabhängigkeit vom Magnetfeld bei Nickel und bestimmen Sie den Magnetostriktionskoeffizienten.
 
