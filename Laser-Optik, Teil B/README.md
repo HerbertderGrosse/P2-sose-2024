@@ -1,4 +1,4 @@
-# Hinweise für den Versuch: "Laser-Optik, Teil A" 
+# Hinweise für den Versuch: "Laser-Optik, Teil B" 
 
 ##  Aufgabe 1: 
 
