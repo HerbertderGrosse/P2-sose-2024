@@ -26,14 +26,12 @@ Daher ist es wichtig, dass Studierende in der Lage sind, die Funktionsweise von 
 
 ## Lernziele
 
-Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem Versuch **Laser-Optik, Teil A** vermitteln möchten: 
+Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem Versuch **Laser-Optik, Teil B** vermitteln möchten: 
 
-- Sie werden sich mit den Grundlagen der Lasertechnologie vertraut machen und die Eigenschaften eines Lasers verstehen.
-- Sie werden lernen, wie man einen Laser ausrichtet, justiert und kalibriert.
-- Sie werden lernen, wie man die Wellenlänge und Intensität eines Lasers misst.
-- Sie werden in der Lage sein, die Beugung von Laserlicht durch unterschiedliche Materialien zu untersuchen.
-- Sie werden lernen, wie man eine holographische Abbildung mit einem Laser erstellt.
-- Sie werden erkennen, wie die Kenntnisse über die Lasertechnologie in modernen Forschungsfeldern wie der Kommunikation, der medizinischen Diagnostik und der Materialbearbeitung eingesetzt werden.
+- Sie werden üben, Experimente mit Interferometrie zu planen, zu dokumentieren und durchzuführen, um das Beugungsmuster eines Spaltes zu beobachten und das Bild des Spaltes durch Fourier-Transformation wiederherzustellen.
+- Sie werden interferometrisch die extrem kleine magnetostatische Längenänderung aufgrund eines Magnetfeldes in Nickel beobachten und den Magnetostruktionskoeffizienten bestimmen. Außerdem werden Sie mit Hilfe der Interferometrie die Wellenlänge von Laserlicht messen, indem Sie die Änderungen im Interferenzmuster beobachten, die durch die Bewegung eines der Spiegel verursacht werden.
+- Sie werden die Intensität von Laserlicht mit dem Faraday-Effekt und dem Pockels-Effekt modulieren. Außerdem werden Sie den Verdet-Koeffizienten von Bleisilikatglas und den Pockels-Koeffizienten von Lithiumniobat für die Wellenlänge des Laserlichts bestimmen.
+- Sie werden die optische Aktivität mit einem Saccharimeter demonstrieren und den Rotationswinkel des polarisierten Lichts messen, das durch eine Zuckerlösung läuft.
 
 ## Versuchsaufbau
 
