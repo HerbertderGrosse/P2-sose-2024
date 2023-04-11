@@ -1,29 +1,4 @@
 # Hinweise für den Versuch: "Laser-Optik, Teil A" 
 
-##  Aufgabe 1: 
+Zu diesem Versuch gibt es derzeit keine besonderen Hinweise.
 
-
-
----
-
-## Aufgabe 2: 
-
-
-
----
-
-## Aufgabe 3: 
-
-
-
----
-
-## Aufgabe 4: 
-
-
-
----
-
-## Aufgabe 5: 
-
-### 
