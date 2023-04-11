@@ -32,8 +32,8 @@ Wir listen im Folgenden die wichtigsten **Lernziele** auf, die wir Ihnen mit dem
 - Sie üben sich im gewissenhaften und exakten Experimentieren, sowie in der Abschätzung und Minimierung systematischer Effekte bei der Planung und Durchführung Ihrer Experimente.
 - Sie untersuchen den Einfluss der Umgebung auf Experimente, die mit Wärme zu tun haben ([Wärmegang](https://de.wikipedia.org/wiki/W%C3%A4rme%C3%BCbergangskoeffizient)).
 - Sie untersuchen die Abhängigkeit der spezifischen Wärmekapazität von der Temperatur, ein Phänomen, das im Rahmen der klassischen Thermodynamik nicht erklärt werden kann. 
-- Sie üben sich im Umgang mit verantwortungsvollen [Flüssigstickstoff](https://de.wikipedia.org/wiki/Fl%C3%BCssigstickstoff) und führen ein Experiment bei tiefen Temperaturen durch. 
-- Sie nutzen dabei den [thermoelektsichen Effekt](https://de.wikipedia.org/wiki/Thermoelektrizit%C3%A4t) zur Temperaturmessung.  
+- Sie üben sich im verantwortungsvollen Umgang mit [Flüssigstickstoff](https://de.wikipedia.org/wiki/Fl%C3%BCssigstickstoff) und führen ein Experiment bei tiefen Temperaturen durch. 
+- Sie nutzen dabei den [thermoelektrischen (Peletier) Effekt](https://de.wikipedia.org/wiki/Thermoelektrizit%C3%A4t) zur Temperaturmessung.  
 
 
 ## Versuchsaufbau
@@ -56,7 +56,7 @@ Für die verschiedenen Versuchsteile stehen Ihnen die folgenden Geräte und Mate
 
 ## Wichtige Hinweise
 
-- Der Umgang mit flüssigem Stickstoff erfordert besondere Vorsicht! Spritzer von flüssigem Stickstoff auf der Haut können bereits zu **schweren Verbrennungen** führen können. Tragen Sie daher immer Schutzhandschuhe und eine Schutzbrille im Umgang mit flüssigem Stickstoff!
+- Der Umgang mit flüssigem Stickstoff erfordert besondere Vorsicht! Spritzer von flüssigem Stickstoff auf der Haut können bereits zu **schweren Verbrennungen** führen. Tragen Sie daher immer Schutzhandschuhe und eine Schutzbrille im Umgang mit flüssigem Stickstoff!
 - Werfen Sie keine Gegenstände in die Dewargefäße, da diese sonst leicht zerstört werden können.
 
 ## Durchführung
@@ -72,7 +72,7 @@ Finden Sie durch Überlegung und dokumentierte Vergleichsexperimente heraus, wie
 - Ist Wasser oder eine andere Flüssigkeit geeigneter? 
 - Was sind günstigste Anfangs- bzw. Endtemperaturen für Ihre Messung? 
 - Welche Massen (für Wasser und Metall) sollten Sie benutzen und wie und wann sollten Sie diese bestimmen? 
-- Sollten Sie auf Massenfehler durch anhaftendes Wasser oder durch die an das Kalorimeter und Zubehör abgegebene Wärmemenge (Wärmegang) berücksichtigen? 
+- Sollten Sie Massenfehler durch anhaftendes Wasser oder durch die an das Kalorimeter und Zubehör abgegebene Wärmemenge (Wärmegang) berücksichtigen? 
 - Was ist ein geeignetes Thermometer in Hinblick auf Genauigkeit, Ablesbarkeit, oder störende Masse? 
 - Genügt Ihnen jeweils eine Temperaturablesung oder sollten Sie Messung der Temperatur in Abhängigkeit von der Zeit bestimmen?
 - Wäre es sinnvoll Hilfsmessungen, mit bekannten Sollergebnissen (z.B. mit Wasser-Wasser-Gemischen) vorzunehmen?
@@ -87,7 +87,7 @@ Beschreiben und begründen Sie Ihre Versuchsplanung, **messen Sie sorgfältig un
 
 ### Aufgabe 2: Spezifische Wärmekapazität als Funktion der Temperatur
 
-Messen Sie die spezifische Wärmekapazität von Aluminium in Abhängigkeit von der Temperatur in einem Bereich zwischen $100-300\,\mathrm{K}$. Kühlen Sie den Aluminium-Hohlzylinder mit flüssigem Stickstoff im Nalgene-Isolierbehälter auf $-196^{\circ}\mathrm{C}$ ab. Bereiten Sie den Edelstahl-Isolierbehälter durch Ausschwenken mit flüssigem Stickstoff auf die Aufnahme des kalten Aluminium-Hohlzylinders vor. Heizen Sie dann mit Hilfe der eingebauten Heizwicklung den Aluminium-Hohlzylinder innerhalb des Edelstahl-Isolierbehälters mit konstanter Heizleistung wieder auf und zeichnen Sie mit Hilfe des Datenloggers den Temperaturverlauf als Funktion der Zeit auf. 
+Messen Sie die spezifische Wärmekapazität von Aluminium in Abhängigkeit von der Temperatur in einem Bereich zwischen $100-300\,\mathrm{K}$. Kühlen Sie den Aluminium-Hohlzylinder mit flüssigem Stickstoff im Nalgene-Isolierbehälter auf $-196^{\circ}\mathrm{C}$ ab. Bereiten Sie den Edelstahl-Isolierbehälter durch Ausschwenken mit flüssigem Stickstoff auf die Aufnahme des kalten Aluminium-Hohlzylinders vor. Heizen Sie dann mit Hilfe der eingebauten Heizwicklung den Aluminium-Hohlzylinder innerhalb des Edelstahl-Isolierbehälters mit konstanter Heizleistung (von $\approx 20\,\mathrm{W}$) wieder auf und zeichnen Sie mit Hilfe des Datenloggers den Temperaturverlauf als Funktion der Zeit auf. 
 
 Zu diesem Zweck ist ein NiCr-Ni-Thermoelement im Aluminium-Hohlzylinder befestigt; mit Hilfe von Eiswasser können Sie dem Thermoelement eine stabile Referenztemperatur von $0^{\circ}\mathrm{C}$ zur Verfügung stellen.
 
