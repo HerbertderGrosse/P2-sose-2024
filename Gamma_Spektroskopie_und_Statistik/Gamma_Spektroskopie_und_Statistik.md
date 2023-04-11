@@ -42,7 +42,7 @@ Die Datenerfassung erfolgt über das Vielkanal-Interface des CASSY–LAB Systems
 
 ---
 
-### Impulshöhenspektren
+### Aufgabe 1: Impulshöhenspektren
 
 #### Aufgabe 1.1
 
@@ -52,8 +52,7 @@ Die Datenerfassung erfolgt über das Vielkanal-Interface des CASSY–LAB Systems
 - Das Entstehen eines Impulshöhenspektrums mit der Zeit kann am Bildschirm verfolgt werden. Der Abstand Präparat - Szintillator soll jeweils so gewählt werden, dass die effektiven Zählraten für Co-60, Na-22 und Cs-137 etwa gleich sind und $400/\mathrm{s}$ bis $800/\mathrm{s}$ betragen. Diese effektive Zählrate (Mittel über alle Kanäle) wird im Fenster Eigenschaften angezeigt.
 - Überprüfen Sie, welchen Einfluss das Untergrundspektrum auf die Messung hat, und korrigieren Sie ggf. die Spektren.
 
-*Hinweis: Bitte vergessen Sie nicht, auch Zwischenergebnisse abzuspeichern, um etwaigen Datenverlust vor-
-zubeugen.*
+*Hinweis: Bitte vergessen Sie nicht, auch Zwischenergebnisse abzuspeichern, um etwaigen Datenverlust vorzubeugen.*
 
 #### Aufgabe 1.2
 
@@ -98,3 +97,46 @@ Informationen zum Moseleyschen Gesetz befinden sich [hier](https://de.wikipedia.
 #### Aufgabe 3.2
 
 **Bestimmen Sie anhand Ihres Diagramms das "unbekannte Element".**
+
+---
+
+### Aufgabe 4: Statistik
+
+#### Aufgabe 4.1
+
+**Untersuchen Sie die statistische Verteilung von gemessenen Ereignisanzahlen bei häufig
+wiederholter Messung von Untergrundstrahlung unter stets gleichen Bedingungen.**
+
+- Wählen Sie dazu im *Parameterfenster: Vielkanalmessung, 256 Kanäle* und *wiederholende Messung* bei einer Messzeit von 1 Sekunde. Nehmen Sie einen statistischen Daten-Pool von mindestens 150 Spektren auf.
+
+Sie erhalten eine Tabelle mit 150 Spalten (Spektren) und 256 Zeilen (Kanäle, Energieintervalle). Keiner der Einträge ist vorhersagbar sondern hängt nur von der Statistik des radioaktiven Zerfalls ab, der einen natürlichen Zufallsgenerator darstellt.
+
+Bilden Sie zwei Stichproben mit je 150 Zahlen, indem Sie:
+
+1. die Zählrate aus nur einem Teil eines Spektrums aufintegrieren, so dass der Mittelwert der 150 Summen ungefähr 3 beträgt.
+2. die Gesamtzählrate der einzelnen Spektren verwenden.
+
+#### Aufgabe 4.2
+
+**Berechnen Sie von beiden Stichproben den Mittelwert $x_\mathrm{m}$, die Standardabweichung $s$ der Einzelmesswerte und die Standardabweichung $s_\mathrm{x_\mathrm{m}}$ des Mittelwertes.**
+
+Prüfen Sie, ob die Standardabweichung der Einzelmesswerte gleich der Wurzel aus dem Mittelwert ist, wie die theoretisch zu erwartende Poisson-Verteilung es verlangt.
+
+#### Aufgabe 4.3
+
+**Stellen Sie die Stichproben als Häufigkeitsverteilungen graphisch dar, und tragen Sie in das jeweilige Diagramm auch die mit Hilfe von $x_\mathrm{m}$ berechnete Poisson-Verteilung und die mit Hilfe von $x_\mathrm{m}$ und $s$ berechnete Gaußverteilung (=Normalverteilung) ein.**
+
+- Machen Sie eine Aussage über die Ersetzbarkeit der Poissonverteilung durch die Gaußverteilung in Abhängigkeit vom Mittelwert.
+
+#### Aufgabe 4.4
+
+**Prüfen Sie mit Hilfe des Chi-Quadrat-Tests bei einer vernünftig gewählten Signifikanzzahl die folgenden Hypothesen.**
+
+1. Die Stichproben stammen aus einer normalverteilten Grundgesamtheit.
+2. Die Stichproben stammen aus einer poissonverteilten Grundgesamtheit.
+
+### Anhang: Hilfe zur Bearbeitung von Aufgabe 4 mit EXCEL
+
+Importieren Sie die von CASSY-Lab gespeicherten LAB Dateien in EXCEL (Einstellungen: “getrennt“, Trennzeichen: “Tabulator“). Im Mittelteil enthält diese Datei einen großen Tabellenblock mit allen Spektren als Spaltenvektoren. Die relevanten Zahlen stehen in Zeilen, die mit NAN (*not a number*) beginnen. Zur Auswertung generiert man in einer EXCEL-Tabelle eine Spalte mit den Einträgen zum Beispiel “=Summe(C10:C26)“, “=Summe(D10:D26)“, “=Summe(E10:E26)“, ... bzw. “=Summe(C1:C256)“, “=Summe(D1:D256)“, “=Summe(E1:E256)“, ...
+
+Mit der Häufigkeitsfunktion kann man dann zur weiteren Analyse die Häufigkeitsverteilung dieser Stichproben erhalten. Erstellen Sie dazu eine Spalte mit den Klassen (z.B. Zahlen 1 bis 40), markieren Sie die Zellen der Spalte, die die Häufigkeiten aufnehmen sollen. Unter *Einfügen/Funktion* finden Sie die Funktion *Häufigkeit*. Wählen Sie für *Daten* die Werte einer Stichprobe und für *Klassen* die Zellen der Klassenspalte. Beim Verlassen der Funktion bestätigen Sie mit *Strg-Umschalt-Eingabe*, damit die Formel als Matrixfunktion eingegeben wird.
