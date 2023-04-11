@@ -51,7 +51,11 @@ In diesem Versuch wird folgendes Zubehör verwendet:
 - **Planspiegel** (justierbar)
 - **Zeißschiene** mit Reitern und Messvorrichtung
 - **Glühlampe** in Lampengehäuse mit zugehörigem Transformator
-- **Gitterspektrometer** (Feststehendes Spaltrohr mit symmetrisch einstellbarem Spalt S am äußeren und Achromat L1 ($f=18\,\mathrm{cm}$, $D=17,5\,\mathrm{mm}$) am inneren Ende. Der Abstand SL1 ist etwa von $17,5\,\mathrm{cm}$ bis $18,5\,\mathrm{cm}$ einstellbar. Dreh- und arretierbarer Tisch mit Teilkreis $0°$ bis $360°$, $1°$-Teilung. Darauf justierbar bezüglich der Teilung der Halter für das Gitter G. Abstand L1G ca. $6\,\mathrm{cm}$. Fernrohr, schwenkbar um die Tischachse mit Nonius am Teilkreis des Tisches, Objektiv = Achromat L2 ($f=17\,\mathrm{cm}$, $D=17.5\,\mathrm{mm}$), Okular L3 ($8\times$, $f=3\,\mathrm{cm}$, mit Fadenkreuz, verschiebbar im Fernrohrtubus), Abstand GL2 ca. $6\,\mathrm{cm}$. Das Fernrohr hat noch eine Feinverstellmöglichkeit bezüglich des Teilkreises. Die zugehörige Mikrometerschraube trägt eine zusätzliche Skala, die mit Hilfe des Nonius geeicht werden kann und die Messung von Winkeldifferenzen ermöglicht, die am Nonius direkt nicht mehr abgelesen werden können
+- **Gitterspektrometer**
+  - Feststehendes Spaltrohr mit symmetrisch einstellbarem Spalt S am äußeren und Achromat L1 ($f=18\,\mathrm{cm}$, $D=17,5\,\mathrm{mm}$) am inneren Ende. Der Abstand SL1 ist etwa von $17,5\,\mathrm{cm}$ bis $18,5\,\mathrm{cm}$ einstellbar.
+  - Dreh- und arretierbarer Tisch mit Teilkreis $0°$ bis $360°$, $1°$-Teilung. Darauf justierbar bezüglich der Teilung der Halter für das Gitter G. Abstand L1G ca. $6\,\mathrm{cm}$.
+  - Fernrohr, schwenkbar um die Tischachse mit Nonius am Teilkreis des Tisches, Objektiv = Achromat L2 ($f=17\,\mathrm{cm}$, $D=17.5\,\mathrm{mm}$), Okular L3 ($8\times$, $f=3\,\mathrm{cm}$, mit Fadenkreuz, verschiebbar im Fernrohrtubus), Abstand GL2 ca. $6\,\mathrm{cm}$.
+  - Das Fernrohr hat noch eine Feinverstellmöglichkeit bezüglich des Teilkreises. Die zugehörige Mikrometerschraube trägt eine zusätzliche Skala, die mit Hilfe des Nonius geeicht werden kann und die Messung von Winkeldifferenzen ermöglicht, die am Nonius direkt nicht mehr abgelesen werden können
 - **Gitter**: Gitterkopien (Kollodiumfolien o.ä.) zwischen Diagläsern.
   - Nutzbare Breite ca. $36\,\mathrm{mm}$
   - Nutzbare Höhe ca. $24\,\mathrm{mm}$
@@ -83,7 +87,7 @@ Im Praktikum geht es auch um das Kennenlernen von unterschiedlichen Geräten als
 Auf dem verschiebbaren Objekttisch des Mikroskops liegt ein planer Objektträger und darauf die Linse. Als Auflichtquelle dient eine einfarbige LED, die von vorne über einen Strahlteiler eingekoppelt wird. Reflexionen gibt es unter anderem an der unteren Linsenfläche (Glas-Luft-Übergang) und an der oberen Objektträgerfläche (Luft-Glas-Übergang). Je nach Länge des zusätzlichen Lichtweges $2d$ ergibt sich konstruktive oder destruktive Interferenz. Bei der Herleitung des Zusammenhanges zwischen Durchmesser $2r_k$ des $k$-ten dunklen Newtonringes, Wellenlänge $λ$ des benutzten Lichts, Brechungsindex $n_\mathrm{L}$ der Luft ($n_\mathrm{L}\approx1$) und Krümmungsradius $R$ muss ein zusätzlicher Phasensprung um $\pi$ bei der Reflexion am optisch dichteren Medium berücksichtigt werden.
 
 - Verifizieren Sie die Formel $$\frac{r_k^2}{R} = \frac{kλ}{n_\mathrm{L}}.$$
-- Der Wert von $R$ soll aus der Steigung einer Regressionsgeraden durch viele Messpunkte (in manchen Fällen bis $k=100$, jedoch nicht in Einerschritten) bestimmt werden, die nicht à priori als Ursprungsgerade anzunehmen ist. Es könnte ja Staub zwischen Linse und Objektträger geraten sein, oder die Linse könnte im Scheitel "abgewetzt" sein.
+- Der Wert von $R$ soll aus der Steigung einer Regressionsgeraden durch viele Messpunkte (In manchen Fällen bis $k=30$, jedoch nicht in Einerschritten. Oft kann jedoch nur bis $k=20$ gemessen werden.) bestimmt werden, die nicht à priori als Ursprungsgerade anzunehmen ist. Es könnte ja Staub zwischen Linse und Objektträger geraten sein, oder die Linse könnte im Scheitel "abgewetzt" sein.
 - Führen Sie die Messung erst mit der gelben, dann mit der blauen LED durch.
 - Wieso spielen die übrigen Reflexionen keine Rolle für das Auftreten von Interferenzerscheinungen?
 - Welchen wesentlichen Nachteil hätte eine Durchlichtbeobachtung?
