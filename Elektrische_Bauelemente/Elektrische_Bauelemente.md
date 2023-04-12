@@ -95,7 +95,7 @@ Interpretieren Sie die Kennlinien ausführlich und geben Sie charakteristische P
 
 Stellen Sie die Kennlinie einer Photodiode bei verschiedenen Beleuchtungsstärken dar und entnehmen Sie dieser jeweils den Sperrstrom. Verwenden Sie hierzu die Schaltung aus Aufgabe 2 aus der vorherigen Aufgabe bei $10\,\mathrm{Hz}$ sowie die regulierbare Experimentierleuchte mit Photodioden-Aufsatz. Beginnen Sie bei einer Lampenspannung von $2\,\mathrm{V}$ als niedrigste Stufe der Beleuchtung und beobachten Sie die Veränderung der Kennlinie bei zunehmender Spannung ($1\,\mathrm{V}$-Schritte) und Beleuchtungsstärke. Stellen Sie in der Auswertung den Zusammenhang zwischen Sperrstrom und Beleuchtungsstärke graphisch dar.
 
-*Hinweis: Die Umrechnungstabelle zwischen Lampenspannung und Beleuchtungsstärke finden Sie im Unterordner `params` in `Umrechnung_Lampenspannung.csv`.*
+*Hinweis: Die Umrechnungstabelle zwischen Lampenspannung und Beleuchtungsstärke finden Sie unter [`params/Umrechnung_Lampenspannung.csv`.](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Elektrische_Bauelemente/params/Umrechnung_Lampenspannung.csv)*
 
 ---
 
@@ -118,4 +118,4 @@ Messen Sie den Spannungsabfall am Hochtemperatursupraleiter mit Hilfe der fertig
 - Tragen Sie zur Auswertung den Widerstand $R=U_\mathrm{gem}/I$ über der Temperatur $T$ auf und geben Sie die Sprungtemperatur an.
 - Erklären Sie, warum zur Messung eine Vierleiterschaltung verwendet wird.
 
-Beachten Sie, dass die Anzeige des Thermometers bei tiefen Temperaturen entsprechend der im Datenblatt angegebenen Tabelle `params/Temperatur_Korrektur.csv` vom wahren Wert abweicht. Für die Beurteilung der Sprungtemperatur beachten Sie, dass am Ort von Temperatursensor und Supraleiter ein hoher Temperaturgradient vorliegt.
+Beachten Sie, dass die Anzeige des Thermometers bei tiefen Temperaturen entsprechend der im Datenblatt angegebenen Tabelle [`params/Temperatur_Korrektur.csv`](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Elektrische_Bauelemente/params/Temperatur_Korrektur.csv) vom wahren Wert abweicht. Für die Beurteilung der Sprungtemperatur beachten Sie, dass am Ort von Temperatursensor und Supraleiter ein hoher Temperaturgradient vorliegt.
