@@ -1,4 +1,4 @@
-<img src="./figures/Logo_KIT.svg" style="zoom:15%;float:right;" />
+<img src="./figures/Logo_KIT.svg" width="200" height="100" style="float:right;" />
 
 # Fakultät für Physik
 
@@ -41,14 +41,14 @@ Die Eigenschaften eines elektrischen Bauelements hängen von vielen physikalisch
 <img src="./figures/Wheatstonesche_Brueckenschaltung.png" style="zoom:40%;float:right;" />
 
 - Messen Sie dazu mit Hilfe der Versuchsbox (Schaltplan als Grafik) nacheinander den Widerstand von NTC und PT100 in Abhängigkeit von der jeweiligen Temperatur. Als Spannungsquelle dient das Netzgerät, welches eine Gleichspannung von $U=2\,\mathrm{V}$ liefert. Um die Erwärmung des Widerstands durch den Messstrom gering zu halten, soll dieser jeweils nur kurzzeitig eingeschaltet werden (durch Betätigung des Tasters). Als Brückeninstrument dient das Multimeter im mA(DC)-Bereich. Wählen Sie den Referenzwiderstand in der gleichen Größenordnung wie das zu messende Bauteil. (Überprüfen Sie den angegebenen Wert mit dem Multimeter.) Nehmen Sie beim Erwärmen des Ofens die Messreihe am NTC und beim Abkühlen die Messreihe am PT100 auf.
-
 - Begründen Sie, warum die Messung mit Hilfe der Wheatstoneschen Brückenschaltung in diesem Falle sinnvoll ist.
-
 - Stellen Sie die $R(T)$-Abhängigkeiten jeweils graphisch dar und schließen Sie daraus auf die Eigenschaften des Bauteils.
-
 - Wählen Sie zur Auswertung für den NTC-Widerstand eine geeignete Auftragung, um die Koeffizienten $a$ und $b$ aus $R(T) = a \cdot e^{b/T}$ zu bestimmen. Überlegen Sie sich, wie man NTC-Widerstände zur Temperaturmessung, zur Füllstandsanzeige und zur Strombegrenzung verwenden kann.
-
 - Für den PT100 gilt $R(T) = R_0 + c \cdot T$. Bestimmen Sie die Konstante $c$ und überprüfen Sie den Widerstand $R_0$ bei $0°\mathrm{C}$. Diskutieren Sie auch hier mögliche Einsatzgebiete.
+
+**Lösung:**
+
+*Sie können Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.*
 
 ---
 
@@ -87,6 +87,10 @@ Interpretieren Sie die Kennlinien ausführlich und geben Sie charakteristische P
 
 **Untersuchen Sie qualitativ die Frequenzabhängigkeit einiger Bauelemente (bei $f=0,1\,\mathrm{kHz}$ bis $f=10\,\mathrm{kHz}$ ).**
 
+**Lösung:**
+
+*Sie können Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
+
 ---
 
 ### Aufgabe 3
@@ -97,6 +101,10 @@ Stellen Sie die Kennlinie einer Photodiode bei verschiedenen Beleuchtungsstärke
 
 *Hinweis: Die Umrechnungstabelle zwischen Lampenspannung und Beleuchtungsstärke finden Sie unter [`params/Umrechnung_Lampenspannung.csv`.](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Elektrische_Bauelemente/params/Umrechnung_Lampenspannung.csv)*
 
+**Lösung:**
+
+*Sie können Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
+
 ---
 
 ### Aufgabe 4: Piezoelektrischer Effekt
@@ -106,6 +114,10 @@ Stellen Sie die Kennlinie einer Photodiode bei verschiedenen Beleuchtungsstärke
 - Beobachten Sie den direkten Piezoelektrischen Effekt am USB-Oszilloskop, indem Sie manuell verschiedene Drücke auf das Piezo-Plättchen ausüben. Machen Sie ein Frequenzsignal sichtbar, indem Sie mit dem Frequenzgenerator verschiedene Signale auf den Lautsprecher geben und diese auf das Piezoelement übertragen.
 - Überprüfen Sie auch die Funktion des Piezoelements als Piezolautsprecher. Schließen Sie hierfür das Piezo-Element direkt an den Frequenzgenerator an.
 - Beschreiben Sie Ihre Beobachtungen und nennen Sie Anwendungen des Piezoelektrischen Effekts.
+
+**Lösung:**
+
+*Sie können Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
 
 ---
 
@@ -119,3 +131,8 @@ Messen Sie den Spannungsabfall am Hochtemperatursupraleiter mit Hilfe der fertig
 - Erklären Sie, warum zur Messung eine Vierleiterschaltung verwendet wird.
 
 Beachten Sie, dass die Anzeige des Thermometers bei tiefen Temperaturen entsprechend der im Datenblatt angegebenen Tabelle [`params/Temperatur_Korrektur.csv`](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Elektrische_Bauelemente/params/Temperatur_Korrektur.csv) vom wahren Wert abweicht. Für die Beurteilung der Sprungtemperatur beachten Sie, dass am Ort von Temperatursensor und Supraleiter ein hoher Temperaturgradient vorliegt.
+
+**Lösung:**
+
+*Sie können Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
+
