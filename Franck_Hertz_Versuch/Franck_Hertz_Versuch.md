@@ -176,6 +176,3 @@ Für diesen Versuchsteil benutzen Sie eine spezielle Röhre mit indirekter Katho
 **Lösung:**
 
 *Sie können Ihr Protokoll direkt in dieses Dokument einfügen. Wenn Sie dieses Dokument als Grundlage für ein [Jupyter notebook](https://jupyter.org/) verwenden wollen können Sie die Auswertung, Skripte und ggf. bildliche Darstellungen mit Hilfe von [python](https://www.python.org/) ebenfalls hier einfügen. Löschen Sie hierzu diesen kursiv gestellten Text aus dem Dokument.* 
-
-
-
