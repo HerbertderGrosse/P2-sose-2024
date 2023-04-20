@@ -4,7 +4,11 @@
 
 ### Prinzip der Messung
 
-Den Aufbau des Gasthermometers und die im folgenden verwendeten Bezeichnungen finden Sie in der Versuchsanleitung. Die Temperaturmessung beruht auf der idealen Gasgleichung 
+Der grundsätzliche Aufbau des Gasthermometers und die im folgenden verwendeten Bezeichnungen finden Sie in der folgenden Skizze: 
+
+<img src="./figures/GasthermometerSkizze.png" width="500" height="500" style="zoom:60%;" />
+
+Die Temperaturmessung beruht auf der idealen Gasgleichung 
 $$
 \begin{equation*}
 p(V, T) = \frac{n\,R\,T}{V},
@@ -17,9 +21,9 @@ $$
 \left.p(T)\right|_{V=const.} = p_{0}\left(1+\alpha\,T\right).
 \label{eq:pT}
 $$
-Die Steigung $\alpha$ wird als **Spannungskoeffizient** bezeichnet. Numerisch ist $\alpha$ zum dem Volumenausdehnungskoeffizienten des Gases äquivalent. Wenn wir $T$ auf der Celsius-Skala messen entspricht $p_{0}$ dem Druck bei $0^{\circ}\mathrm{C}$. In diesem Fall verschwindet der Gasdruck $p(T_{0})$ bei einer Temperatur von $T_{0}=-1/\alpha$. Diese Temperatur wird als **absoluter Nullpunkt** bezeichnet.
+Die Steigung $\alpha$ wird als **Spannungskoeffizient** bezeichnet. Numerisch ist $\alpha$ zum Volumenausdehnungskoeffizienten des Gases äquivalent. Wenn Sie $T$ auf der Celsius-Skala messen entspricht $p_{0}$ dem Druck bei $0^{\circ}\mathrm{C}$. In diesem Fall verschwindet der Gasdruck $p(T_{0})$ bei einer Temperatur von $T_{0}=-1/\alpha$. Diese Temperatur wird als **absoluter Nullpunkt** bezeichnet.
 
-Zur Messung tauchen Sie G vollständig in ein Wärmebad ein, dass Sie mit destilliertem Wasser herstellen. Wenn Sie den Druck bei der Siedetemperatur $T_{s}$ und Schmelztemperatur messen erhalten Sie eine Abschätzung $\alpha^{(0)}$ aus: 
+Zur Messung tauchen Sie G vollständig in ein [Wärmebad](https://de.wikipedia.org/wiki/W%C3%A4rmebad) ein, dass Sie mit destilliertem Wasser herstellen. Wenn Sie den Druck bei der Siede- ($T_{s}$) und Schmelztemperatur messen erhalten Sie eine Abschätzung $\alpha^{(0)}$ aus der Beziehung: 
 $$
 \begin{equation*}
 \alpha^{(0)} = \frac{p(T_{s}) - p_{0}}{p_{0}\,T_{s}}
@@ -30,7 +34,7 @@ Wenn Sie $\alpha$ genauer bestimmen wollen, sollten Sie einige Effekte beachten,
 - G hat eine thermische Ausdehnung.
 - G verformt sich unter Druck.
 - Luft ist kein ideales Gas.
-- Ein Teil des Gases befindet sich außerhalb von G bei Raumtemperatur.
+- Ein Teil des Gases befindet sich (bei Raumtemperatur) außerhalb von G.
 
 Alle Effekte bis auf die thermische Ausdehnung von G sind allerdings sehr klein und können vernachlässigt werden. Einen Korrekturterm für die thermische Ausdehnung von G erhalten Sie aus der folgenden Überlegung: 
 
@@ -52,7 +56,7 @@ $$
 \end{split}
 \end{equation*}
 $$
-Beachten Sie außerdem, dass $T_{s}$ vom Umgebungsdruck abhängt. Sie können $T_{s}(p)$ mit Hilfe eines im Versuchsraum vorliegenden Barometers und der ebenfalls vorliegenden Dampfdruckkurve für Wasser bestimmen. Berücksichtigen Sie entsprechende Unsicherheiten in Ihrer Messung.   
+Beachten Sie außerdem, dass $T_{s}$ vom Umgebungsdruck abhängt. Sie können $T_{s}(p)$ mit Hilfe eines im Versuchsraum vorhandenen Barometers und der ebenfalls vorliegenden Dampfdruckkurve für Wasser bestimmen. Berücksichtigen Sie entsprechende Unsicherheiten in Ihrer Messung.   
 
 ### Hinweise zur Durchführung
 
@@ -79,9 +83,9 @@ beschrieben werden.
 Das Verfahren von Clément-Desormes zur Bestimmung von $\kappa$ wird mit einer Flasche durchgeführt, die mit dem zu untersuchenden Gas befüllt und einem U-Rohr-Manometer zur Druckmessung verbunden ist. Aus dem Anfangszustand $\left(\begin{array}{ccc}p_{0}& V_{0} & T_{0}\end{array}\right)$ gehen Sie wie folgt vor:
 
 1. Erzeugen Sie mit dem Handblasebalg einen (nicht zu großen) Überdruck $\Delta p_{1}$ in der Flasche. Warten Sie den Temperaturausgleich ab. Das System hat daraufhin den Zustand $\left(\begin{array}{ccc}p_{0}+\Delta p_{1} & V_{0} & T_{0}\end{array}\right)$. 
-2. (Schritt 2): Öffnen Sie das Ventil der Flasche kurzzeitig und schließen Sie es unmittelbar wieder, so dass es zu einem Druckausgleich mit der Umgebung durch **adiabatische Expansion** kommen kann. Das System hat daraufhin den Zustand $\left(\begin{array}{ccc}p_{0} & V_{0}+\Delta V & T_{0}-\Delta T \end{array}\right)$. 
+2. (**Schritt 2**): Öffnen Sie das Ventil der Flasche kurzzeitig und schließen Sie es unmittelbar wieder, so dass es zu einem Druckausgleich mit der Umgebung durch **adiabatische Expansion** kommen kann. Das System hat daraufhin den Zustand $\left(\begin{array}{ccc}p_{0} & V_{0}+\Delta V & T_{0}-\Delta T \end{array}\right)$. 
 3. Nach schließen des Ventils ist das Volumen der Luft in der Flasche wieder fest vorgegeben. Aufgrund des Druckausgleichs in Schritt 2 liegt die Temperatur der Luft in der Flasche unterhalb der Umgebungstemperatur. Das System hat somit den Zustand $\left(\begin{array}{ccc}p_{0} & V_{0} & T_{0}-\Delta T \end{array}\right)$. 
-4. (Schritt 4): Durch Temperaturausgleich (nach einer Wartezeit von $\approx10\,\mathrm{s}$) stellt sich aufgrund **isochorer Erwärmung** erneut ein Überdruck ein. Das System hat daraufhin den Zustand $\left(\begin{array}{ccc}p_{0}+\Delta p_{2} & V_{0} & T_{0} \end{array}\right)$.
+4. (**Schritt 4**): Durch Temperaturausgleich (nach einer Wartezeit von $\approx10\,\mathrm{s}$) stellt sich aufgrund **isochorer Erwärmung** erneut ein Überdruck ein. Das System hat daraufhin den Zustand $\left(\begin{array}{ccc}p_{0}+\Delta p_{2} & V_{0} & T_{0} \end{array}\right)$.
 
 #### Berechnungen für Schritt 2:
 
@@ -125,7 +129,7 @@ $$
 \end{split}
 \label{eq:Schritt-4}
 $$
-Dabei haben wir den Quotienten auf der rechten Seite der Gleichung für $\Delta p_{2}\ll p_{0}$ in einer geometrischen Reihe entwickelt. 
+Dabei wurde der Quotient auf der rechten Seite der Gleichung für $\Delta p_{2}\ll p_{0}$ in einer geometrischen Reihe entwickelt. 
 
 #### Berechnung von $\kappa$ 
 
@@ -144,7 +148,7 @@ $$
 p(h_{i}) = p_{0} + \rho\,g\,h_{i},
 \end{equation*}
 $$
-wobei $\rho$ der Dichte der Barometerflüssigkeit und $g$ der Erdbeschleunigung entsprechen, woraus sich direkt finale Bestimmungsgleichung ergibt: 
+wobei $\rho$ der Dichte der Barometerflüssigkeit und $g$ der Erdbeschleunigung entsprechen, woraus sich direkt die finale Bestimmungsgleichung ergibt: 
 $$
 \begin{equation*}
 \kappa = \frac{h_{1}}{h_{1}-h_{2}}
@@ -161,7 +165,7 @@ Erzeugen Sie mit dem Handblasebalg nicht zu viel Überdruck $\Delta p_{1}$, da s
 
 ### Prinzip der Messung
 
-Bei dieser Methode schwingt ein Pfropfen auf einem Luftpolster, dass durch den Schwingungsvorgang in nahezu adiabatische Kompression und Expansion versetzt wird. Nach der Adiabatengleichung gilt: 
+Bei dieser Methode schwingt ein Pfropfen auf einem Luftpolster, das durch den Schwingungsvorgang in nahezu adiabatische Kompression und Expansion versetzt wird. Nach der Adiabatengleichung gilt in diesem Fall: 
 $$
 \begin{equation*}
 p\,V^{\kappa} = const.
@@ -186,7 +190,7 @@ $$
 \end{split}
 \label{eq:Schwingung}
 $$
-wobei $m$ der Masse des Pfropfens entspricht. An dieser Stelle wird die Näherung vorgenommen, dass sich $p$ und $V$ durch die Bewegung des Pfropfens aus seiner Ruhelage nur gering ändern. Aus Gleichung ($\ref{eq:Schwingung}$) lässt sich die Periode der Schwingung ableiten zu:
+wobei $m$ der Masse des Pfropfens entspricht. An dieser Stelle wird die Näherung vorgenommen, dass sich $p$ und $V$ durch die Bewegung des Pfropfens aus seiner Ruhelage nur geringfügig ändern. Aus Gleichung ($\ref{eq:Schwingung}$) lässt sich die Periode der Schwingung ableiten zu:
 $$
 T = 2\pi\sqrt{\frac{m\,V}{\kappa\,p\,A^{2}}},
 \label{eq:Periode}
@@ -197,7 +201,7 @@ $$
 \kappa = \left(\frac{2\pi}{T}\right)^{2}\frac{m\,V}{p\,A^{2}}
 \end{equation*}
 $$
-Beachten Sie, das die Variablenbezeichnung $T$ in dieser eine andere Bedeutung hat als sonst bei diesem Praktikumsversuch. 
+Beachten Sie, das die Variablenbezeichnung $T$ in diesem Versuchsteil eine andere Bedeutung hat als sonst bei diesem Praktikumsversuch. 
 
 ### Hinweise zur Durchführung
 
@@ -213,14 +217,14 @@ Bei Glasrohr und Stahlkugel handelt es sich um **Präzisionsanfertigungen, die m
 
 Reinigen Sie Kugel und Rohrinnenfläche sorgfältig mit einem Lederlappen. Berühren Sie die Kugel nach Möglichkeit niemals mit den Fingern. Sollte dies dennoch geschehen, wiederholen Sie den Reinigungsvorgang.
 
-Setzen Sie das Glasrohr so ein, dass der durchbohrte Stopfen möglichst luftdicht abschließt. Lassen Sie die Kugel aus dem Lederlappen behutsam ins Glasrohr gleiten und bestimmen Sie $T$ aus möglichst vielen, mindestens aber 5 Schwingungen. Wiederholen Sie diesen Vorgang mehrfach, um eine Maß für die Streuung zu erhalten. Um die Kugel nach Beendigung einer Messreihe aus dem Rohr zu entnehmen, kippen Sie die Flasche –so lange die Kugel sich noch in
+Setzen Sie das Glasrohr so ein, dass der durchbohrte Stopfen möglichst luftdicht abschließt. Lassen Sie die Kugel aus dem Lederlappen behutsam ins Glasrohr gleiten und bestimmen Sie $T$ aus möglichst vielen, mindestens aber 5 Schwingungen. Wiederholen Sie diesen Vorgang mehrfach, um ein Maß für die Streuung zu erhalten. Um die Kugel nach Beendigung einer Messreihe aus dem Rohr zu entnehmen, kippen Sie die Flasche –so lange die Kugel sich noch in
 der Glasröhre befindet– vorsichtig um und lassen Sie die Kugel in die bereitstehende Plastikschale gleiten.
 
  Diese Messung führen Sie nur für Luft durch.  
 
 #### Methode mit dem Kolbenprober
 
-In diesem Fall ersetzt der Kolbenprober Glasrohr und Kugel, $V$ und $T$ sind deutlich kleiner, als bei der Anordnung von Rüchardt , so dass $T$ elektronisch, mit Hilfe eines angebrachten Magneten, einer Induktionsspule um den Kolbenprober und eines Frequenzzählers bestimmt wird. 
+In diesem Fall ersetzt der Kolbenprober das Glasrohr und die Kugel; $V$ und $T$ sind deutlich kleiner, als bei der Anordnung von Rüchardt , so dass $T$ elektronisch, mit Hilfe eines angebrachten Magneten, einer Induktionsspule um den Kolbenprober und eines Frequenzzählers bestimmt wird. 
 
 Indem Sie die Induktionsspule verschieben können Sie die Werte von $V$ selbst bestimmen. Messen Sie $T$ für Werte zwischen $V=30-80\,\mathrm{ml}$. Die Bestimmung von $\kappa$ erfolgt dann durch geeignete Anpassung des Zusammenhangs aus Gleichung ($\ref{eq:Periode}$) an die gemessenen Wertepaare $\left(\begin{array}{cc}V_{i} & T_{i}\end{array}\right)$.  
 
@@ -242,7 +246,7 @@ aus der [kinetischen Gastheorie](https://de.wikipedia.org/wiki/Kinetische_Gasthe
 
 ### Prinzip der Messung
 
-Übergänge der einzelnen Phasen "fest", "flüssig", und "gasförmig" eines Stoffes werden durch sogenannte [Phasendiagramme](https://de.wikipedia.org/wiki/Phasendiagramm). In einem abgeschlossenen Volumen $V$ gibt es für eine gegebene Temperatur $T$ jeweils nur einen bestimmten Druck $p(T)$, bei dem zwischen zwei Phasen eines Stoffes ein thermodynamisches Gleichgewicht herrscht. Ein thermodynamisches Gleichgewicht zwischen allen drei Phasen eines Stoffes existiert nur an einem einzigen Punkt im Phasendiagramm, am Tripelpunkt. 
+Übergänge der einzelnen Phasen "fest", "flüssig", und "gasförmig" eines Stoffes werden mit Hilfe von [Phasendiagrammen](https://de.wikipedia.org/wiki/Phasendiagramm) dargestellt. In einem abgeschlossenen Volumen $V$ gibt es, für eine gegebene Temperatur $T$, jeweils nur einen bestimmten Druck $p(T)$, bei dem zwischen zwei Phasen eines Stoffes ein thermodynamisches Gleichgewicht herrscht. Ein thermodynamisches Gleichgewicht zwischen allen drei Phasen eines Stoffs existiert nur an einem einzigen Punkt im Phasendiagramm, dem Tripelpunkt. 
 
 Bei diesem Versuchsteil beobachten Sie den Phasenübergang zwischen "flüssig" und "gasförmig" von n-Hexan. Das dazugehörige Phasendiagramm heißt Dampfdruckkurve. 
 
@@ -259,7 +263,7 @@ $$
 $$
 wobei $V_{\mathrm{fl}}$ dem Volumen der Flüssigkeit und $V_{\mathrm{d}}$ dem Volumen des Dampfs entsprechen. Nach diesem Zusammenhang benötigen Sie die Wärme $Q$, um bei der Temperatur $T$ eine Flüssigkeit mit $V_{\mathrm{fl}}$ in ein Gas mit $V_{\mathrm{d}}$ überzuführen. 
 
-Für die weiteren Betrachtungen wir die Annahme $V_{\mathrm{fl}}<<V_{\mathrm{d}}$ und betrachten weiterhin den Dampf als ideales Gas mit: 
+Für die weiteren Betrachtungen machen wir die Annahme $V_{\mathrm{fl}}<<V_{\mathrm{d}}$ und betrachten den Dampf als ideales Gas mit: 
 $$
 \begin{equation*}
 V_{\mathrm{d}} = \frac{n\,R\,T}{p},
@@ -280,16 +284,13 @@ wobei es sich um die zu erwartende funktionale Form der Dampfdruckkurve handelt.
 
 In einem Glaskolben befinden sich (in erster Näherung) nur die Flüssigkeit und der Dampf von $1\,\mathrm{mol}$ n-Hexan. Der Dampfdruck wird mit einem direkt verbundenen Quecksilbermanometer gemessen, dessen Stand Sie mit einem [Kathetometer](https://de.wikipedia.org/wiki/Kathetometer) ablesen können.
 
-Tauchen Sie den Kolben mit dem n-Hexan in ein Wärmebad, dessen Temperatur Sie so langsam verändern müssen, dass die Flüssigkeit und der Dampf an jedem Messpunkt im Gleichgewicht sind. Stellen Sie das Fernrohrokular des Kathetometers auf das Fadenkreuz ein. Während der Messung darf am Fernrohr selbst daraufhin nichts mehr verändert werden. 
+Tauchen Sie den Kolben mit dem n-Hexan in ein Wärmebad, dessen Temperatur Sie so langsam verändern müssen, dass die Flüssigkeit und der Dampf an jedem Messpunkt im Gleichgewicht sind. Stellen Sie das Fernrohrokular des Kathetometers auf das Fadenkreuz ein. Während der Messung darf am Fernrohr selbst daraufhin nicht mehr verändert werden. 
 
-Zur Messung des Dampfdruckes bei Raumtemperatur visieren Sie die beiden
-Quecksilberkuppen nacheinander an und lesen die jeweilige Höhendifferenz an der Kathetometerskala ab. Die Scharfeinstellung auf die Kuppen müssen Sie dabei durch Verschieben des ganzen Gestells erreichen. Für die weiteren Druckmessungen genügt es, wenn Sie nur noch eine der beiden Kuppen anvisieren.
+Zur Messung des Dampfdrucks bei Raumtemperatur visieren Sie die beiden
+Quecksilberkuppen nacheinander an und lesen die jeweilige Höhendifferenz an der Kathetometerskala ab. Den Fokus auf die Kuppen müssen Sie dabei durch Verschieben des ganzen Gestells erreichen. Für die weiteren Druckmessungen genügt es, wenn Sie nur noch eine der beiden Kuppen anvisieren.
 
 Achten Sie darauf, dass zu Beginn des Experiments kein flüssiges n-Hexan außerhalb des Wärmebads niedergeschlagen ist, das Ihre Messung verfälschen würde. Rühren Sie während des Versuches das Wärmebad langsam um, so dass Sie eine möglichst homogene Temperaturverteilung erhalten.
 
 Nehmen Sie zunächst die Dampfdruckkurve bei langsam sinkender Temperatur auf. Geben Sie hierzu Eisstückchen ins Wärmebad. Nehmen Sie dann die Dampfdruckkurve bei langsam steigender Temperatur auf. Gießen Sie hierzu dem Wärmebad destilliertes Wasser zu.
 
-Bestimmen Sie dann durch geeignete Anpassung des Zusammenhangs aus Gleichung ($\ref{eq:Dampfdruck}$) $Q_{M}$. Wenn Sie für beide Messreihen vergleichbare Werte für $Q_{M}$ erhalten können Sie davon ausgehen, dass Sie den Gleichgewichtszustand zwischen "flüssig" und "gasförmig" erfolgreich präpariert haben. 
-
-
-
+Bestimmen Sie dann durch geeignete Anpassung des Zusammenhangs aus Gleichung ($\ref{eq:Dampfdruck}$) $Q_{\mathrm{M}}$. Wenn Sie für beide Messreihen vergleichbare Werte für $Q_{\mathrm{M}}$ erhalten können Sie davon ausgehen, dass Sie den Gleichgewichtszustand zwischen "flüssig" und "gasförmig" erfolgreich präpariert haben. 
