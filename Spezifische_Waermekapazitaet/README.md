@@ -1,18 +1,18 @@
 # Hinweise für den Versuch: "Spezifische Wärmekapazität" 
 
-##  Aufgabe 1: Spezifische Wärmekapazität im Wärmebad
+##  Aufgabe 1: Spezifische Wärmekapazität
 
 ### Prinzip der Messung
 
 Bei diesem Versuch sollen Sie die spezifische Wärmekapazität eines Metalls, wie z.B. Aluminium mit Hilfe der bekannten spezifischen Wärmekapazität von Wasser ($c_{\mathrm{H_{2}O}}=4,18\,\mathrm{kJ/(kg\,K)}$) bestimmen. die spezifische Wärmekapazität ist definiert als
 $$
 \begin{equation*}
-c = \frac{1}{m}\frac{\mathrm{d}Q}{\mathrm{d}T},
+c = \frac{1}{m}\frac{\partial Q}{\partial T},
 \end{equation*}
 $$
-wobei $m$ der Masse des zu untersuchenden Materials, $\mathrm{d}Q$ der Änderung der Wärmemenge und $\mathrm{d}T$ der Änderung der Temperatur entsprechen.
+wobei $m$ der Masse des zu untersuchenden Materials, $\partial Q$ der Änderung der Wärmemenge und $\partial T$ der Änderung der Temperatur entsprechen.
 
-Hierzu bringen Sie das gegebene Metall ($\mathrm{M}$, mit der Temperatur $T_{\mathrm{M}}$ und Masse $m_{\mathrm{M}}$) in ein Wärmebad aus Wasser (mit der Temperatur $T_{\mathrm{H_{2}O}}\neq T_{\mathrm{M}}$ und Masse $m_{\mathrm{H_{2}O}}$) und warten, bis sich eine Mischtemperatur $T_{\mathrm{Mix}}$ einstellt. Die Temperatur $T_{\mathrm{Mix}}$ stellt sich durch den Übergang von Wärme $\delta Q$ von einem zum anderen Material ein. 
+Hierzu bringen Sie das gegebene Metall ($\mathrm{M}$, mit der Temperatur $T_{\mathrm{M}}$ und Masse $m_{\mathrm{M}}$) in ein Wärmebad aus Wasser (mit der Temperatur $T_{\mathrm{H_{2}O}}\neq T_{\mathrm{M}}$ und Masse $m_{\mathrm{H_{2}O}}$) und warten, bis sich eine Mischtemperatur $T_{\mathrm{Mix}}$ einstellt. Die Temperatur $T_{\mathrm{Mix}}$ stellt sich durch den Übergang von Wärme $\partial Q$ von einem zum anderen Material ein. 
 $$
 \begin{equation*}
 \begin{split}
@@ -52,5 +52,4 @@ $$
 \dot{T}(T) = \lim\limits_{\Delta t\to0}\left(\frac{\Delta T - \Delta T_{\mathrm{U}}}{\Delta t}\right) = \dot{T}^{(0)}(T) - \dot{T}_{\mathrm{U}}(T).
 \end{equation*}
 $$
-
 
