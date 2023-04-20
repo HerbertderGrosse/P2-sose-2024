@@ -1,5 +1,9 @@
 # Hinweise für den Versuch: "Spezifische Wärmekapazität" 
 
+## Hinweise zum Ablauf
+
+Dieser Versuch wird **nicht von allen Studierenden**, sondern nur von den Gruppen 1–20 durchgeführt. Die Vorbesprechung des Versuchs findet an jedem Praktikumstag zwischen 13:30–14:00 statt.
+
 ##  Aufgabe 1: Spezifische Wärmekapazität
 
 ### Prinzip der Messung
