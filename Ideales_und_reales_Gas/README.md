@@ -102,11 +102,20 @@ Das Verfahren von Clément-Desormes zur Bestimmung von $\kappa$ wird mit einer F
    \left(\begin{array}{ccc}p_{0}+\Delta p_{1} & V_{0} & T_{0}\end{array}\right).
    ```
 
-2. (**Schritt 2**): Öffnen Sie das Ventil der Flasche kurzzeitig und schließen Sie es unmittelbar wieder, so dass es zu einem Druckausgleich mit der Umgebung durch **adiabatische Expansion** kommen kann. Das System hat daraufhin den Zustand $\left(\begin{array}{ccc}p_{0} & V_{0}+\Delta V & T_{0}-\Delta T \end{array}\right)$. 
+2. (**Schritt 2**): Öffnen Sie das Ventil der Flasche kurzzeitig und schließen Sie es unmittelbar wieder, so dass es zu einem Druckausgleich mit der Umgebung durch **adiabatische Expansion** kommen kann. Das System hat daraufhin den Zustand 
+   ```math
+   \left(\begin{array}{ccc}p_{0} & V_{0}+\Delta V & T_{0}-\Delta T \end{array}\right).
+   ```
 
-3. Nach schließen des Ventils ist das Volumen der Luft in der Flasche wieder fest vorgegeben. Aufgrund des Druckausgleichs in Schritt 2 liegt die Temperatur der Luft in der Flasche unterhalb der Umgebungstemperatur. Das System hat somit den Zustand $\left(\begin{array}{ccc}p_{0} & V_{0} & T_{0}-\Delta T \end{array}\right)$. 
+3. Nach schließen des Ventils ist das Volumen der Luft in der Flasche wieder fest vorgegeben. Aufgrund des Druckausgleichs in Schritt 2 liegt die Temperatur der Luft in der Flasche unterhalb der Umgebungstemperatur. Das System hat somit den Zustand 
+   ```math
+   \left(\begin{array}{ccc}p_{0} & V_{0} & T_{0}-\Delta T \end{array}\right).
+   ```
 
-4. (**Schritt 4**): Durch Temperaturausgleich (nach einer Wartezeit von $\approx10\,\mathrm{s}$) stellt sich aufgrund **isochorer Erwärmung** erneut ein Überdruck ein. Das System hat daraufhin den Zustand $\left(\begin{array}{ccc}p_{0}+\Delta p_{2} & V_{0} & T_{0} \end{array}\right)$.
+4. (**Schritt 4**): Durch Temperaturausgleich (nach einer Wartezeit von $\approx10\,\mathrm{s}$) stellt sich aufgrund **isochorer Erwärmung** erneut ein Überdruck ein. Das System hat daraufhin den Zustand 
+   ```math
+   \left(\begin{array}{ccc}p_{0}+\Delta p_{2} & V_{0} & T_{0} \end{array}\right).
+   ```
 
 #### Berechnungen für Schritt 2:
 
@@ -247,7 +256,7 @@ Beachten Sie, das die Variablenbezeichnung $T$ in diesem Versuchsteil eine ander
 
 #### Methode nach Rüchardt:
 
-In diesem Fall erzeugen Sie die Schwingung mit Hilfe einer Stahlkugel als Pfropfen, deren Durchmesser exakt mit dem Innendurchmesser eines Glasrohrs übereinstimmt, so dass sie das Glasrohr nahezu luftdicht verschließt. Das Glasrohr wird mit Hilfe eines durchbohrten Stopfens ebenfalls möglichst luftdicht auf eine der bereitgestellten $10\,\mathrm{l}$-Flaschen aufgesetzt. Bei dieser Anordnung schwingt die Kugel auf einem Luftpolster mit großem Volumen $V$ während $A$ klein ist, $T$ ist daher groß genug, so dass Sie die Schwingung gut beobachten und $T$ gut bestimmen können.  Nehmen Sie für das Volumen dieses Luftkissens $V=10,58\,\mathrm{l}\pm0,3\%$ an.
+In diesem Fall erzeugen Sie die Schwingung mit Hilfe einer Stahlkugel als Pfropfen, deren Durchmesser exakt mit dem Innendurchmesser eines Glasrohrs übereinstimmt, so dass sie das Glasrohr nahezu luftdicht verschließt. Das Glasrohr wird mit Hilfe eines durchbohrten Stopfens ebenfalls möglichst luftdicht auf eine der bereitgestellten 10 l-Flaschen aufgesetzt. Bei dieser Anordnung schwingt die Kugel auf einem Luftpolster mit großem Volumen $V$ während $A$ klein ist, $T$ ist daher groß genug, so dass Sie die Schwingung gut beobachten und $T$ gut bestimmen können.  Nehmen Sie für das Volumen dieses Luftkissens $V=10,58\,\mathrm{l}\pm0,3\%$ an.
 
 Bei Glasrohr und Stahlkugel handelt es sich um **Präzisionsanfertigungen, die mit größter Sorgfalt zu behandeln sind!** Damit die Kugel das Glasrohr luftdicht abschließen, sich aber gleichzeitig möglichst reibungsfrei darin bewegen kann müssen die folgenden Bedingungen so gut wie möglich erfüllt sein: 
 
