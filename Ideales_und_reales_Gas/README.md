@@ -52,7 +52,7 @@ ausgedehnt, wobei Sie den kubischen Ausdehnungskoeffizient von Glas ($\gamma=2,5
 ```math
 \begin{equation*}
 \begin{split}
-p(T_{s}) = \frac{p_{0} + \alpha\,p_{0}\,T_{s}}{1+T_{s}\gamma};
+p(T_{s}) = \frac{p_{0} + \alpha\,p_{0}\,T_{s}}{1+T_{s}\gamma}; \\
 &\\
 &\alpha &= \frac{\left(1+T_{s}\gamma\right)\,p(T_{s})-p_{0}}{p_{0}\,T_{s}}; \\
 \end{split}
