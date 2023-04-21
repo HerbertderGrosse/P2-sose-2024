@@ -58,8 +58,8 @@ p(T_{s}) = \frac{p_{0} + \alpha\,p_{0}\,T_{s}}{1+T_{s}\gamma};
 ```math
 \begin{equation*}
 \begin{split}
-\alpha &= \frac{\left(1+T_{s}\gamma\right)\,p(T_{s})-p_{0}}{p_{0}\,T_{s}}; \\
-&\alpha = \frac{p(T_{s})-p_{0}}{p_{0}\,T_{s}} + \frac{p(T_{s})}{p_{0}}\gamma = \alpha^{(0)} + \frac{p(T_{s})}{p_{0}}\gamma \\
+&\alpha = \frac{\left(1+T_{s}\gamma\right)\,p(T_{s})-p_{0}}{p_{0}\,T_{s}}; \\
+&\hphantom{\alpha} = \frac{p(T_{s})-p_{0}}{p_{0}\,T_{s}} + \frac{p(T_{s})}{p_{0}}\gamma = \alpha^{(0)} + \frac{p(T_{s})}{p_{0}}\gamma \\
 \end{split}
 \end{equation*}
 ```
