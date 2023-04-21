@@ -4,7 +4,7 @@
 
 ### Prinzip der Messung
 
-Der grundsätzliche Aufbau des Gasthermometers und die im folgenden verwendeten Bezeichnungen finden Sie in der folgenden Skizze: 
+Der grundsätzliche Aufbau des Gasthermometers und die im weiteren Verlauf verwendeten Bezeichnungen finden Sie in der folgenden Skizze: 
 
 <img src="./figures/GasthermometerSkizze.png" width="500" height="500" style="zoom:60%;" />
 
@@ -24,7 +24,7 @@ Das Thermometer wird nach dem Prinzip der Druckmessung bei konstantem Volumen ve
 
 Die Steigung $\alpha$ wird als **Spannungskoeffizient** bezeichnet. Numerisch ist $\alpha$ zum Volumenausdehnungskoeffizienten des Gases äquivalent. Wenn Sie $T$ auf der Celsius-Skala messen entspricht $p_{0}$ dem Druck bei $0^{\circ}\mathrm{C}$. In diesem Fall verschwindet der Gasdruck $p(T_{0})$ bei einer Temperatur von $T_{0}=-1/\alpha$. Diese Temperatur wird als **absoluter Nullpunkt** bezeichnet.
 
-Zur Messung tauchen Sie G vollständig in ein [Wärmebad](https://de.wikipedia.org/wiki/W%C3%A4rmebad) ein, dass Sie mit destilliertem Wasser herstellen. Wenn Sie den Druck bei der Siede- ($T_{s}$) und Schmelztemperatur messen erhalten Sie eine Abschätzung $\alpha^{(0)}$ aus der Beziehung: 
+Zur Messung tauchen Sie den Glaskolben G vollständig in ein [Wärmebad](https://de.wikipedia.org/wiki/W%C3%A4rmebad) ein, dass Sie mit destilliertem Wasser herstellen. Wenn Sie den Druck bei der Siede- ($T_{s}$) und Schmelztemperatur messen erhalten Sie eine Abschätzung $\alpha^{(0)}$ aus der Beziehung: 
 ```math
 \begin{equation*}
 \alpha^{(0)} = \frac{p(T_{s}) - p_{0}}{p_{0}\,T_{s}}
@@ -77,12 +77,13 @@ Bringen Sie danach das Wasserbad auf Siedetemperatur $T_{s}$. Achten Sie auch be
 
 ### Prinzip der Messung
 
-Zustandsänderungen von Gasen, die ohne Wärmeaustausch mit der Umgebung ($\delta Q=0$) stattfinden, bezeichnet man als *adiabatisch*. Sie können mit Hilfe der Adiabatengleichungen
-$$
+Zustandsänderungen von Gasen, die ohne Wärmeaustausch mit der Umgebung ($\delta Q=0$) stattfinden, bezeichnet man als *adiabatisch*. Sie können mit Hilfe der Adiabatengleichungen
+```math
 \begin{equation*}
 p\,V^{\kappa} = const.;\quad T\,V^{\kappa-1} = const.
 \end{equation*}
-$$
+```
+
 beschrieben werden. 
 
 Das Verfahren von Clément-Desormes zur Bestimmung von $\kappa$ wird mit einer Flasche durchgeführt, die mit dem zu untersuchenden Gas befüllt und einem U-Rohr-Manometer zur Druckmessung verbunden ist. Aus dem Anfangszustand $\left(\begin{array}{ccc}p_{0}& V_{0} & T_{0}\end{array}\right)$ gehen Sie wie folgt vor:
@@ -95,7 +96,7 @@ Das Verfahren von Clément-Desormes zur Bestimmung von $\kappa$ wird mit einer F
 #### Berechnungen für Schritt 2:
 
 Für die **adiabatische Expansion** in Schritt 2 gilt: 
-$$
+```math
 \begin{equation*}
 \begin{split}
 &\left(p_{0}+\Delta p_{1}\right)\,V_{0}^{\kappa} = p_{0}\,\left(V_{0}+\Delta V\right)^{\kappa}\\
@@ -103,62 +104,72 @@ $$
 &T_{0}\,V_{0}^{\kappa-1} = \left(T_{0}-\Delta T\right)\,\left(V_{0}+\Delta V\right)^{\kappa-1}.\\
 \end{split}
 \end{equation*}
-$$
+```
+
 Für kleine Volumenänderungen $\Delta V\ll V_{0}$ gilt die Näherung  
-$$
+
+```math
 \begin{equation*}
 \left(V_{0}+\Delta V\right)^{\kappa}\approx V_{0}^{\kappa}\left(1+\kappa\frac{\Delta V}{V_{0}}\right)
 \end{equation*}
-$$
+```
+
 woraus folgt: 
-$$
+
+```math
 \begin{split}
 &\frac{\Delta p_{1}}{p_{0}} = \kappa \frac{\Delta V}{V_{0}}\\
 &\\
-&\frac{\Delta T}{T_{0}}\approx\frac{\Delta T}{T_{0}-\Delta T} = \left(\kappa-1\right)\frac{\Delta V}{V_{0}}\\
+&\frac{\Delta T}{T_{0}}\approx\frac{\Delta T}{T_{0}-\Delta T} = \left(\kappa-1\right)\frac{\Delta V}{V_{0}}\qquad\text{(1)}\\
 &\\
-&\frac{\Delta T}{T_{0}} = \frac{\kappa-1}{\kappa}\frac{\Delta p_{1}}{p_{0}}
+&\frac{\Delta T}{T_{0}} = \frac{\kappa-1}{\kappa}\frac{\Delta p_{1}}{p_{0}}\\
 \end{split}
-\label{eq:Schritt-2}
-$$
+
+```
 
 #### Berechnungen für Schritt 4:
 
 Für die **isochore Erwärmung** in Schritt 4 gilt nach der idealen Gasgleichung:
-$$
+
+```math
 \begin{split}
-&\frac{T_{0}-\Delta T}{T_{0}} = \frac{p_{0}}{p_{0}+\Delta p_{2}};\\
+&\frac{T_{0}-\Delta T}{T_{0}} = \frac{p_{0}}{p_{0}+\Delta p_{2}};\qquad\text{(3)}\\
 &\\
 &\frac{\Delta T}{T_{0}} = 1-\frac{p_{0}}{p_{0}+\Delta p_{2}}
-\approx \frac{\Delta p_{2}}{p_{0}}.
+\approx \frac{\Delta p_{2}}{p_{0}}.\\
 \end{split}
-\label{eq:Schritt-4}
-$$
+```
+
 Dabei wurde der Quotient auf der rechten Seite der Gleichung für $\Delta p_{2}\ll p_{0}$ in einer geometrischen Reihe entwickelt. 
 
 #### Berechnung von $\kappa$ 
 
-Gleichsetzen der Gleichungen ($\ref{eq:Schritt-2}$) und ($\ref{eq:Schritt-4}$) führt auf:
-$$
+Gleichsetzen der Gleichungen (2) und (3) führt auf:
+
+```math
 \begin{equation*}
 \begin{split}
 &\frac{\kappa-1}{\kappa}\Delta p_{1} = \Delta p_{2}; \\
 &\kappa = \frac{\Delta p_{1}}{\Delta p_{1} - \Delta p_{2}}
 \end{split}
 \end{equation*}
-$$
+```
+
 Für die Barometerkuppen im U-Rohr-Barometer gilt: 
-$$
+
+```math
 \begin{equation*}
 p(h_{i}) = p_{0} + \rho\,g\,h_{i},
 \end{equation*}
-$$
+```
+
 wobei $\rho$ der Dichte der Barometerflüssigkeit und $g$ der Erdbeschleunigung entsprechen, woraus sich direkt die finale Bestimmungsgleichung ergibt: 
-$$
+
+```math
 \begin{equation*}
 \kappa = \frac{h_{1}}{h_{1}-h_{2}}
 \end{equation*}
-$$
+```
 
 ### Hinweise zur Durchführung
 
@@ -171,41 +182,50 @@ Erzeugen Sie mit dem Handblasebalg nicht zu viel Überdruck $\Delta p_{1}$, da s
 ### Prinzip der Messung
 
 Bei dieser Methode schwingt ein Pfropfen auf einem Luftpolster, das durch den Schwingungsvorgang in nahezu adiabatische Kompression und Expansion versetzt wird. Nach der Adiabatengleichung gilt in diesem Fall: 
-$$
+
+```math
 \begin{equation*}
 p\,V^{\kappa} = const.
 \end{equation*}
-$$
+```
+
 Für differentielle Druck- und Volumenänderungen ergibt sich daraus:
-$$
+
+```math
 \begin{split}
 &\frac{\mathrm{d}p}{\mathrm{d}V} = -const.\,\kappa\,V^{-\kappa-1} \\
-&\hphantom{\frac{\mathrm{d}p}{\mathrm{d}V}}= -\kappa\frac{p}{V};\\
+&\hphantom{\frac{\mathrm{d}p}{\mathrm{d}V}}= -\kappa\frac{p}{V};\qquad\text{(4)}\\
 &\\
 &\mathrm{d}p = -\kappa\frac{p}{V}\,\mathrm{d}V\\
 \end{split}
-\label{eq:adiabate-diff}
-$$
-Aus der Multiplikation von Gleichung ($\ref{eq:adiabate-diff}$) mit dem Rohrinnenquerschnitt $A$ ergibt sich die Kraft auf den Pfropfen und eine lineare Schwingungsgleichung für die Bewegung des Pfropfens:
-$$
+
+```
+
+Aus der Multiplikation von Gleichung (4) mit dem Rohrinnenquerschnitt $A$ ergibt sich die Kraft auf den Pfropfen und eine lineare Schwingungsgleichung für die Bewegung des Pfropfens:
+
+```math
 \begin{split}
 &\mathrm{d}F = -\kappa\frac{p}{V}A^{2}\,\mathrm{d}x \\
 &\\
 &m\,\ddot{x} = -\kappa\frac{p}{V}A^{2}\,x,
 \end{split}
-\label{eq:Schwingung}
-$$
-wobei $m$ der Masse des Pfropfens entspricht. An dieser Stelle wird die Näherung vorgenommen, dass sich $p$ und $V$ durch die Bewegung des Pfropfens aus seiner Ruhelage nur geringfügig ändern. Aus Gleichung ($\ref{eq:Schwingung}$) lässt sich die Periode der Schwingung ableiten zu:
-$$
-T = 2\pi\sqrt{\frac{m\,V}{\kappa\,p\,A^{2}}},
-\label{eq:Periode}
-$$
+
+```
+
+wobei $m$ der Masse des Pfropfens entspricht. An dieser Stelle wird die Näherung vorgenommen, dass sich $p$ und $V$ durch die Bewegung des Pfropfens aus seiner Ruhelage nur geringfügig ändern. Aus Gleichung (5) lässt sich die Periode der Schwingung ableiten zu:
+
+```math
+T = 2\pi\sqrt{\frac{m\,V}{\kappa\,p\,A^{2}}},\qquad\text{(6)}
+```
+
 woraus sich $\kappa$ bestimmen lässt:
-$$
+
+```math
 \begin{equation*}
 \kappa = \left(\frac{2\pi}{T}\right)^{2}\frac{m\,V}{p\,A^{2}}
 \end{equation*}
-$$
+```
+
 Beachten Sie, das die Variablenbezeichnung $T$ in diesem Versuchsteil eine andere Bedeutung hat als sonst bei diesem Praktikumsversuch. 
 
 ### Hinweise zur Durchführung
@@ -231,14 +251,16 @@ der Glasröhre befindet– vorsichtig um und lassen Sie die Kugel in die bereits
 
 In diesem Fall ersetzt der Kolbenprober das Glasrohr und die Kugel; $V$ und $T$ sind deutlich kleiner, als bei der Anordnung von Rüchardt , so dass $T$ elektronisch, mit Hilfe eines angebrachten Magneten, einer Induktionsspule um den Kolbenprober und eines Frequenzzählers bestimmt wird. 
 
-Indem Sie die Induktionsspule verschieben können Sie die Werte von $V$ selbst bestimmen. Messen Sie $T$ für Werte zwischen $V=30-80\,\mathrm{ml}$. Die Bestimmung von $\kappa$ erfolgt dann durch geeignete Anpassung des Zusammenhangs aus Gleichung ($\ref{eq:Periode}$) an die gemessenen Wertepaare $\left(\begin{array}{cc}V_{i} & T_{i}\end{array}\right)$.  
+Indem Sie die Induktionsspule verschieben können Sie die Werte von $V$ selbst bestimmen. Messen Sie $T$ für Werte zwischen $V=30-80\,\mathrm{ml}$. Die Bestimmung von $\kappa$ erfolgt dann durch geeignete Anpassung des Zusammenhangs aus Gleichung (6) an die gemessenen Wertepaare $\left(\begin{array}{cc}V_{i} & T_{i}\end{array}\right)$.  
 
 Führen Sie diese Messung erst mit Luft und dann mit dem Edelgas Argon durch und überprüfen Sie, ob $\kappa$ mit der Erwartung
-$$
+
+```math
 \begin{equation*}
 \kappa = \frac{f+2}{f}
 \end{equation*}
-$$
+```
+
 aus der [kinetischen Gastheorie](https://de.wikipedia.org/wiki/Kinetische_Gastheorie) übereinstimmt, wobei $f$ der Anzahl der [Freiheitsgrade](https://de.wikipedia.org/wiki/Freiheitsgrad) des untersuchten Gases entspricht. Je nach Gas erwarten Sie die folgenden Werte für $f$:
 
 - Edelgas: $f=3$
@@ -256,33 +278,41 @@ aus der [kinetischen Gastheorie](https://de.wikipedia.org/wiki/Kinetische_Gasthe
 Bei diesem Versuchsteil beobachten Sie den Phasenübergang zwischen "flüssig" und "gasförmig" von n-Hexan. Das dazugehörige Phasendiagramm heißt Dampfdruckkurve. 
 
 Für einen Carnot-Prozess gilt allgemein:
-$$
+
+```math
 \begin{equation*}
 \frac{\mathrm{d} W}{\mathrm{d}T} = -\frac{Q}{T}
 \end{equation*}
-$$
+```
+
 Mit $\mathrm{d}W = \left(V_{\mathrm{fl}}-V_{\mathrm{d}}\right)\,\mathrm{d}p$ wird daraus die [Clausius-Clapeyron-Gleichung](https://de.wikipedia.org/wiki/Clausius-Clapeyron-Gleichung): 
-$$
+
+```math
 \frac{\mathrm{d}p}{\mathrm{d}T} = \frac{Q}{T\,\left(V_{\mathrm{d}} - V_{\mathrm{fl}}\right)},
-\label{eq:Clausius}
-$$
+
+```
+
 wobei $V_{\mathrm{fl}}$ dem Volumen der Flüssigkeit und $V_{\mathrm{d}}$ dem Volumen des Dampfs entsprechen. Nach diesem Zusammenhang benötigen Sie die Wärme $Q$, um bei der Temperatur $T$ eine Flüssigkeit mit $V_{\mathrm{fl}}$ in ein Gas mit $V_{\mathrm{d}}$ überzuführen. 
 
 Für die weiteren Betrachtungen machen wir die Annahme $V_{\mathrm{fl}}<<V_{\mathrm{d}}$ und betrachten den Dampf als ideales Gas mit: 
-$$
+
+```math
 \begin{equation*}
 V_{\mathrm{d}} = \frac{n\,R\,T}{p},
 \end{equation*}
-$$
-womit Gleichung ($\ref{eq:Clausius}$), nach Separation der Variablen, die folgende Form annimmt: 
-$$
+```
+
+womit Gleichung (7), nach Separation der Variablen, die folgende Form annimmt: 
+
+```math
 \begin{split}
 &\frac{\mathrm{d}p}{p} = \frac{Q}{n\,R}\,\frac{\mathrm{d}T}{T^{2}} \\
 &\\
 &p(T) = p_{0}\exp\left(-\frac{Q}{n\,R\,T}\right), \\
 \end{split}
-\label{eq:Dampfdruck}
-$$
+
+```
+
 wobei es sich um die zu erwartende funktionale Form der Dampfdruckkurve handelt.
 
 ### Hinweise zur Durchführung
