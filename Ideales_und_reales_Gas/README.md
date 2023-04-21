@@ -56,11 +56,10 @@ p(T_{s}) = \frac{p_{0} + \alpha\,p_{0}\,T_{s}}{1+T_{s}\gamma};
 ```
 
 ```math
+\begin{equation*}
 \alpha = \frac{\left(1+T_{s}\gamma\right)\,p(T_{s})-p_{0}}{p_{0}\,T_{s}};
-
+\end{equation*}
 ```
-
-
 
 ```math
 \begin{equation*}
@@ -256,7 +255,7 @@ Beachten Sie, das die Variablenbezeichnung $T$ in diesem Versuchsteil eine ander
 
 #### Methode nach Rüchardt:
 
-In diesem Fall erzeugen Sie die Schwingung mit Hilfe einer Stahlkugel als Pfropfen, deren Durchmesser exakt mit dem Innendurchmesser eines Glasrohrs übereinstimmt, so dass sie das Glasrohr nahezu luftdicht verschließt. Das Glasrohr wird mit Hilfe eines durchbohrten Stopfens ebenfalls möglichst luftdicht auf eine der bereitgestellten 10 l-Flaschen aufgesetzt. Bei dieser Anordnung schwingt die Kugel auf einem Luftpolster mit großem Volumen $V$ während $A$ klein ist, $T$ ist daher groß genug, so dass Sie die Schwingung gut beobachten und $T$ gut bestimmen können.  Nehmen Sie für das Volumen dieses Luftkissens $V=10,58\,\mathrm{l}\pm0,3\%$ an.
+In diesem Fall erzeugen Sie die Schwingung mit Hilfe einer Stahlkugel als Pfropfen, deren Durchmesser exakt mit dem Innendurchmesser eines Glasrohrs übereinstimmt, so dass sie das Glasrohr nahezu luftdicht verschließt. Das Glasrohr wird mit Hilfe eines durchbohrten Stopfens ebenfalls möglichst luftdicht auf eine der bereitgestellten $10\,\mathrm{l}$-Flaschen aufgesetzt. Bei dieser Anordnung schwingt die Kugel auf einem Luftpolster mit großem Volumen $V$ während $A$ klein ist, $T$ ist daher groß genug, so dass Sie die Schwingung gut beobachten und $T$ gut bestimmen können.  Nehmen Sie für das Volumen dieses Luftkissens $V=10,58\,\mathrm{l}\pm0,3\%$ an.
 
 Bei Glasrohr und Stahlkugel handelt es sich um **Präzisionsanfertigungen, die mit größter Sorgfalt zu behandeln sind!** Damit die Kugel das Glasrohr luftdicht abschließen, sich aber gleichzeitig möglichst reibungsfrei darin bewegen kann müssen die folgenden Bedingungen so gut wie möglich erfüllt sein: 
 
