@@ -48,7 +48,7 @@ P_{\mathrm{H}}\,\Delta t = \Delta Q = \Delta U = c_{\mathrm{Al}}(T)\,m_{\mathrm{
 wobei $P_{\mathrm{H}}$ der Heizleistung der Spule, $m_{\mathrm{Al}}$ der Masse des Hohlzylinders und $\Delta T$ der Temperaturänderung im Zeitintervall $\Delta t$ entsprechen. Daraus ergibt sich 
 
 ```math
-c_{\mathrm{Al}}(T) = \frac{P_{\mathrm{H}}}{m_{\mathrm{Al}}\, \dot{T}^{(0)}(T)}; \qquad \text{mit: }\dot{T}^{(0)}(T) = \lim\limits_{\Delta t\to0}\left(\frac{\Delta T}{\Delta t}\right). \qquad\text(1)
+c_{\mathrm{Al}}(T) = \frac{P_{\mathrm{H}}}{m_{\mathrm{Al}}\, \dot{T}^{(0)}(T)}; \qquad \text{mit: }\dot{T}^{(0)}(T) = \lim\limits_{\Delta t\to0}\left(\frac{\Delta T}{\Delta t}\right). \qquad\text{(1)}
 \label{eq:cT}
 ```
 
