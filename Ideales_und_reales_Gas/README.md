@@ -53,12 +53,17 @@ ausgedehnt, wobei Sie den kubischen Ausdehnungskoeffizient von Glas ($\gamma=2,5
 \begin{equation*}
 \begin{split}
 &p(T_{s}) = \frac{p_{0} + \alpha\,p_{0}\,T_{s}}{1+T_{s}\gamma};\\
-%&\\
+&\\
 &\alpha = \frac{\left(1+T_{s}\gamma\right)\,p(T_{s})-p_{0}}{p_{0}\,T_{s}};
-%&\\
-&\hphantom{\alpha} = \frac{p(T_{s})-p_{0}}{p_{0}\,T_{s}} + \frac{p(T_{s})}{p_{0}}\gamma = \alpha^{(0)} + \frac{p(T_{s})}{p_{0}}\gamma\\
 \end{split}
 \end{equation*}
+```
+
+```math
+\begin{equation*}
+\hphantom{\alpha} = \frac{p(T_{s})-p_{0}}{p_{0}\,T_{s}} + \frac{p(T_{s})}{p_{0}}\gamma = \alpha^{(0)} + \frac{p(T_{s})}{p_{0}}\gamma
+\end{equation*}
+
 ```
 
 Beachten Sie außerdem, dass $T_{s}$ vom Umgebungsdruck abhängt. Sie können $T_{s}(p)$ mit Hilfe eines im Versuchsraum vorhandenen Barometers und der ebenfalls vorliegenden Dampfdruckkurve für Wasser bestimmen. Berücksichtigen Sie entsprechende Unsicherheiten in Ihrer Messung.   
