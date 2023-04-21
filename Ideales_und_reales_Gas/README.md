@@ -9,26 +9,28 @@ Der grundsätzliche Aufbau des Gasthermometers und die im folgenden verwendeten 
 <img src="./figures/GasthermometerSkizze.png" width="500" height="500" style="zoom:60%;" />
 
 Die Temperaturmessung beruht auf der idealen Gasgleichung 
-$$
+```math
 \begin{equation*}
 p(V, T) = \frac{n\,R\,T}{V},
 \end{equation*}
-$$
+```
+
 wobei $p$ dem Druck, $V$ dem Volumen, $T$ der Temperatur, $n$ der Stoffmenge des Gases und $R$ der idealen Gaskonstanten entsprechen.
 
 Das Thermometer wird nach dem Prinzip der Druckmessung bei konstantem Volumen verwendet. In diesem Fall gilt $p\propto T$ mit: 
-$$
-\left.p(T)\right|_{V=const.} = p_{0}\left(1+\alpha\,T\right).
-\label{eq:pT}
-$$
+```math
+\left.p(T)\right|_{V=const.} = p_{0}\left(1+\alpha\,T\right). \qquad\text{(1)}
+```
+
 Die Steigung $\alpha$ wird als **Spannungskoeffizient** bezeichnet. Numerisch ist $\alpha$ zum Volumenausdehnungskoeffizienten des Gases äquivalent. Wenn Sie $T$ auf der Celsius-Skala messen entspricht $p_{0}$ dem Druck bei $0^{\circ}\mathrm{C}$. In diesem Fall verschwindet der Gasdruck $p(T_{0})$ bei einer Temperatur von $T_{0}=-1/\alpha$. Diese Temperatur wird als **absoluter Nullpunkt** bezeichnet.
 
 Zur Messung tauchen Sie G vollständig in ein [Wärmebad](https://de.wikipedia.org/wiki/W%C3%A4rmebad) ein, dass Sie mit destilliertem Wasser herstellen. Wenn Sie den Druck bei der Siede- ($T_{s}$) und Schmelztemperatur messen erhalten Sie eine Abschätzung $\alpha^{(0)}$ aus der Beziehung: 
-$$
+```math
 \begin{equation*}
 \alpha^{(0)} = \frac{p(T_{s}) - p_{0}}{p_{0}\,T_{s}}
 \end{equation*}
-$$
+```
+
 Wenn Sie $\alpha$ genauer bestimmen wollen, sollten Sie einige Effekte beachten, die Ihre Messung verfälschen können:
 
 - G hat eine thermische Ausdehnung.
@@ -39,13 +41,15 @@ Wenn Sie $\alpha$ genauer bestimmen wollen, sollten Sie einige Effekte beachten,
 Alle Effekte bis auf die thermische Ausdehnung von G sind allerdings sehr klein und können vernachlässigt werden. Einen Korrekturterm für die thermische Ausdehnung von G erhalten Sie aus der folgenden Überlegung: 
 
 Bei $T_{s}$ hat sich das Volumen $V_{\mathrm{G}}$ von G um den Faktor 
-$$
+```math
 \begin{equation*}
 \frac{V_{\mathrm{G}}^{\prime}}{V_{\mathrm{G}}} = 1+T_{s}\gamma
 \end{equation*}
-$$
-ausgedehnt, wobei Sie den kubischen Ausdehnungskoeffizient von Glas ($\gamma=2,5\times10^{-5}\,\mathrm{K}^{-1}$)  als gegeben voraussetzen können. Nach der idealen Gasgleichung ($p\,V=const.$) ist $p(T_{s})$ um den entsprechenden Faktor zu verringern. Aus Gleichung ($\ref{eq:pT}$) ergibt sich damit:
-$$
+```
+
+ausgedehnt, wobei Sie den kubischen Ausdehnungskoeffizient von Glas ($\gamma=2,5\times10^{-5}\,\mathrm{K}^{-1}$)  als gegeben voraussetzen können. Nach der idealen Gasgleichung ($p\,V=const.$) ist $p(T_{s})$ um den entsprechenden Faktor zu verringern. Aus Gleichung (1) ergibt sich damit:
+
+```math
 \begin{equation*}
 \begin{split}
 &p(T_{s}) = \frac{p_{0} + \alpha\,p_{0}\,T_{s}}{1+T_{s}\gamma};\\
@@ -55,7 +59,8 @@ $$
 &\hphantom{\alpha} = \frac{p(T_{s})-p_{0}}{p_{0}\,T_{s}} + \frac{p(T_{s})}{p_{0}}\gamma = \alpha^{(0)} + \frac{p(T_{s})}{p_{0}}\gamma
 \end{split}
 \end{equation*}
-$$
+```
+
 Beachten Sie außerdem, dass $T_{s}$ vom Umgebungsdruck abhängt. Sie können $T_{s}(p)$ mit Hilfe eines im Versuchsraum vorhandenen Barometers und der ebenfalls vorliegenden Dampfdruckkurve für Wasser bestimmen. Berücksichtigen Sie entsprechende Unsicherheiten in Ihrer Messung.   
 
 ### Hinweise zur Durchführung
