@@ -10,9 +10,7 @@ Dieser Versuch wird **nicht von allen Studierenden**, sondern nur von den Gruppe
 
 Bei diesem Versuch sollen Sie die spezifische Wärmekapazität eines Metalls, wie z.B. Aluminium mit Hilfe der bekannten spezifischen Wärmekapazität von Wasser ($c_{\mathrm{H_{2}O}}=4,18\,\mathrm{kJ/(kg\,K)}$) bestimmen. die spezifische Wärmekapazität ist definiert als
 
-$\begin{equation*}
-c = \frac{1}{m}\frac{\partial Q}{\partial T},
-\end{equation*}$
+$c = \frac{1}{m}\frac{\partial Q}{\partial T},$
 
 wobei $m$ der Masse des zu untersuchenden Materials, $\partial Q$ der Änderung der Wärmemenge und $\partial T$ der Änderung der Temperatur entsprechen.
 
