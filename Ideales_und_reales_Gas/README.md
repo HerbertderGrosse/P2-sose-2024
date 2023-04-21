@@ -57,7 +57,9 @@ p(T_{s}) = \frac{p_{0} + \alpha\,p_{0}\,T_{s}}{1+T_{s}\gamma};
 
 ```math
 \begin{equation*}
-\alpha = \frac{\left(1+T_{s}\gamma\right)\,p(T_{s})-p_{0}}{p_{0}\,T_{s}};
+\begin{split}
+\alpha &= \frac{\left(1+T_{s}\gamma\right)\,p(T_{s})-p_{0}}{p_{0}\,T_{s}}; \\
+\end{split}
 \end{equation*}
 ```
 
