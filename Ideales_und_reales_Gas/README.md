@@ -96,9 +96,16 @@ beschrieben werden.
 
 Das Verfahren von Clément-Desormes zur Bestimmung von $\kappa$ wird mit einer Flasche durchgeführt, die mit dem zu untersuchenden Gas befüllt und einem U-Rohr-Manometer zur Druckmessung verbunden ist. Aus dem Anfangszustand $\left(\begin{array}{ccc}p_{0}& V_{0} & T_{0}\end{array}\right)$ gehen Sie wie folgt vor:
 
-1. Erzeugen Sie mit dem Handblasebalg einen (nicht zu großen) Überdruck $\Delta p_{1}$ in der Flasche. Warten Sie den Temperaturausgleich ab. Das System hat daraufhin den Zustand ```math \left(\begin{array}{ccc}p_{0}+\Delta p_{1} & V_{0} & T_{0}\end{array}\right)```. 
+1. Erzeugen Sie mit dem Handblasebalg einen (nicht zu großen) Überdruck $\Delta p_{1}$ in der Flasche. Warten Sie den Temperaturausgleich ab. Das System hat daraufhin den Zustand
+
+   ```math
+   \left(\begin{array}{ccc}p_{0}+\Delta p_{1} & V_{0} & T_{0}\end{array}\right).
+   ```
+
 2. (**Schritt 2**): Öffnen Sie das Ventil der Flasche kurzzeitig und schließen Sie es unmittelbar wieder, so dass es zu einem Druckausgleich mit der Umgebung durch **adiabatische Expansion** kommen kann. Das System hat daraufhin den Zustand $\left(\begin{array}{ccc}p_{0} & V_{0}+\Delta V & T_{0}-\Delta T \end{array}\right)$. 
+
 3. Nach schließen des Ventils ist das Volumen der Luft in der Flasche wieder fest vorgegeben. Aufgrund des Druckausgleichs in Schritt 2 liegt die Temperatur der Luft in der Flasche unterhalb der Umgebungstemperatur. Das System hat somit den Zustand $\left(\begin{array}{ccc}p_{0} & V_{0} & T_{0}-\Delta T \end{array}\right)$. 
+
 4. (**Schritt 4**): Durch Temperaturausgleich (nach einer Wartezeit von $\approx10\,\mathrm{s}$) stellt sich aufgrund **isochorer Erwärmung** erneut ein Überdruck ein. Das System hat daraufhin den Zustand $\left(\begin{array}{ccc}p_{0}+\Delta p_{2} & V_{0} & T_{0} \end{array}\right)$.
 
 #### Berechnungen für Schritt 2:
