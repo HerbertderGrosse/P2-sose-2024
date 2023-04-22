@@ -51,19 +51,22 @@ Dass hier vom Dopplereffekt gesprochen wird, obwohl es sich wie bei Aufgabe 2.2 
 Das Laserlicht wird mit einer Linse mit $f_{1}=+10\,\mathrm{mm}$ stark divergent aufgeweitet. Dieses divergente Licht wird mit einer Linse mit $f_{2}=+30\,\mathrm{mm}$ im Zentrum der Pockelszelle fokussiert, so dass es die Zelle möglichst ohne Reflexion an den Seitenflächen des Kristalls passiert. Das austretende Licht liefert hinter einem Polarisationsfilter auf einem Schirm ein großflächiges Bild mit Hyperbelstruktur. Diskutieren Sie das Zustandekommen dieses Bildes.
 
 **3.4:** Die Anordnung ist die gleiche, wie aus Aufgabe 3.3, jedoch ohne NF-Einkopplung. Variieren Sie die Spannung an der Pockelszelle von $U=-2000$ bis $+2000\,\mathrm{V}$ und notieren Sie die Werte, bei denen im Zentrum der Hyperbelfigur Helligkeitsextrema (Maxima oder Minima) auftreten. Nummerieren Sie diese Extrema fortlaufend und bestimmen Sie die Steigung der Ausgleichsgeraden, wenn Sie den Wert der eingestellten Spannung über die Anzahl der durchlaufenen Extrema auftragen. Die Steigung dieser Geraden heißt "Halbwellenspannung". Sie erhalten daraus 
-$$
+
+```math
 \begin{equation*}
 \frac{\mathrm{d}\Delta\phi}{\mathrm{d}U},
 \end{equation*}
-$$
+```
 
 
 die Änderung der Phasenverschiebung  
-$$
+
+```math
 \begin{equation*}
 \Delta\phi(U) = \frac{2\pi}{\lambda_{0}} \left(n_{a_{0}}(U) - n_{0}(U)\right)\,\ell = \frac{2\pi}{\lambda_{0}} \Delta n(U)\,\ell
 \end{equation*}
-$$
+```
+
 des [ordentlichen (mit Brechungsindex $n_{0}$) und des außerordentlichen Strahls (mit Brechungsindex $n_{a_{0}}$)](https://de.wikipedia.org/wiki/Doppelbrechung#Ordentlicher_und_au%C3%9Ferordentlicher_Strahl) längs der Strecke $\ell$ als Funktion der angelegten Spannung $U$. Dabei bezeichnet $\lambda_{0}$ die Wellenlänge des Lichtstrahls im Vakuum. Mit den bekannten geometrischen Abmessungen des Lithiumniobat-Kristalls ergibt sich die gesuchte Konstante $k$. 
 
 Beim Messen können Sie auf ein Photoelement mit Messinstrument verzichten und sich auf Ihr Auge verlassen. Beachten Sie, dass der verwendete Kristall auch ohne elektrisches Feld schon [doppelbrechend](https://de.wikipedia.org/wiki/Doppelbrechung) ist. Beachten Sie die Ähnlichkeiten bei der Veränderung der Doppelbrechung bei mechanischer Spannung und bei der Einwirkung eines elektrischen Feldes.
