@@ -115,13 +115,19 @@ Für einen Carnot-Prozess gilt allgemein:
 Mit $\mathrm{d}W = \left(V_{\mathrm{fl}}-V_{\mathrm{d}}\right)\,\mathrm{d}p$ wird daraus die [Clausius-Clapeyron-Gleichung](https://de.wikipedia.org/wiki/Clausius-Clapeyron-Gleichung): 
 
 ```math
-\frac{\mathrm{d}p}{\mathrm{d}T} = \frac{Q}{T\,\left(V_{\mathrm{d}} - V_{\mathrm{fl}}\right)},
+\frac{\mathrm{d}p}{\mathrm{d}T} = \frac{Q}{T\,\left(V_{\mathrm{d}} - V_{\mathrm{fl}}\right)}, \quat\text{(7)}
 
 ```
 
 wobei $V_{\mathrm{fl}}$ dem Volumen der Flüssigkeit und $V_{\mathrm{d}}$ dem Volumen des Dampfs entsprechen. Nach diesem Zusammenhang benötigen Sie die Wärme $Q$, um bei der Temperatur $T$ eine Flüssigkeit mit $V_{\mathrm{fl}}$ in ein Gas mit $V_{\mathrm{d}}$ überzuführen. 
 
-Für die weiteren Betrachtungen machen wir die Annahme $V_{\mathrm{fl}}<<V_{\mathrm{d}}$ und betrachten den Dampf als ideales Gas mit: 
+Für die weiteren Betrachtungen machen wir die Annahme 
+
+```math
+V_{\mathrm{fl}}<<V_{\mathrm{d}}
+```
+
+ und betrachten den Dampf als ideales Gas mit: 
 
 ```math
 \begin{equation*}
@@ -135,7 +141,7 @@ womit Gleichung (7), nach Separation der Variablen, die folgende Form annimmt:
 \begin{split}
 &\frac{\mathrm{d}p}{p} = \frac{Q}{n\,R}\,\frac{\mathrm{d}T}{T^{2}} \\
 &\\
-&p(T) = p_{0}\exp\left(-\frac{Q}{n\,R\,T}\right), \\
+&p(T) = p_{0}\exp\left(-\frac{Q}{n\,R\,T}\right), \quad\text{(8)}\\
 \end{split}
 
 ```
@@ -155,4 +161,4 @@ Achten Sie darauf, dass zu Beginn des Experiments kein flüssiges n-Hexan außer
 
 Nehmen Sie zunächst die Dampfdruckkurve bei langsam sinkender Temperatur auf. Geben Sie hierzu Eisstückchen ins Wärmebad. Nehmen Sie dann die Dampfdruckkurve bei langsam steigender Temperatur auf. Gießen Sie hierzu dem Wärmebad destilliertes Wasser zu.
 
-Bestimmen Sie dann durch geeignete Anpassung des Zusammenhangs aus Gleichung ($\ref{eq:Dampfdruck}$) $Q_{\mathrm{M}}$. Wenn Sie für beide Messreihen vergleichbare Werte für $Q_{\mathrm{M}}$ erhalten können Sie davon ausgehen, dass Sie den Gleichgewichtszustand zwischen "flüssig" und "gasförmig" erfolgreich präpariert haben. 
+Bestimmen Sie dann durch geeignete Anpassung des Zusammenhangs aus Gleichung (8) $Q_{\mathrm{M}}$. Wenn Sie für beide Messreihen vergleichbare Werte für $Q_{\mathrm{M}}$ erhalten können Sie davon ausgehen, dass Sie den Gleichgewichtszustand zwischen "flüssig" und "gasförmig" erfolgreich präpariert haben. 
