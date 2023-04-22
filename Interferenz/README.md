@@ -8,9 +8,11 @@ Im Folgenden befinden sich außerdem Informationen, die sehr gut als Anregung f�
 
 Für die Intensität $I$ in Abhängigkeit von Beobachtungswinkel $\alpha$, Wellenlänge $\lambda$, Gitterkonstante (Gitterperiode) $g$, verwendeter Anzahl $N$ der Gitterspalte und Breite $b$ des einzelnen Spalts
 gilt
-$$
+
+```math
 I = \left(\frac{\sin\beta}{\beta}\right)^2 \cdot \left(\frac{\sin(N\Phi)}{\sin\Phi}\right)^2 = f_{\mathrm{S}} · f_{\mathrm{G}} = f_{\mathrm{S}} · \frac{f_1}{f_2},
-$$
+```
+
 mit $\beta = \pi\,b/\lambda\,\sin\alpha$ und $\Phi = \pi\,g/λ\,\sin\alpha$.
 
 - Der erste Faktor $f_{\mathrm{S}}$ beschreibt die Beugung am einzelnen Gitterspalt. Er wirkt als *Einhüllende* für die $I$-Kurve und wird auch als *Spaltfunktion* bezeichnet.
@@ -45,10 +47,12 @@ Einige Gedanken zum Spalt, der sich am Eingang des Spektrometers befindet. Es ha
 Die normale Lebensdauer angeregter Atomzustände (d.h. weder "verbotene" Übergänge, noch "metastabile" Zustände) ist etwa $10\,\mathrm{ns}$. Daraus folgt nach der [Heisenbergschen Unschärferelation](https://de.wikipedia.org/wiki/Heisenbergsche_Unsch%C3%A4rferelation) eine natürliche Energie- und damit Wellenlängenunschärfe $\Delta\lambda\approx10^{-5}\,\mathrm{nm}$. Da aber in einer Gasentladung die strahlenden Atome nicht in Ruhe sind, tritt zusätzlich Linienverbreiterung durch den [Doppler-Effekt](https://de.wikipedia.org/wiki/Doppler-Effekt) auf. Das angeregte Gas in den verwendeten Lampen ist nicht viel heißer als Zimmertemperatur. Die kinetische Gastheorie liefert die mittlere Teilchengeschwindigkeit von $\langle v\rangle\approx600\,\mathrm{m/s}$.
 
 Die Dopplerverbreiterung (bis auf Faktoren nahe 1) ist 
-$$
+
+```math
 \begin{equation*}
 \Delta \lambda\approx \frac{\langle v\rangle}{c}\lambda \, 2 \times 10^{-6} \lambda\approx 10^{-3}\,\mathrm{nm}.
 \end{equation*}
-$$
+```
+
 Man sieht, dass die Dopplerverbreiterung im Vergleich zu dem mit Praktikumsmitteln auflösbaren $\Delta\lambda$ noch keine Rolle spielt. Die *Stoßverbreiterung*, ein weiterer Effekt, der die Lebensdauer verkürzt und die Spektrallinie verbreitert, spielt wegen des niedrigen Druckes in den verwendeten Lampen eine noch geringere Rolle.
 
