@@ -191,7 +191,7 @@ Erzeugen Sie mit dem Handblasebalg nicht zu viel Überdruck $\Delta p_{1}$, da s
 
 ---
 
-Hinweise zu den Aufgaben 3 und 4 finden Sie aus technischen Gründen in der Datei `README_Teil_2.md`. 
+Hinweise zu den Aufgaben 3 und 4 finden Sie aus technischen Gründen in der Datei [`README_Teil_2.md`](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Ideales_und_reales_Gas/README_Teil_2.md). 
 
 
 

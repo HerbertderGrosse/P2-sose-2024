@@ -17,7 +17,7 @@ Für differentielle Druck- und Volumenänderungen ergibt sich daraus:
 ```math
 \begin{split}
 &\frac{\mathrm{d}p}{\mathrm{d}V} = -const.\,\kappa\,V^{-\kappa-1} \\
-&\hphantom{\frac{\mathrm{d}p}{\mathrm{d}V}}= -\kappa\frac{p}{V};\qquad\text{(4)}\\
+&\hphantom{\frac{\mathrm{d}p}{\mathrm{d}V}}= -\kappa\frac{p}{V};\qquad\text{(4)} \\
 &\\
 &\mathrm{d}p = -\kappa\frac{p}{V}\,\mathrm{d}V\\
 \end{split}
@@ -30,7 +30,7 @@ Aus der Multiplikation von Gleichung (4) mit dem Rohrinnenquerschnitt $A$ ergibt
 \begin{split}
 &\mathrm{d}F = -\kappa\frac{p}{V}A^{2}\,\mathrm{d}x \\
 &\\
-&m\,\ddot{x} = -\kappa\frac{p}{V}A^{2}\,x,
+&m\,\ddot{x} = -\kappa\frac{p}{V}A^{2}\,x,\qquad\text{(5)} 
 \end{split}
 
 ```
@@ -74,7 +74,11 @@ der Glasröhre befindet– vorsichtig um und lassen Sie die Kugel in die bereits
 
 In diesem Fall ersetzt der Kolbenprober das Glasrohr und die Kugel; $V$ und $T$ sind deutlich kleiner, als bei der Anordnung von Rüchardt , so dass $T$ elektronisch, mit Hilfe eines angebrachten Magneten, einer Induktionsspule um den Kolbenprober und eines Frequenzzählers bestimmt wird. 
 
-Indem Sie die Induktionsspule verschieben können Sie die Werte von $V$ selbst bestimmen. Messen Sie $T$ für Werte zwischen $V=30-80\,\mathrm{ml}$. Die Bestimmung von $\kappa$ erfolgt dann durch geeignete Anpassung des Zusammenhangs aus Gleichung (6) an die gemessenen Wertepaare $\left(\begin{array}{cc}V_{i} & T_{i}\end{array}\right)$.  
+Indem Sie die Induktionsspule verschieben können Sie die Werte von $V$ selbst bestimmen. Messen Sie $T$ für Werte zwischen $V=30-80\,\mathrm{ml}$. Die Bestimmung von $\kappa$ erfolgt dann durch geeignete Anpassung des Zusammenhangs aus Gleichung (6) an die gemessenen Wertepaare 
+
+```math
+\left(\begin{array}{cc}V_{i} & T_{i}\end{array}\right).
+```
 
 Führen Sie diese Messung erst mit Luft und dann mit dem Edelgas Argon durch und überprüfen Sie, ob $\kappa$ mit der Erwartung
 
