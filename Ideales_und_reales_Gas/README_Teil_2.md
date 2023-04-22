@@ -127,7 +127,7 @@ Für die weiteren Betrachtungen machen wir die Annahme
 V_{\mathrm{fl}}<<V_{\mathrm{d}}
 ```
 
- und betrachten den Dampf als ideales Gas mit: 
+ und betrachten den Dampf als ideales Gas mit 
 
 ```math
 \begin{equation*}
