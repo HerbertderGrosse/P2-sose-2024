@@ -14,7 +14,7 @@ Den Volumendurchfluss (Volumenstrom)
 
 durch die Ansaugöffnung einer Pumpe bezeichnet man als **Saugvermögen**. Je nach Druck ($p$) und Temperatur ($T$) eines Gases verändert sich die Stoffmenge ($n$) des geförderten Gases bei gleichem Volumendurchfluss.
 
-Die Menge eines Gases kann man durch seine Masse $m$ abschätzen. Bei Gasen gebräuchlicher ist jedoch die Angabe durch das Produkt $p\,V$, das nach der idealen Gasgleichung 
+Die Menge eines Gases kann man durch seine Masse $m$ abschätzen. Bei Gasen gebräuchlicher ist jedoch die Angabe durch das Produkt $pV$, das nach der idealen Gasgleichung 
 
 ```math
 \begin{equation*}
@@ -38,15 +38,15 @@ von Relevanz, der entsprechend auch als **$pV$-Durchfluss**
 q_{pV} = \frac{\mathrm{d}(p\,V)}{\mathrm{dt}}
 ```
 
-angegeben wird. Beachten Sie dass $q_{pV}$ zwar zu $q_{m}$ äquivalent, aber nicht damit identisch ist, der $pV$-Durchfluss trägt z.B. die Einheit einer Leistung.   
+angegeben wird. Beachten Sie dass $q_{pV}$ zwar zu $q_{m}$ proportional, aber nicht damit identisch ist, der $pV$-Durchfluss wird z.B. in Einheiten einer Leistung angegeben.   
 
-Die **Saugleistung** einer Pumpe wird entweder durch $q_{m}$ oder $q_{pV}$ an der Ansaugöffnung angegeben. Bei konstantem Druck $p$ gilt der einfache Zusammenhang 
+Die **Saugleistung** einer Pumpe wird entweder durch $q_{m}$ oder (im Sinne der Namensgebung intuitiver) $q_{pV}$ an der Ansaugöffnung der Pumpe angegeben. Bei konstantem Druck $p$ gilt der einfache Zusammenhang 
 
 ```math
 q_{pV} = \left.\frac{\mathrm{d}(p\,V)}{\mathrm{d}t}\right|_{p=const.} = p\frac{\mathrm{d}V}{\mathrm{d}t} = p\,S
 ```
 
-Der Begriff der Saugleistung darf nicht mit dem Saugvermögen verwechselt werden. Die Saugleistung gibt die tatsächlich pro Zeiteinheit von der Pumpe abtransportierte Gasmenge an; das Saugvermögen ist die von der Pumpe pro Zeiteinheit *zur Verfügung gestellte* (maximale) "Transportkapazität". 
+Der Begriff der Saugleistung darf nicht mit dem Saugvermögen verwechselt werden. Die Saugleistung gibt die, bei einem realen Saugvorgang, tatsächlich pro Zeiteinheit von der Pumpe abtransportierte Gasmenge an; das Saugvermögen ist die von der Pumpe pro Zeiteinheit *zur Verfügung gestellte* (maximale) "Transportkapazität". Das Saugvermögen entspricht also der maximal möglichen Saugleistung der Pumpe und ist damit eine von Umgebungsparametern unabhängige Kenngröße einer Pumpe.
 
 Wenn wir beim Saugvorgang von einer adiabatischen Zustandsänderung ($\delta Q=0$) ausgehen gilt: 
 
@@ -82,7 +82,7 @@ Für Ihre Messungen nutzen Sie diese Beziehung aus, um $S$ aus dem Verlauf von $
 
 ### Hinweise zur Durchführung
 
-Im Experiment messen Sie die *Saugleistung*, die vom Druck in der Apparatur abhängt, möglichst nah an der Ansaugöffnung. Sie steigt während die Pumpe anläuft an, nimmt einen nahezu konstanten Wert an, sobald sie der maximalen Absaugkapazität —und damit dem Saugvermögen der Pumpe— entspricht und fällt wieder ab, sobald andere Größen, wie z.B. Lecks in der Apparatur oder Ausgasungen von Schmiermitteln den Druck im erzeugten Vakuum dominieren.  
+Im Experiment messen Sie die *Saugleistung* (die vom Druck in der Apparatur abhängt) möglichst nah an der Ansaugöffnung der Pumpe. (Beachten Sie hierzu die Anmerkungen zu Aufgabe 3.) Sie steigt während die Pumpe anläuft an, nimmt einen nahezu konstanten Wert an, sobald sie der maximalen Absaugkapazität —und damit dem Saugvermögen der Pumpe— entspricht und fällt wieder ab, sobald andere Größen, wie z.B. Lecks in der Apparatur oder die Dampfdruckkurve von Schmier- und/oder Dichtungsmitteln den Druck im erzeugten Vakuum dominieren.  
 
 ## Aufgabe 3: Strömungsleitwert eines dünnen Metallrohrs
 
@@ -96,9 +96,9 @@ q_{pV} = L\left(p_{2}-p_{1}\right)
 
 gegeben, wobei $p_{1}$ dem Druck vor und $p_{2}$ dem Druck hinter dem Leitungselement entsprechen. Den Proportionalitätsfaktor $L$ bezeichnet man als **Strömungsleitwert**. Der Kehrwert von $L$ wird als Strömungswiderstand bezeichnet. 
 
-Eine Pumpe schließt nur selten direkt an die zu evakuierende Apparatur an. Ist dies nicht der Fall ist das Saugvermögen der Pumpe durch den Gesamtleitwert der verbindenden Leitungselemente reduziert. 
+Eine Pumpe schließt nur selten direkt an die zu evakuierende Apparatur an. Ist dies nicht der Fall, ist das Saugvermögen der Pumpe durch den Gesamtleitwert der verbindenden Leitungselemente reduziert. 
 
-Nimmt man an, dass sich die Temperatur des Gases während des Durchflusses durch das Leitungselement nicht wesentlich ändert, dass also der $pV$-Durchfluss durch das Leitungselement konstant ist so erhält man für das effektive Saugvermögen $S_{\mathrm{eff}}$ hinter dem Leitungselement den Zusammenhang 
+Nimmt man an, dass sich die Temperatur des Gases während des Durchflusses durch das (die) Leitungselement(e) nicht wesentlich ändert, so dass also der $pV$-Durchfluss durch das (die) Leitungselement(e) konstant ist, so erhält man für das effektive Saugvermögen $S_{\mathrm{eff}}$ hinter dem (den) Leitungselement(en) den Zusammenhang 
 
 ```math
 \begin{equation*}
@@ -120,7 +120,13 @@ Für $S_{\mathrm{eff}}$ folgt also:
 &\frac{p_{2}}{p_{1}} = \frac{S}{L}+1;\\
 &\\
 &\frac{S_{\mathrm{eff}}}{L} = \left(1-\frac{p_{1}}{p_{2}}\right) = \left(1-\frac{L}{S+L}\right) = \frac{S}{S+L}; \\
-&\\
+\end{split}
+\end{equation*}
+```
+
+```math
+\begin{equation*}
+\begin{split}
 &\left(S+L\right)\,S_{\mathrm{eff}} = S\,L;
 &\\
 &\\
@@ -131,7 +137,11 @@ Für $S_{\mathrm{eff}}$ folgt also:
 &S_{\mathrm{eff}} = \left(\frac{1}{L} + \frac{1}{S}\right)^{-1}
 \end{split}
 \end{equation*}
+
+### 
 ```
+
+
 
 ### Hinweise zur Durchführung
 
