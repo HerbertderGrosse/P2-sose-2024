@@ -120,6 +120,13 @@ Für $S_{\mathrm{eff}}$ folgt also:
 &\frac{p_{2}}{p_{1}} = \frac{S}{L}+1;\\
 &\\
 &\frac{S_{\mathrm{eff}}}{L} = \left(1-\frac{p_{1}}{p_{2}}\right) = \left(1-\frac{L}{S+L}\right) = \frac{S}{S+L}; \\
+&\left(S+L\right)\,S_{\mathrm{eff}} = S\,L; \\
+&\\
+&\frac{S+L}{S\,L} = \frac{1}{S_{\mathrm{eff}}} \\
+&\\
+&\frac{1}{L} + \frac{1}{S} = \frac{1}{S_{\mathrm{eff}}} \\
+&\\
+&S_{\mathrm{eff}} = \left(\frac{1}{L} + \frac{1}{S}\right)^{-1} \\
 \end{split}
 \end{equation*}
 ```
@@ -127,14 +134,13 @@ Für $S_{\mathrm{eff}}$ folgt also:
 ```math
 \begin{equation*}
 \begin{split}
-&\left(S+L\right)\,S_{\mathrm{eff}} = S\,L;
-&\\
+&\left(S+L\right)\,S_{\mathrm{eff}} = S\,L; \\
 &\\
 &\frac{S+L}{S\,L} = \frac{1}{S_{\mathrm{eff}}} \\
 &\\
 &\frac{1}{L} + \frac{1}{S} = \frac{1}{S_{\mathrm{eff}}} \\
 &\\
-&S_{\mathrm{eff}} = \left(\frac{1}{L} + \frac{1}{S}\right)^{-1}
+&S_{\mathrm{eff}} = \left(\frac{1}{L} + \frac{1}{S}\right)^{-1} \\
 \end{split}
 \end{equation*}
 
