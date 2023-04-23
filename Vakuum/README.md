@@ -131,35 +131,8 @@ Für $S_{\mathrm{eff}}$ folgt also:
 \end{equation*}
 ```
 
-```math
-\begin{equation*}
-\begin{split}
-&\left(S+L\right)\,S_{\mathrm{eff}} = S\,L; \\
-&\\
-&\frac{S+L}{S\,L} = \frac{1}{S_{\mathrm{eff}}} \\
-&\\
-&\frac{1}{L} + \frac{1}{S} = \frac{1}{S_{\mathrm{eff}}} \\
-&\\
-&S_{\mathrm{eff}} = \left(\frac{1}{L} + \frac{1}{S}\right)^{-1} \\
-\end{split}
-\end{equation*}
-
-### 
-```
-
-
-
 ### Hinweise zur Durchführung
 
 Den Verlauf von $\ln\left(p/p_{0}\right)(t)$ bei T1 nehmen Sie hier als Konsistenzmessung relativ zu Aufgabe 2. Beachten Sie, dass Sie die Apparatur in der Zwischenzeit belüftet, geöffnet und wieder geschlossen haben. 
 
-Beachten Sie für Ihre Diskussion der Druckverläufe bei T1 und T2 Abb. 1.1 im dem Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf). Sie können für den Vergleich mit der Erwartung die Gleichungen (1.28) aus dem Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf) verwenden.  
-
-
-
-
-
- 
-
-
-
+Beachten Sie für Ihre Diskussion der Druckverläufe bei T1 und T2 Abb. 1.1 im Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf). Sie können für den Vergleich mit der Erwartung die Gleichungen (1.28) aus dem Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf) verwenden.  
