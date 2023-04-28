@@ -2,7 +2,7 @@
 
  
 
-## Aufgabe 2: Saugvermögen der DSP
+## Aufgabe 2: Druckabhängige Saugleistung und Saugvermögen der DSP
 
 ### Prinzip der Messung
 
@@ -78,11 +78,27 @@ wobei $V$ dem Volumen der evakuierten Apparatur entspricht. Für eine Pumpe, die
 
 erwarten, wobei $p_{0}$ dem Anfangs- (z.B. Umgebungs-)druck zum Zeitpunkt $t_{0}$ zu Beginn des Pumpvorgangs entspricht. 
 
-Für Ihre Messungen nutzen Sie diese Beziehung aus, um $S$ aus dem Verlauf von $\ln(p/p_{0})$ als Funktion von $\Delta t = (t - t_{0})$ abzuschätzen. 
+Für Ihre Messungen nutzen Sie diese Beziehung aus, um $S$ aus dem Verlauf von $\ln(p/p_{0})$ als Funktion von $p$ abzuschätzen. 
 
 ### Hinweise zur Durchführung
 
-Im Experiment messen Sie die *Saugleistung* (die vom Druck in der Apparatur abhängt) möglichst nah an der Ansaugöffnung der Pumpe. (Beachten Sie hierzu die Anmerkungen zu Aufgabe 3.) Sie steigt während die Pumpe anläuft an, nimmt einen nahezu konstanten Wert an, sobald sie der maximalen Absaugkapazität —und damit dem Saugvermögen der Pumpe— entspricht und fällt wieder ab, sobald andere Größen, wie z.B. Lecks in der Apparatur oder die Dampfdruckkurve von Schmier- und/oder Dichtungsmitteln den Druck im erzeugten Vakuum dominieren.  
+Im Experiment messen Sie die *Saugleistung* (die vom Druck in der Apparatur abhängt) möglichst nah an der Ansaugöffnung der Pumpe. (Beachten Sie hierzu die Anmerkungen zu Aufgabe 3.) Sie steigt während die Pumpe anläuft an, nimmt einen nahezu konstanten Wert an, sobald sie der maximalen Absaugkapazität —und damit dem Saugvermögen der Pumpe— entspricht und fällt wieder ab, sobald andere Größen, wie z.B. Lecks in der Apparatur oder die Dampfdruckkurve von Schmier- und/oder Dichtungsmitteln den Druckverlauf im erzeugten Vakuum dominieren.  
+
+Tragen Sie die Größe 
+
+```math
+S^{\prime}(p) = -\frac{\ln(p/p_{0})\,V}{t-t_{0}}
+```
+
+als Funktion von $p$ auf. Die Größe $S^{\prime}(p)$ sollte dem zuvor beschriebenen Verlauf folgen, im Maximum deutlich abflachen und dann über einen weiten Bereich von $p$ unabhängig sein. Sie können $S$ aus dem Mittelwert $\bar{S}^{\prime}$ der Messpunkte bestimmen, für die dies der Fall ist. Eine Abschätzung für die Unsicherheit auf $\bar{S}^{\prime}$ erhalten Sie aus der [Stichprobenvarianz](https://de.wikipedia.org/wiki/Stichprobenvarianz_(Sch%C3%A4tzfunktion)) ($s^{2}(S^{\prime})$) der Messpunkte, die Sie für die Berechnung von $\bar{S}^{\prime}$verwendet haben:
+
+```math
+\Delta S = \sqrt{\frac{s^{2}\left[S^{\prime}\right]}{n}},
+```
+
+wobei $n$ der Anzahl der verwendeten Messpunkte entspricht. Beachten Sie die Bessel-Korrektur bei der Berechnung von $s^{2}\left[S^{\prime}\right]$ für die Stichprobe, aus der Sie gleichzeitig $\bar{S}^{\prime}$ bestimmt haben.
+
+Für die Messpunkte in $p$ für die $S^{\prime}$ von $p$ unabhängig ist sollte der Verlauf von $p(t)$ exponentiell abfallen, woraus Sie durch die Anpassung eines geeigneten Modells ebenfalls $S$ und $\Delta S$ bestimmen können.
 
 ## Aufgabe 3: Strömungsleitwert eines dünnen Metallrohrs
 
@@ -135,4 +151,11 @@ Für $S_{\mathrm{eff}}$ folgt also:
 
 Den Verlauf von $\ln\left(p/p_{0}\right)(t)$ bei T1 nehmen Sie hier als Konsistenzmessung relativ zu Aufgabe 2. Beachten Sie, dass Sie die Apparatur in der Zwischenzeit belüftet, geöffnet und wieder geschlossen haben. 
 
-Beachten Sie für Ihre Diskussion der Druckverläufe bei T1 und T2 Abb. 1.1 im Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf). Sie können für den Vergleich mit der Erwartung die Gleichungen (1.28) aus dem Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf) verwenden.  
+Beachten Sie für Ihre Diskussion der Druckverläufe bei T1 und T2 Abb. 1.1 im Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf). Sie können für den Vergleich mit der Erwartung die Gleichungen (1.28) aus dem Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf) verwenden. Versuchen Sie abzuschätzen welche Art von Strömung an der Ansaugöffnung vorherrscht.  
+
+## Aufgabe 4: Druckabhängige Saugleistung der TMP
+
+### Hinweise zur Durchführung
+
+In diesem Fall genügt der Auftrag von $S^{\prime}(p)$ und eine sorgfältige Diskussion dessen, was Sie beobachten. Beachten Sie, dass für diese Aufgabe zwei Pumpen im Einsatz sind. 
+
