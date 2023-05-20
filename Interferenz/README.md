@@ -42,7 +42,7 @@ Einige Gedanken zum Spalt, der sich am Eingang des Spektrometers befindet. Es ha
 
 - Frage: Wie breit dürfte der Spalt höchstens eingestellt werden, um die Linsendurchmesser des Spektrometers (und damit auch die Spaltanzahl des Gitters) ausnutzen zu können?
 
-## Spektralllampe
+## Spektrallampe
 
 Die normale Lebensdauer angeregter Atomzustände (d.h. weder "verbotene" Übergänge, noch "metastabile" Zustände) ist etwa $10\,\mathrm{ns}$. Daraus folgt nach der [Heisenbergschen Unschärferelation](https://de.wikipedia.org/wiki/Heisenbergsche_Unsch%C3%A4rferelation) eine natürliche Energie- und damit Wellenlängenunschärfe $\Delta\lambda\approx10^{-5}\,\mathrm{nm}$. Da aber in einer Gasentladung die strahlenden Atome nicht in Ruhe sind, tritt zusätzlich Linienverbreiterung durch den [Doppler-Effekt](https://de.wikipedia.org/wiki/Doppler-Effekt) auf. Das angeregte Gas in den verwendeten Lampen ist nicht viel heißer als Zimmertemperatur. Die kinetische Gastheorie liefert die mittlere Teilchengeschwindigkeit von $\langle v\rangle\approx600\,\mathrm{m/s}$.
 
