@@ -4,6 +4,8 @@
 
 Dieser Versuch wird **nicht von allen Studierenden**, sondern nur von den Gruppen 1–20 durchgeführt. Die Vorbesprechung des Versuchs findet an jedem Praktikumstag zwischen 14:00–14:30 statt.
 
+**Beachten Sie**: Für diesen Versuch benötigen Sie einen USB-Datenträger zum Datentransfer. 
+
 ##  Aufgabe 1: Spezifische Wärmekapazität
 
 ### Prinzip der Messung
