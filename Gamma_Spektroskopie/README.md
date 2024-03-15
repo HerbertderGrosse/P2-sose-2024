@@ -30,7 +30,7 @@ Szintillationsphotonen führt. Gelingt es diese Photonen einzusammeln und (wiede
 
 Am [CMS Experiment](https://cms.cern/detector/measuring-energy/energy-electrons-and-photons-ecal) des LHC verwendet man z.B. Bleiwolframat ($\mathrm{PbWO_{3}}$)-Einkistalle, um hoch-energetische Photonen und Elektronen im Kalorimeter auf die kurze Distanz von $\approx30\,\mathrm{cm}$ möglichst zu stoppen und ihre Energie zu bestimmen. 
 
-## Lernziele
+## Lehrziele
 
 Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem Versuch **Gammaspektroskopie** vermitteln möchten: 
 
