@@ -164,7 +164,7 @@ abgeschätzt werden, wobei $\sigma_{V}$ einen festen Wert hat, der aus der Varia
 
 Die schematische Darstellung eines zu erwartenden mit einem Photondetektor aufgezeichneten Spektrums für einen Strahl mono-energetischer Photonen mit der Energie $E_{\gamma}$ ist in **Abbildung 7** gezeigt:
 
-<img src="/home/rwolf/Data/Vorlesungen/2024/students/Gamma_Spektroskopie/figures/GammaSpektrum.png" width="900" style="zoom:100%;" />
+<img src="../figures/GammaSpektrum.png" width="900" style="zoom:100%;" />
 
 **Abbildung 7**: (Schematische Darstellung eines zu erwartenden mit einem Photondetektor aufgezeichneten Spektrums für einen Strahl mono-energetischer Photonen der Energie $E_{\gamma}$, nach [H. Kolanoski, N. Wermes *Teilchendetektoren* (DOI 10.1007/978-3-45350-6)](file:///home/rwolf/Downloads/978-3-662-45350-6-1.pdf).)
 
@@ -174,11 +174,11 @@ Es handelt sich dabei um ein Histogramm. Auf der $x$-Achse sind die Kanäle des 
 
 In der Abbildung sind die folgenden grundlegenden Eigenschaften eines Gammaspektrums klar zu erkennen:
 
-- Der **Photopeak** bei $E_{\gamma}$ resultiert aus der vollständigen Absorption der nachgewiesenen Photonen.
+- Der **Photopeak** bei $E_{\gamma}$ resultiert aus der vollständigen Absorption der nachgewiesenen Photonen. Wir erwarten eine Normalverteilung deren Erwartungswert mit $\mu_{Q}$ wir $E_{\gamma}$ zuordnen können.
 
 - Einträge rechts des Photopeaks sind auf Energie-Depositionen mehrerer zeitgleich nachgewiesener Photonen (**pile-up**) zurückzuführen. 
 
-- Das **Compton-Kontinuum** resultiert aus Ereignissen bei denen das einlaufende Photon ein Elektron aus dem Detektormaterial ausgelöst und dann den Detektor wieder verlassen hat. Die **Compton-Kante** entspricht dabei der Rückstreuung mit $\theta=180^{\circ}$. Die Compton-Kante ist für das Spektrum ebenso charakteristisch, wie der Photopeak. Sie befindet sich im Spektrum im festen Abstand 
+- Das **Compton-Kontinuum** resultiert aus Ereignissen bei denen $\gamma$ ein Elektron aus dem Detektormaterial ausgelöst und dann den Detektor wieder verlassen hat. Die **Compton-Kante** entspricht dabei der Rückstreuung mit $\theta=180^{\circ}$. Die Compton-Kante ist für das Spektrum ebenso charakteristisch, wie der Photopeak. Sie befindet sich im Spektrum im festen Abstand 
 
   ```math
   \begin{equation*}
