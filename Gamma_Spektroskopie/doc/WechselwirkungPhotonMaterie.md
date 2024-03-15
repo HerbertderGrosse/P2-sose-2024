@@ -74,7 +74,7 @@ Zwar stimmen die auf quasi-klassischem Wege bestimmten Beziehungen für $E_{\mat
 
 ---
 
-Auf der $x$-Achse ist die Energie $E_{\mathrm{e}}'$, auf der $y$-Achse der Wirkungsquerschnitt $\mathrm{d}\sigma_{\mathrm{C.E.}}/\mathrm{d}E_{\mathrm{e}'}$  aufgetragen. Die vertikale Linie rechts im Bild markiert die vollständige Absorption von $\gamma$ im Detektor, z.B. durch den Photoeffekt.  
+Auf der $x$-Achse ist die Energie $E_{\mathrm{e}}'$, auf der $y$-Achse der Wirkungsquerschnitt $\mathrm{d}\sigma_{\mathrm{C.E.}}/\mathrm{d}E_{\mathrm{e}}'$  aufgetragen. Die vertikale Linie rechts im Bild markiert die vollständige Absorption von $\gamma$ im Detektor, z.B. durch den Photoeffekt.  
 
 Die Abhängigkeit von $\sigma_{\mathrm{C.E.}}$ von $Z$ und $E_{\gamma}$ beträgt 
 $$
