@@ -1,0 +1,46 @@
+# Hinweise für den Versuch Gammaspektroskopie
+
+## Radioaktive Strahlung
+
+### Einordnung von $\gamma$-Strahlen
+
+Grundsätzlich unterscheidet man drei Formen radioaktiver Strahlung:
+
+- **$\alpha$-Strahlung**, d.h. Abstrahlung eines $\mathrm{He}$-Kerns. Die Kernladungszahl $Z$ und Massenzahl $A$ des Mutterkerns nehmen dabei jeweils um zwei ab.
+- **$\beta$-Strahlung**, d.h. Abstrahlung eines Elektrons (oder Positrons). Die Kernladungszahl $Z$ des Mutterkerns nimmt dabei um eins (Elektron) zu oder (Positron) ab, die Massenzahl $A$ bleibt gleich. 
+- **$\gamma$-Strahlung**, d.h. Abstrahlung eines hoch-energetischen Lichtteilchens (Photons, $\gamma$). Sowohl die Kernladungszahl $Z$, als auch die Massenzahl $A$ des Mutterkerns bleiben dabei gleich. 
+
+Im Versuch Gammaspektroskopie treten sowohl $\beta$- als auch $\gamma$-Strahlung auf. Zur Einordnung von $\gamma$-Strahlung geben wir einige Energiebereiche von Licht an: 
+
+- $\gamma$-Strahlung: $\mathcal{O}(\mathrm{MeV})$;
+- Röntgenstrahlen: $\mathcal{O}(\mathrm{keV})$;
+- Sichtbares Licht ($\lambda_{\mathrm{blau}}=400\,\mathrm{nm}$): $3\,\mathrm{eV}$;
+- Sichtbares Licht ($\lambda_{\mathrm{rot}}=800\,\mathrm{nm}$): $1.5\,\mathrm{eV}$.
+
+Die Energie der $\gamma$-Strahlung, die für Vorgänge der Kernphysik charakteristisch ist, liegt also drei Größenordnungen über der Energie der Röntgenstrahlung, die für Vorgänge der Atomphysik charakteristisch ist, und sechs Größenordnungen über der Energie sichtbaren Lichts, die unser Alltagsleben bestimmt. Dies erklärt sich aus der Kleinheit des Kerns, in dem neben der starken Kernkraft, auch sehr starke elektromagnetische Kräfte wirken. Das Verhältnis Kern- zu Atomausdehnung von $\approx1000$ erklärt den Unterschied zwischen $\gamma$- und Röntgenstrahlung. 
+
+### Radioaktive Quellen für diesen Versuch
+
+Für diesen Versuch verwenden wir drei in Technik, Medizin und Lehre häufig verwendete radioaktive Quellen, $^{137}_{\hphantom{0}55}\mathrm{Cs}$ ([Cäsium-137](https://en.wikipedia.org/wiki/Caesium-137)),  $^{60}_{27}\mathrm{Co}$ ([Cobald-60](https://en.wikipedia.org/wiki/Cobalt-60)) und $^{22}_{11}\mathrm{Na}$ ([Natrium-22](https://en.wikipedia.org/wiki/Isotopes_of_sodium)). Cäsium zerfällt durch $\beta^{-}$-Strahlung in Barium, Cobald in Nickel und Natrium durch $\beta^{+}$-Strahlung in Neon. In allen drei Fällen treten angeregte Zustände der Tochterkerne auf, die durch anschließende $\gamma$-Strahlung in ihren Grundzustand übergehen. Die relevanten Zerfallsschemata und weitere Details zu den Zerfällen können Sie **Abbildung 1** entnehmen:
+
+<img src="../figures/Quellen.png" width="900" style="zoom:100%;" />
+
+**Abbildung 1** (Zerfallsschemata von (links) Cäsium-137, (mitte) Cobald-60 und (rechts) Natrium-22)
+
+---
+
+Wie diese Zerfälle genau ablaufen lernen Sie in den Experimentalphysik-Vorlesungen des Bachelor-Studiums kennen. Weitere technische Daten über die entsprechenden Isotope können Sie [hier](https://www.periodensystem-online.de/index.php) erhalten. 
+
+Die Elektronen und Positronen der entstehenden $\beta$-Strahlung können durch dünne Metallschichten bereits hinreichend abgeschirmt werden. Sie haben für diesen Versuch keine Bedeutung. Für diesen Versuch von Relevanz sind die entstehenden $\gamma$-Strahlen mit den folgenden Energien: 
+
+- 0.96617 MeV (aus dem Zerfall von Cäsium-137),
+- 1.1732 MeV (aus dem Zerfall von Cobald-60),
+- 1.3325 MeV (aus dem Zerfall von Cobald-60),
+- 1.2745 MeV (aus dem Zerfall von Na-22).
+
+Im Rahmen dieses Versuchs werden Sie die $\gamma$-Spektren der oben genannten Quellen charakterisieren und u.a. die oben genannten Energien zur Kalibration Ihres Messaufbaus verwenden. 
+
+# Navigation
+
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel) | [Weiter](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/tree/main/Kreisel/doc/Hinweise-Aufgabe-1-a.md)
+
