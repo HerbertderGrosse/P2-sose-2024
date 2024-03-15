@@ -21,7 +21,7 @@ Die Energie der $\gamma$-Strahlung, die für Vorgänge in der Kernphysik charakt
 
 ### Radioaktive Quellen für diesen Versuch
 
-Für diesen Versuch verwenden wir drei in Technik, Medizin und Lehre häufig verwendete radioaktive Quellen, [Cäsium-137](https://en.wikipedia.org/wiki/Caesium-137),  [Cobald-60](https://en.wikipedia.org/wiki/Cobalt-60) und [Natrium-22](https://en.wikipedia.org/wiki/Isotopes_of_sodium). Cäsium zerfällt durch $\beta^{-}$-Strahlung in Barium, Cobald in Nickel und Natrium durch $\beta^{+}$-Strahlung in Neon. In allen drei Fällen treten angeregte Zustände der Tochterkerne auf, die durch anschließende $\gamma$-Strahlung in ihren Grundzustand übergehen. Die relevanten Zerfallsschemata und weitere Details zu den Zerfällen können Sie **Abbildung 1** entnehmen:
+Für diesen Versuch verwenden wir drei in Technik, Medizin und Lehre häufig verwendete radioaktive Quellen, $_{\hphantom{0}55}^{137}\mathrm{Cs} ($ [Cäsium-137](https://en.wikipedia.org/wiki/Caesium-137)),  [Cobald-60](https://en.wikipedia.org/wiki/Cobalt-60) und [Natrium-22](https://en.wikipedia.org/wiki/Isotopes_of_sodium). Cäsium zerfällt durch $\beta^{-}$-Strahlung in Barium, Cobald in Nickel und Natrium durch $\beta^{+}$-Strahlung in Neon. In allen drei Fällen treten angeregte Zustände der Tochterkerne auf, die durch anschließende $\gamma$-Strahlung in ihren Grundzustand übergehen. Die relevanten Zerfallsschemata und weitere Details zu den Zerfällen können Sie **Abbildung 1** entnehmen:
 
 <img src="../figures/Quellen.png" width="1200" style="zoom:100%;" />
 
