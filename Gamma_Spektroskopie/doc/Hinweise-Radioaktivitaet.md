@@ -7,17 +7,17 @@
 Grundsätzlich unterscheidet man drei Formen radioaktiver Strahlung:
 
 - **$\alpha$-Strahlung**, d.h. Abstrahlung eines $\mathrm{He}$-Kerns. Die Kernladungszahl $Z$ und Massenzahl $A$ des Mutterkerns nehmen dabei jeweils um zwei ab.
-- **$\beta$-Strahlung**, d.h. Abstrahlung eines Elektrons (oder Positrons). Die Kernladungszahl $Z$ des Mutterkerns nimmt dabei um eins (Elektron) zu oder (Positron) ab, die Massenzahl $A$ bleibt gleich. 
-- **$\gamma$-Strahlung**, d.h. Abstrahlung eines hoch-energetischen Lichtteilchens (Photons, $\gamma$). Sowohl die Kernladungszahl $Z$, als auch die Massenzahl $A$ des Mutterkerns bleiben dabei gleich. 
+- **$\beta$-Strahlung**, d.h. Abstrahlung eines Elektrons (oder Positrons). Dabei nimmt $Z$ um eins (Elektron) zu oder (Positron) ab und $A$ bleibt gleich. 
+- **$\gamma$-Strahlung**, d.h. Abstrahlung eines (hoch-energetischen) Lichtteilchens (Photons, $\gamma$). Dabei bleiben sowohl $Z$, als auch $A$ gleich. 
 
-Im Versuch Gammaspektroskopie treten sowohl $\beta$- als auch $\gamma$-Strahlung auf. Zur Einordnung von $\gamma$-Strahlung geben wir einige Energiebereiche von Licht an: 
+Im Versuch Gammaspektroskopie treten sowohl $\beta$- als auch $\gamma$-Strahlung auf. Zur Einordnung der $\gamma$-Strahlung geben wir einige Energiebereiche von Licht an, die Ihnen geläufig sein sollten: 
 
 - $\gamma$-Strahlung: $\mathcal{O}(\mathrm{MeV})$;
 - Röntgenstrahlen: $\mathcal{O}(\mathrm{keV})$;
 - Sichtbares Licht ($\lambda_{\mathrm{blau}}=400\,\mathrm{nm}$): $3\,\mathrm{eV}$;
 - Sichtbares Licht ($\lambda_{\mathrm{rot}}=800\,\mathrm{nm}$): $1.5\,\mathrm{eV}$.
 
-Die Energie der $\gamma$-Strahlung, die für Vorgänge der Kernphysik charakteristisch ist, liegt also drei Größenordnungen über der Energie der Röntgenstrahlung, die für Vorgänge der Atomphysik charakteristisch ist, und sechs Größenordnungen über der Energie sichtbaren Lichts, die unser Alltagsleben bestimmt. Dies erklärt sich aus der Kleinheit des Kerns, in dem neben der starken Kernkraft, auch sehr starke elektromagnetische Kräfte wirken. Das Verhältnis Kern- zu Atomausdehnung von $\approx1000$ erklärt den Unterschied zwischen $\gamma$- und Röntgenstrahlung. 
+Die Energie der $\gamma$-Strahlung, die für Vorgänge in der Kernphysik charakteristisch ist, liegt also drei Größenordnungen über der Energie der Röntgenstrahlung, die für Vorgänge in der Atomphysik charakteristisch ist, und sechs Größenordnungen über der Energie sichtbaren Lichts, das unser Alltagsleben bestimmt. Die Skalen erklären sich aus der Kleinheit des Kerns, in dem neben der starken Kernkraft, auch sehr starke elektromagnetische Kräfte wirken. Das Verhältnis Kern- zu Atomausdehnung von $\approx1000$ erklärt den Unterschied zwischen $\gamma$- und Röntgenstrahlung. 
 
 ### Radioaktive Quellen für diesen Versuch
 
