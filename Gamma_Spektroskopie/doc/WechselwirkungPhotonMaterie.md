@@ -85,17 +85,17 @@ $$
 
 ### Paarbildung
 
-Aus Gründen der Energie- und Impulserhaltung ist dieser Prozess nur oberhalb der kinematischen Schwelle von $E_{\gamma}\gtrsim 2\,m_{\mathrm{e}}c^{2}$ und auch nur im elektrischen Feld, z.B. eines Atomkerns möglich. Erstmals wurde dieser Prozess 1934 von Hans Bethe und Walter Heitler gemeinsam mit dem Prozess der Bremsstrahlung (zu dem der Prozess der Paarbildung sehr ähnlich ist) beschrieben und erklärt, weshalb beide Prozesse auch als Bethe-Heitler-Prozesse bezeichnet werden. 
+Aus Gründen der Energie- und Impulserhaltung ist dieser Prozess nur oberhalb der kinematischen Schwelle von $E_{\gamma}\gtrsim 2\,m_{\mathrm{e}}c^{2}$ und auch nur im elektrischen Feld, z.B. eines Atomkerns möglich. Erstmals wurde dieser Prozess 1934 von [Hans Bethe](https://de.wikipedia.org/wiki/Hans_Bethe) und [Walter Heitler](https://de.wikipedia.org/wiki/Walter_Heitler) gemeinsam mit dem zur Paarbildung sehr ähnlichen Prozess der Bremsstrahlung beschrieben und erklärt, weshalb beide Prozesse auch als Bethe-Heitler-Prozesse bezeichnet werden. 
 
-Die Abhängigkeit von $\sigma_{\mathrm{pair}}$ von $Z$ beträgt 
+Für $E_{\gamma}\gg m_{\mathrm{e}}c^{2}$ ist $\sigma_{\mathrm{pair}}$ unabhängig von $E_{\gamma}$, die Abhängigkeit von $\sigma_{\mathrm{pair}}$ von $Z$ beträgt 
 $$
 \begin{equation*}
 \sigma_{\mathrm{pair}}(E_{\gamma}, Z)\propto Z^{2}.
 \end{equation*}
 $$
-Für $E_{\gamma}\gg m_{\mathrm{e}}c^{2}$ ist $\sigma_{\mathrm{pair}}$ unabhängig von $E_{\gamma}$. Die Paarbildung erfolgt insbesondere für schwere Kerne in erster Linie im hohen elektrischen Feld des Atomkerns; das elektrische Feld der Elektronen in der Atomhülle spielt nur bei sehr leichten Elementen eine Rolle. 
+insbesondere für schwere Kerne erfolgt Paarbildung vor allem im hohen elektromagnetischen Feld des Atomkerns; das elektromagnetische Feld der Elektronen in der Atomhülle spielt nur bei sehr leichten Elementen eine Rolle. 
 
-Im Material wird das Positron abgebremst, bis es mit einem Elektron aus dem Material rekombiniert und über den Prozess der [Elektron-Positron-Annihiliation](https://de.wikipedia.org/wiki/Annihilation) zerstrahlt. Aus dieser Reaktion gehen zwei, zueinander anti-parallel auslaufende Photonen mit der charakteristischen Energie $E_{\gamma}=m_{\mathrm{e}}c^{2}$ hervor, die selbst wieder mit dem Material in Wechselwirkung treten.
+Im Material wird das Positron abgebremst, bis es mit einem Elektron aus dem Material rekombiniert und über den Prozess der [Elektron-Positron-Annihiliation](https://de.wikipedia.org/wiki/Annihilation) zerstrahlt. Aus dieser Reaktion gehen zwei, zueinander anti-parallel auslaufende Photonen mit der charakteristischen Energie $E_{\gamma}=m_{\mathrm{e}}c^{2}$ hervor, die selbst wieder mit dem Material in Wechselwirkung treten können.
 
 # Navigation
 
