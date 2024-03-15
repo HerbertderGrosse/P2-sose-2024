@@ -1,4 +1,4 @@
-<img src="../figures/Logo_KIT.svg" width="200" style="float:right;" />
+<img src="https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/figures/Logo_KIT.svg" width="200" style="float:right;" />
 
 # Fakultät für Physik
 
