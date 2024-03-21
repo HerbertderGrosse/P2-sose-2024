@@ -59,8 +59,8 @@ Der Photodetektor wird mit Hochspannung (bei etwa $600\,\mathrm{V}$) betrieben u
 
 # Navigation
 
-- Mehr Informationen zu den in diesem Versuch verwendeten **radioaktiven Präparaten** finden Sie in der Datei [Hinweise-Praeparate.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gamma_Spektroskopie/doc/Hinweise-Praeparate.md).
-- Mehr Informationen zu den **Wechselwirkungen von Photonen mit Materie** finden Sie in der Datei [Hinweise-Wechselwirkungen.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gamma_Spektroskopie/doc/Hinweise-Wechselwirkungen.md).
-- Grundlegende Informationen zum Versuch und rund ums Thema **Gammaspektroskopie** finden Sie in der Datei [Hinweise-Gammaspektroskopie.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gamma_Spektroskopie/doc/Hinweise-Gammaspektroskopie.md). 
+- Mehr Informationen zu den in diesem Versuch verwendeten **radioaktiven Präparaten** finden Sie in der Datei [Hinweise-Praeparate.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gammaspektroskopie/doc/Hinweise-Praeparate.md).
+- Mehr Informationen zu den **Wechselwirkungen von Photonen mit Materie** finden Sie in der Datei [Hinweise-Wechselwirkungen.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gammaspektroskopie/doc/Hinweise-Wechselwirkungen.md).
+- Grundlegende Informationen zum Versuch und rund ums Thema **Gammaspektroskopie** finden Sie in der Datei [Hinweise-Gammaspektroskopie.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gammaspektroskopie/doc/Hinweise-Gammaspektroskopie.md). 
 - Wichtige Hinweise und **Tipps zur Versuchsdurchführung** finden Sie in der Datei [Hinweise-Versuchsdurchfuehrung.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gammaspektroskopie/doc/Hinweise-Versuchsdurchfuehrung.md).
 
