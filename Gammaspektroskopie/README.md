@@ -41,9 +41,13 @@ Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem
 
 ## Versuchsaufbau
 
-Ein typischer Versuchsaufbau ist in der folgenden Abbildung gezeigt:
+Ein typischer Versuchsaufbau ist in **Abbildung 1** gezeigt:
 
 <img src="./figures/Gammaspektroskopie.jpg" width="750" style="zoom:100%;" />
+
+**Abbildung 1** (Typischer Aufbau des Versuchs Gammaspektroskopie)
+
+---
 
 Der Photodetektor wird mit Hochspannung (bei etwa $600\,\mathrm{V}$) betrieben und ist auf ein Stativ montiert. Sie erhalten die radioaktiven Proben von Ihre:r Tutor:in. Sie sind in Aluminium-Zylinder eingeschlossen, die die $\beta$-Strahlung der Präparate hinreichend abschirmt. Zur Messung werden die Probenzylinder mit ihrer Stirnfläche in die Nähe der Stirnfläche des Photodetektors gebracht. Die im Detektor nachweisbare Intensität eintreffender $\gamma$-Strahlen hängt stark vom Abstand der Probe vom Detektor ab. Die Auslese des Signals erfolgt über einen [Vielkanalanalysators](https://de.wikipedia.org/wiki/Vielkanalanalysator) ([*Multichannel analyzer*](https://en.wikipedia.org/wiki/Multichannel_analyzer) MCA) vom Typ [Rep Pitaya](https://de.wikipedia.org/wiki/Red_Pitaya). Eine einfache graphische Benutzeroberfläche erlaubt die Beobachtung der aufgezeichneten Signale, während der Datennahme, unter Verwendung des MCA als [Oszilloskop](https://de.wikipedia.org/wiki/Oszilloskop) oder [Spektrumanalysator](https://de.wikipedia.org/wiki/Spektrumanalysator). Zur abschließenden Auswertung können Sie das aufgezeichnete Spektrum z.B. in [csv-Format](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) ausgeben lassen. 
 
