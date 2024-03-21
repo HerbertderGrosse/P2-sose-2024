@@ -142,13 +142,13 @@ $$
 $$
 gilt. Damit können wir $\sigma_{N_{\mathrm{e}}}$ als eine Unbekannte in den Gleichung **(2)** eliminieren und $\mu_{N_{\mathrm{e}}}$ wie folgt abschätzen:
 $$
-\begin{equation*}
+\begin{equation}
 \begin{split}
 &\frac{\mu_{Q}}{\sigma_{Q}} = \frac{C\,\mu_{N_{\mathrm{e}}}}{C\,\sigma_{N_{\mathrm{e}}}} = \frac{C\,\mu_{N_{\mathrm{e}}}}{C\,\sqrt{\mu_{N_{\mathrm{e}}}}} = \sqrt{\mu_{N_{\mathrm{e}}}};\\
 &\\
 &\mu_{N_{\mathrm{e}}} = \left(\frac{\mu_{Q}}{\sigma_{Q}}\right)^{2}.
 \end{split}
-\end{equation*}
+\end{equation}
 $$
 Wir klären abschließend noch, warum $\sigma_{Q}$ durch $\mu_{N_{\mathrm{e}}}$ besimmt wird, während z.B. die Vervielfachung im SEV, trotz ihrer statistischen Natur, keine Rolle zu spielen scheint: 
 
