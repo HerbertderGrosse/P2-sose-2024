@@ -44,15 +44,19 @@ Führen Sie eine Leermessung durch, aus der Sie das Spektrum des erwarteten Unte
 
 - Bestimmen Sie die relative Energieauflösung $\Delta E_{\gamma}/E_{\gamma}$ des Detektors als Funktion von $E_{\gamma}$ und fügen Sie Ihrem Protokoll eine entsprechende Darstellung zu. 
 
-- Verwenden Sie hierzu am besten die Anpassungen der Normalverteilungen an die vorhandenen Photopeaks und ggf. den Single-Escape Peak in den Spektren, aus denen Sie die Standardabweichungen $\sigma_{i}$ und Erwartungswerte $\mu_{i}$ am einfachsten bestimmen können. 
+- Verwenden Sie hierzu am besten die Anpassungen der Normalverteilungen an die vorhandenen Photopeaks und ggf. den Single-Escape Peak in den Spektren, aus denen Sie die Erwartungswerte $\mu_{i}$ und Standardabweichungen $\sigma_{i}$ am einfachsten bestimmen können. Verwenden Sie dann entweder direkt $\sigma_{i}$ oder die daraus ermittelte [Halbwertsbreite](https://de.wikipedia.org/wiki/Halbwertsbreite) als Maß für die Energieauflösung des Detektors. 
 
 - Als erwarteten Verlauf der relativen Energieauflösung können Sie z.B. das folgende Modell annehmen: 
   ```math
   \begin{equation*}
-  \frac{\Delta E_{\gamma}}{E_{\gamma}}(A, B, C) = \frac{A}{\sqrt{E_{\gamma}}}+\frac{B}{E_{\gamma}} + C,
+  \begin{split}
+  \frac{\Delta E_{\gamma}}{E_{\gamma}}(A, B, C) 
+  &= \frac{A}{\sqrt{E_{\gamma}}}\oplus\frac{B}{E_{\gamma}} \oplus C \\
+  &=\sqrt{\frac{A^{2}}{E_{\gamma}}+\frac{B^{2}}{E^{2}_{\gamma}}+C^{2}} \\
+  \end{split}
   \end{equation*}
   ```
-
+  
   wobei $A$, $B$ und $C$ freie Parameter des Modells sind. Der Term zu $A $ entspricht dem Auflösungsverhalten aufgrund der zugrunde liegenden statistischen Prozesse. Beachten Sie, dass durchaus auch andere funktionale Zusammenhänge zur Auflösung beitragen können, die im oben angegebenen Modell mit den Parametern $B$ und $C$ verbunden sind.  Dabei kann es sich um Unsicherheiten aufgrund der Digitalisierung, Signalübertragung und anderen Quellen handeln. 
 
 - Die erwartete Anzahl $\mu_{N_{\mathrm{e}}}$ der Elektronen an der Photokathode des im Photodetektor verbauten Photomultipliers können Sie dann aus Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gammaspektroskopie/doc/Hinweise-Gammaspektroskopie.md)) anschätzen. **Nutzen Sie hierzu nur den Anteil der Auflösung der wirklich zum $1/\sqrt{E_{\gamma}}$-Verlauf gehört.** Fügen Sie Ihrem Protokoll eine entsprechende Darstellung zu.  
