@@ -23,9 +23,9 @@ Im [$6^{1}\mathrm{S}_{0}$-Grundzustand](https://de.wikipedia.org/wiki/Termsymbol
 Der $6^{1}\mathrm{S}_{0}$-Grundzustand befindet sich unten links im Bild, schräg verlaufende Linien entsprechen [erlaubten optische Übergängen](https://de.wikipedia.org/wiki/Auswahlregel) zwischen verschiedenen Anregungsniveaus. Für einige optisch erlaubte Übergänge sind auch die Wellenlängen des abgestrahlten Lichts angegeben. Optisch verbotene Übergänge ergeben sich, wenn die Erhaltung des Drehimpulses beim Übergang nur durch Multipolstrahlung höherer Ordnung gewährleistet ist. Da es für Elektronstöße keine solchen Auswahlregeln gibt sind in diesem Fall prinzipiell alle Übergänge erlaubt. Tatsächlich sind aus dem gleichen Grund der Drehimpulserhaltung, auch in diesem Fall optisch verbotene Übergänge i.a. seltener. Die Wahrscheinlichkeit, mit der ein Übergang bei Anregung stattfindet wird durch den Wirkungsquerschnitt beschrieben, den man in diesem Fall auch als [Anregungsfunktion](https://de.wikipedia.org/wiki/Wirkungsquerschnitt) bezeichnet. Dieser ist unterhalb der für die Anregung notwendigen Energie 0 und steigt darüber mehr oder weniger steil an. Im Praktikum beobachtbar sind die Übergänge: 
 
 - $`6^{1}\mathrm{S}_{0} \to 6^{3}\mathrm{P}_{0}`$ mit einer Energiedifferenz von $4.66\,\mathrm{eV}$ (optisch verboten); die Anregungsfunktion steigt steil, jedoch auf einen kleinen Wert an.
-- $6^{1}\mathrm{S}_{0}\to 6^{3}\mathrm{P}_{1}$ mit einer Energiedifferenz von $4.86\,\mathrm{eV}$ (optisch erlaubt); die Anregungsfunktion steigt steil, auf einen großen Wert an.
-- $6^{1}\mathrm{S}_{0}\to 6^{3}\mathrm{P}_{2}$ mit einer Energiedifferenz von $5.46\,\mathrm{eV}$ (optisch verboten); die Anregungsfunktion steigt steil, jedoch auf einen kleinen Wert an.
-- $6^{1}\mathrm{S}_{0}\to 6^{1}\mathrm{P}_{1}$ mit einer Energiedifferenz von $6.70\,\mathrm{eV}$ (optisch erlaubt); die Anregungsfunktion steigt flach, auf einen großen Wert an.
+- $`6^{1}\mathrm{S}_{0}\to 6^{3}\mathrm{P}_{1}`$ mit einer Energiedifferenz von $4.86\,\mathrm{eV}$ (optisch erlaubt); die Anregungsfunktion steigt steil, auf einen großen Wert an.
+- $`6^{1}\mathrm{S}_{0}\to 6^{3}\mathrm{P}_{2}`$ mit einer Energiedifferenz von $5.46\,\mathrm{eV}$ (optisch verboten); die Anregungsfunktion steigt steil, jedoch auf einen kleinen Wert an.
+- $`6^{1}\mathrm{S}_{0}\to 6^{1}\mathrm{P}_{1}`$ mit einer Energiedifferenz von $6.70\,\mathrm{eV}$ (optisch erlaubt); die Anregungsfunktion steigt flach, auf einen großen Wert an.
 
 Nach einer Anregung durch Elektronenstoß kehrt das Atom spontan wieder in den Grundzustand zurück. Bei optisch erlaubten Übergängen erfolgt dieser Übergang in Bruchteilen von Mikrosekunden, unter Emission von Licht, bei optisch verbotenen Übergängen geschieht dies durch erneute Anregung durch  Elektronenstoß in ein höheres Energieniveau mit erlaubtem Übergang oder
 durch Stöße mit der Gefäßwand. Der zuletzt genannte Vorgang läuft erheblich langsamer ab. Beim Franck-Hertz-Versuch mit $\mathrm{Hg}$ liegen ohne Ionisierung die alle Wellenlängen des emittierten Lichts im UV-Bereich. Sie sind im Praktikum also nicht zu beobachten.
@@ -40,12 +40,12 @@ Die Ionisationsenergie (für die einfache Ionisation) von $\mathrm{Hg}$ beträgt
 
 - Das Zünden einer Gasentladung ist von deutlichem Leuchten begleitet, das spektroskopisch beobachtet werden kann. Bei der Rekombination der Ionen mit Elektronen kommen stufenweise alle möglichen Übergänge bis in den Grundzustand vor. Am deutlichsten sind die folgenden Emissionslinien sichtbar: 
 
-  - $\lambda=404,66\,\mathrm{nm}$ (violett): $7^{3}\mathrm{S}_{1}\to6^{3}\mathrm{P}_{0}$; 
-  - $\lambda=407,78\,\mathrm{nm}$ (violett): $7^{1}\mathrm{S}_{0}\to6^{3}\mathrm{P}_{1}$;
-  - $\lambda=434,75\,\mathrm{nm}$ (violett): $7^{1}\mathrm{D}_{1}\to6^{1}\mathrm{P}_{1}$;  
-  - $\lambda=491,61\,\mathrm{nm}$ (blau): $6^{1}\mathrm{P}_{1}\to 8^{1}\mathrm{S}_{0}$;
-  - $\lambda=546,08\,\mathrm{nm}$ (grün): $7^{3}\mathrm{S}_{1}\to6^{3}\mathrm{P}_{2}$;
-  - $\lambda=579,07\,\mathrm{nm}$ (gelb): $6^{1}\mathrm{D}_{2}\to6^{1}\mathrm{P}_{1}$.
+  - $\lambda=404,66\,\mathrm{nm}$ (violett): $`7^{3}\mathrm{S}_{1}\to6^{3}\mathrm{P}_{0}`$; 
+  - $\lambda=407,78\,\mathrm{nm}$ (violett): $`7^{1}\mathrm{S}_{0}\to6^{3}\mathrm{P}_{1}`$;
+  - $\lambda=434,75\,\mathrm{nm}$ (violett): $`7^{1}\mathrm{D}_{1}\to6^{1}\mathrm{P}_{1}`$;  
+  - $\lambda=491,61\,\mathrm{nm}$ (blau): $`6^{1}\mathrm{P}_{1}\to 8^{1}\mathrm{S}_{0}`$;
+  - $\lambda=546,08\,\mathrm{nm}$ (grün): $`7^{3}\mathrm{S}_{1}\to6^{3}\mathrm{P}_{2}`$;
+  - $\lambda=579,07\,\mathrm{nm}$ (gelb): $`6^{1}\mathrm{D}_{2}\to6^{1}\mathrm{P}_{1}`$.
 
   Die fahlblaue Farbe des ohne Spektroskop beobachteten Leuchtens ist das Ergebnis der additiven Mischung aus all den einzelnen Linien.
 
