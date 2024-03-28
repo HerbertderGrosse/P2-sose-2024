@@ -14,7 +14,7 @@ $$
 Der Wirkungsquerschnitt $\sigma$ kann durch die geometrische Ausdehnung des $\mathrm{Hg}$-Atoms abgeschätzt werden: 
 $$
 \begin{equation*}
-\sigma= \pi\,R^{2};\qquad R=\sqrt[\leftroot{5}\uproot{0}\scriptstyle 3]{\frac{3}{4\pi}V};
+\sigma= \pi\,R^{2};\qquad R=\sqrt[3]{\frac{3}{4\pi}V};
 \qquad V= \frac{M_{m}(\mathrm{Hg})\,f}{N_{A}\,\rho_{\mathrm{fl}}},
 \end{equation*}
 $$
