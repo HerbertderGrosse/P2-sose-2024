@@ -10,7 +10,7 @@ $$
 \mathrm{[Xe]\,4\,f^{14}\,5\,d^{10}\,6\,s^{2}},
 \end{equation*}
 $$
-d.h. die N-Schale (für die Hauptquantenzahl $n=4$) ist mit 60 Elektronen voll besetzt (Edelgaskonfiguration von $\mathrm{Xe}$), die O-Schale (für $n=5$) hat die Konfiguration $\mathrm{5\,s^{2}\,5\,p^{6}\,5\,d^{10}}$, das $\mathrm{5\,f^{0}}$ Orbital ist unbesetzt und das $\mathrm{6\,s^{2}}$ Orbital mit zwei Elektronen besetzt. 
+d.h. die N-Schale (für die Hauptquantenzahl $n=4$) ist mit 60 Elektronen voll besetzt (Edelgaskonfiguration von $\mathrm{Xe}$), die O-Schale (für $n=5$) hat die Konfiguration $\mathrm{5\hspace{0.05cm}s^{2}\hspace{0.05cm}5\hspace{0.05cm}p^{6}\hspace{0.05cm}5\hspace{0.05cm}d^{10}}$, das $\mathrm{5\,f^{0}}$ Orbital ist unbesetzt und das $\mathrm{6\hspace{0.05cm}s^{2}}$ Orbital mit zwei Elektronen besetzt. 
 
 Im [$6^{1}\mathrm{S}_{0}$-Grundzustand](https://de.wikipedia.org/wiki/Termsymbol) des Atoms sind Gesamtbahndrehimpuls, sowie Gesamtspin der Elektronen Null. In angeregten Zuständen befindet sich ein Elektron (selten Fällen auch zwei oder mehr) in einem Zustand, der zu anderen anderen Quantenzahlen führt. Ein verkürztes Termschema der Energieniveaus in $\mathrm{Hg}$ ist in **Abbildung 4** gezeigt:
 
@@ -22,7 +22,7 @@ Im [$6^{1}\mathrm{S}_{0}$-Grundzustand](https://de.wikipedia.org/wiki/Termsymbol
 
 Der $6^{1}\mathrm{S}_{0}$-Grundzustand befindet sich unten links im Bild, schräg verlaufende Linien entsprechen [erlaubten optische Übergängen](https://de.wikipedia.org/wiki/Auswahlregel) zwischen verschiedenen Anregungsniveaus. Für einige optisch erlaubte Übergänge sind auch die Wellenlängen des abgestrahlten Lichts angegeben. Optisch verbotene Übergänge ergeben sich, wenn die Erhaltung des Drehimpulses beim Übergang nur durch Multipolstrahlung höherer Ordnung gewährleistet ist. Da es für Elektronstöße keine solchen Auswahlregeln gibt sind in diesem Fall prinzipiell alle Übergänge erlaubt. Tatsächlich sind aus dem gleichen Grund der Drehimpulserhaltung, auch in diesem Fall optisch verbotene Übergänge i.a. seltener. Die Wahrscheinlichkeit, mit der ein Übergang bei Anregung stattfindet wird durch den Wirkungsquerschnitt beschrieben, den man in diesem Fall auch als [Anregungsfunktion](https://de.wikipedia.org/wiki/Wirkungsquerschnitt) bezeichnet. Dieser ist unterhalb der für die Anregung notwendigen Energie 0 und steigt darüber mehr oder weniger steil an. Im Praktikum beobachtbar sind die Übergänge: 
 
-- $6^{1}\mathrm{S}_{0} \to 6^{3}\mathrm{P}_{0}$ mit einer Energiedifferenz von $4.66\,\mathrm{eV}$ (optisch verboten); die Anregungsfunktion steigt steil, jedoch auf einen kleinen Wert an.
+- $`6^{1}\mathrm{S}_{0} \to 6^{3}\mathrm{P}_{0}`$ mit einer Energiedifferenz von $4.66\,\mathrm{eV}$ (optisch verboten); die Anregungsfunktion steigt steil, jedoch auf einen kleinen Wert an.
 - $6^{1}\mathrm{S}_{0}\to 6^{3}\mathrm{P}_{1}$ mit einer Energiedifferenz von $4.86\,\mathrm{eV}$ (optisch erlaubt); die Anregungsfunktion steigt steil, auf einen großen Wert an.
 - $6^{1}\mathrm{S}_{0}\to 6^{3}\mathrm{P}_{2}$ mit einer Energiedifferenz von $5.46\,\mathrm{eV}$ (optisch verboten); die Anregungsfunktion steigt steil, jedoch auf einen kleinen Wert an.
 - $6^{1}\mathrm{S}_{0}\to 6^{1}\mathrm{P}_{1}$ mit einer Energiedifferenz von $6.70\,\mathrm{eV}$ (optisch erlaubt); die Anregungsfunktion steigt flach, auf einen großen Wert an.
