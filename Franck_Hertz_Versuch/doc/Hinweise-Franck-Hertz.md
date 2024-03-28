@@ -63,11 +63,11 @@ $$
 Der Wirkungsquerschnitt $\sigma$ kann durch die geometrische Ausdehnung des $\mathrm{Hg}$-Atoms abgeschätzt werden: 
 $$
 \begin{equation*}
-\sigma= \pi\,R^{2};\qquad R=\sqrt[\leftroot{5}\uproot{0}\scriptstyle 3]{\frac{3}{4\pi}V};
+\sigma= \pi\,R^{2};\qquad R=\sqrt[3]{\frac{3}{4\pi}V};
 \qquad V= \frac{M_{m}(\mathrm{Hg})\,f}{N_{A}\,\rho_{\mathrm{fl}}},
 \end{equation*}
 $$
-wobei $N_{A}$ der [Avogradro-Konstanten](https://de.wikipedia.org/wiki/Avogadro-Konstante),  $M_{m}(\mathrm{Hg})$ der [molaren Masse](https://de.wikipedia.org/wiki/Molare_Masse), $\rho_{\mathrm{fl}}$ der Dichte von flüssigem $\mathrm{Hg}$ und $f\approx0.74$ dem Füllfaktor der [dichtesten Kugelpackung](https://de.wikipedia.org/wiki/Dichteste_Kugelpackung) entsprechen. Daraus ergibt sich ein Wert von 
+wobei $`N_{A}`$ der [Avogradro-Konstanten](https://de.wikipedia.org/wiki/Avogadro-Konstante),  $`M_{m}(\mathrm{Hg})`$ der [molaren Masse](https://de.wikipedia.org/wiki/Molare_Masse), $`\rho_{\mathrm{fl}}`$ der Dichte von flüssigem $\mathrm{Hg}$ und $f\approx0.74$ dem Füllfaktor der [dichtesten Kugelpackung](https://de.wikipedia.org/wiki/Dichteste_Kugelpackung) entsprechen. Daraus ergibt sich ein Wert von 
 $$
 \begin{equation*}
 \sigma\approx 8\times10^{-16}\,\mathrm{cm}
