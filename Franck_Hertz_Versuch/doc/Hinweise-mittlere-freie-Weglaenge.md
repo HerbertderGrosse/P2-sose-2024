@@ -2,7 +2,7 @@
 
 ## Mittlere freie Weglänge der Elektronen
 
-Einer der entscheidenden Faktoren des Versuchs ist die Wahrscheinlichkeit mit der ein freies Elektron auf seinem Weg mit einem $\mathrm{Hg}$-Atom stößt. Diese wird durch die [mittlere freie Weglänge](https://de.wikipedia.org/wiki/Mittlere_freie_Wegl%C3%A4nge) charakterisiert, die wie folgt von der Dichte $n$ der $\mathrm{Hg}$-Atome in der Tetrode und vom Wirkungsquerschnitt $\sigma$ für die Streuung eines Elektrons mit einem $\mathrm{Hg}$-Atom abhängt
+Ein entscheidender Faktor des Versuchs ist die Wahrscheinlichkeit mit der ein freies Elektron auf seinem Weg mit einem $\mathrm{Hg}$-Atom stößt. Diese wird durch die [mittlere freie Weglänge](https://de.wikipedia.org/wiki/Mittlere_freie_Wegl%C3%A4nge) charakterisiert, die wie folgt von der Dichte $n$ der $\mathrm{Hg}$-Atome in der Tetrode und vom Wirkungsquerschnitt $\sigma$ für die Streuung eines Elektrons mit einem $\mathrm{Hg}$-Atom abhängt
 $$
 \begin{equation*}
 \lambda = \frac{1}{n\,\sigma}
@@ -33,11 +33,11 @@ $$
 N\,k\,T = p_{\mathrm{Hg}}\,V;\qquad n=\frac{N}{V} = \frac{p_{\mathrm{Hg}}}{k\,T},
 \end{equation*}
 $$
-wobei $k$ der [Boltzmann-Konstanten](https://de.wikipedia.org/wiki/Boltzmann-Konstante), $N$ der Teilchenzahl, $p_{\mathrm{Hg}}$ dem [Sättigungsdampfdruck](https://de.wikipedia.org/wiki/S%C3%A4ttigungsdampfdruck) von $\mathrm{Hg}$, $V$ dem Volumen und $T$ der Temperatur entsprechen. Die Annahme eines thermischen Gleichgewichts impliziert, dass der $\mathrm{Hg}$-Dampf homogen in der Röhre verteilt ist. Eine Parametrisierung von $p_{\mathrm{Hg}}$ ist in **Abbildung 3** oben gezeigt. 
+wobei $k$ der [Boltzmann-Konstanten](https://de.wikipedia.org/wiki/Boltzmann-Konstante), $N$ der Teilchenzahl, $p_{\mathrm{Hg}}$ dem [Sättigungsdampfdruck](https://de.wikipedia.org/wiki/S%C3%A4ttigungsdampfdruck) von $\mathrm{Hg}$, $V$ dem Volumen und $T$ der Temperatur entsprechen. Die Annahme eines thermischen Gleichgewichts impliziert, dass der $\mathrm{Hg}$-Dampf homogen in der Röhre verteilt ist. Die Sidetemperatur von $\mathrm{Hg}$ liegt bei $357^{\circ}\hspace{0.05cm}\mathrm{C}$, es verbleibt also immer ein Teil des $\mathrm{Hg}$ in flüssigem Zustand. Eine Parametrisierung von $p_{\mathrm{Hg}}$ ist in **Abbildung 3** oben gezeigt. 
 
 <img src="../figures/Energieverlust.png" width="800" style="zoom:80%;"/>
 
-**Abbildung 3**: (Verlauf (oben) des Sättigungsdampfdrucks für $\mathrm{Hg}$, (Mitte) der daraus abgeschätzten mittleren freien Weglänge $\lambda$ der Elektronen in $\mathrm{Hg}$-Dampf, sowie (unten) des mittleren Energieverlusts von Elektronen nach Durchlaufen einer Strecke von $6\,\mathrm{mm}$ in $\mathrm{Hg}$-Dampf, jeweils als Funktion der Temperatur)
+**Abbildung 3**: (Verlauf (oben) des Sättigungsdampfdrucks $p_{\mathrm{Hg}}$ für $\mathrm{Hg}$, (Mitte) der daraus abgeschätzten mittleren freien Weglänge $\lambda$ der Elektronen in $\mathrm{Hg}$-Dampf, sowie (unten) des mittleren Energieverlusts von Elektronen nach Durchlaufen einer Strecke von $d=6\,\mathrm{mm}$ in $\mathrm{Hg}$-Dampf, jeweils als Funktion der Temperatur)
 
 ---
 
@@ -53,7 +53,7 @@ wobei $T$ in $\mathrm{K}$ in die Formel einzusetzen ist, um den Druck in $\mathr
 
 Beim elastischen Stoß sind die kinetische Energie, sowie die Summe aller Impulse im Anfangs- und Endzustand erhalten. Es handelt sich um einen Zwei-Körper-Stoß, der sich im Rahmen der klassischen Mechanik leicht berechnen lässt.  
 
-Die Geschwindigkeit eines Elektrons nach Durchlaufen einer Beschleunigungsspannung von $U=1\,\mathrm{V}$ beträgt: 
+Die Geschwindigkeit eines Elektrons nach Durchlaufen einer Beschleunigungsspannung von $U=1\,\mathrm{V}$ beträgt 
 $$
 \begin{equation*}
 E_{\mathrm{kin}}^{\mathrm{(e)}} = \frac{1}{2}m_{\mathrm{e}}v^{2} = e\,U;\qquad v=\sqrt{\frac{2\,e\,U}{m_{\mathrm{e}}}}\approx600000\,\mathrm{m/s}.
@@ -85,7 +85,7 @@ $$
 $$
 Der Verlauf des relativen Energieverlusts des Elektrons in $\mathrm{Hg}$-Dampf, als Funktion der Temperatur, ist in **Abbildung 3** (unten) gezeigt. Er liegt für $T\lesssim175^{\circ}\,\mathrm{C}$ bei unter 1%, steigt jenseits davon jedoch deutlich an.
 
-Wir halten zusammenfassend fest, dass der Energieverlust der Elektronen durch elastische Stöße für Temperaturen von $T\lesssim175^{\circ}\,\mathrm{C}$ verhältnismäßig gering ist. 
+**Wir halten zusammenfassend fest, dass der Energieverlust der Elektronen durch elastische Stöße für Temperaturen von $T\lesssim175^{\circ}\,\mathrm{C}$ verhältnismäßig gering ist.** 
 
 # Navigation
 
