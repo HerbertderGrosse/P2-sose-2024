@@ -2,7 +2,7 @@
 
 ## Versuchsdurchführung
 
-### Aufgabe 2: Charakterisierung der Röhre
+### Aufgabe 2: Charakterisierung der $\mathrm{Hg}$-Röhre
 
 #### Aufgabe 2.1: Bestimmung der Spannungsdifferenz $\Delta U_{B}$ und der effektiven Kontaktspannung $U_{\mathrm{th.}}$
 
