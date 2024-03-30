@@ -2,90 +2,117 @@
 
 ## Versuchsdurchführung
 
-
-
-- Für die oszillographische Darstellung von $I_{\mathrm{A}}$ wird eine periodische Beschleunigungsspannung benötigt. Diese darf man aber nicht zu schnell ändern, da sich ein **stationärer Zustand in der Röhre** nur relativ langsam einstellt. Langsame Vorgänge sind z.B. die Bewegung und Rekombination der Ionen, sowie die Rückkehr von angeregten Zuständen in den Grundzustand, wenn diese optisch verboten sind. Das Betriebsgerät stellt eine periodische Sägezahnspannung zwischen $0-30\,\mathrm{V}$ zur Verfügung. Die Oszillographennutzung in diesem Modus empfiehlt sich zum Kennenlernen der Apparatur und beim Einstellen von Temperatur, $U_{1}$ und $U_{3}$. Um die Verhältnisse im quasi-stationären Zustand aufzuzeichnen, wird das Speicheroszilloskop mit der (langsamen) linearen Rampe oder per Hand als "Einmalvorgang" ausgelöst. Der Unterschied zu der sich wiederholenden Darstellung mit Hilfe der Sägezahnspannung wird in diesem Fall deutlich sichtbar. Die Daten ($U$-$I$-Wertepaare) können auf dem Rechner abgespeichert und anschließend analysiert werden.
-- Der Heizofen für die Franck-Hertz-$\mathrm{Hg}$-Röhre ist mit einem $\mathrm{NiCr}$-$\mathrm{Ni}$ Temperaturfühler und mit einem Thermostaten ausgestattet. Bei Erreichen der Solltemperatur leuchtet die Leuchtdiode am Betriebsgerät grün. Der Ofen ist nicht geeignet, die Röhre homogen zu beheizen. Man kann beobachten, dass das $\mathrm{Hg}$ bevorzugt in bestimmten Bereichen der Glaswand kondensiert. Für den Dampfdruck ist die kälteste Stelle maßgebend. Ihre Temperatur kann von der des Temperaturfühlers geringfügig abweichen, auch wenn der empfindliche Teil des Temperaturfühlers sich im Ofen auf gleicher Höhe befindet.
-- Eine weitere Konsequenz der nicht homogenen Beheizung der Franck-Hertz-$\mathrm{Hg}$-Röhre ist, dass es zu Ablagerungen von $\mathrm{Hg}$ an den Glaswänden kommen kann, wenn der Versuchsaufbau längere Zeit nicht in Betrieb ist. Kontinuierliche Ausgasungen von den Wänden der Röhre können gerade zu Beginn des Praktikumsbetriebs zu veränderlichem $\mathrm{Hg}$-Dampfdruck in der Röhre führen. Es empfiehlt sich daher die Röhre bereits einige Tage vor Beginn des Praktikumsbetriebs auszuheizen.  
-
-
-
 ### Aufgabe 1: Messanordnung
 
-#### Aufgabe 1.2: Oszilloskopische Untersuchung des Signals
+#### Heizofen
 
-- Verwenden Sie für diese Aufgabe den MCA als Oszilloskop und ein Präparat Ihrer Wahl. Beobachten Sie die einlaufenden Signale. Beachten Sie die Einstellungen für $y$-Achsenabschnitt und Triggerschwelle. **Begründen Sie die Wahl des Präparat in Ihrem Protokoll.**  
-- Um ein messbares Signal zu erhalten müssen Sie den Photondetektor bei einer Hochspannung (HV) von $U\approx600\,\mathrm{V}$ betreiben. Erhöhen Sie die Spannung vorsichtig, bis Sie erste Signale auf dem Oszilloskop sehen. 
-- Diskutieren Sie in Ihrem Protokoll, welche Art von Signal Sie erwarten und beobachten.
-- Diskutieren Sie in Ihrem Protokoll, wie sich die Signale für Photonen hoher oder niedriger Energie unterscheiden.
-- Wenn Sie möchten können Sie Ihrem Protokoll ein Photo der Benutzeroberfläche zufügen. Ein Beispiel dafür, wie Sie externe Bilder direkt ins Jupyter-notebook einbinden können finden Sie [hier](https://gitlab.kit.edu/kit/etp-lehre/p1-praktikum/students/-/blob/main/tools/add_figures.ipynb).
+- Der Heizofen ist mit einem $\mathrm{NiCr}$-$\mathrm{Ni}$ Temperaturfühler und mit einem Thermostaten ausgestattet. Bei Erreichen der Solltemperatur $\vartheta$ leuchtet eine Diode am Betriebsgerät grün auf. 
+- Die Heiztemperatur reicht von $\vartheta\approx140$ bis $220^{\circ}\hspace{0.05cm}\mathrm{C}$, die Röhre sollte im Dauerbetrieb jedoch nicht längere Zeit bei $\vartheta{\gtrsim}200^{\circ}\hspace{0.05cm}\mathrm{C}$ betrieben werden (siehe **Hinweise zum Versuch**). Die nominelle Betriebstemperatur der Röhre, laut Hersteller, liegt bei $\vartheta\eqsim180^{\circ}\hspace{0.05cm}\mathrm{C}$.  
+- Es ist nicht möglich die Röhre mit dem Ofen vollkommen homogen zu beheizen. Man kann beobachten, dass das $\mathrm{Hg}$ bevorzugt in bestimmten Bereichen der Glaswand kondensiert. Für $p_{\mathrm{Hg}}$ ist die kälteste Stelle maßgebend. Obwohl der empfindliche Teil des Temperaturfühlers sich im Ofen auf gleicher Höhe befindet kann die Temperatur in der Röhre von der des Temperaturfühlers geringfügig abweichen.
+- Vermeiden Sie, dass sich $\mathrm{Hg}$ an K niederschlägt. Dies kann die Funktion von K bis zur Zerstörung beeinträchtigen (siehe **Hinweise zum Versuch**). **Lassen Sie hierzu die Kathodenheizung ($U_{K}$) angeschaltet solange der Ofen beheizt ist.**
 
-#### Aufgabe 1.3: Spektrale Untersuchung des Signals
+#### Spannungssteuerung
 
-- Untersuchen Sie die Signale von $_{\hphantom{0}55}^{137}\mathrm{Cs}$, $_{27}^{60}\mathrm{Co}$ und $_{11}^{22}\mathrm{Na}$ **qualitativ**. Verwenden Sie hierzu den MCA als Spektrumanalysator. Diskutieren Sie in Ihrem Protokoll, welche Signale der oszilloskopischen Messung Sie jetzt wo im Spektrum erwarten. 
-- Entscheiden Sie sich für einn Wert von $U$, den Sie dann für alle weiteren Messungen verwenden sollten. Begründen Sie Ihre Auswahl.
+Für die Darstellung von $I_{\mathrm{A}}(U_{2})$ wird eine ansteigende Spannung $U_{2}$ benötigt. Diese darf sich aber nicht zu schnell ändern, da sich ein **stationärer Zustand in der Röhre** nur relativ langsam einstellt. Langsame Vorgänge sind z.B. die Bewegung und Rekombination der Ionen, sowie die Rückkehr optisch verbotener angeregter Zustände des $\mathrm{Hg}$ in den Grundzustand. 
 
-### Aufgabe 2: Analyse der Impulshöhenspektren
+Das Betriebsgerät der Röhre stellt die folgenden Einstellmöglichkeiten zur Verfügung: 
 
-#### Aufgabe 2.1: Bestimmung des Untergrunds ohne Präparat
+- $U_{1}=0\ldots 5\hspace{0.05cm}V$
+- $U_{2}=0\ldots 30\hspace{0.05cm}V$
+- $U_{3}=0\ldots -10\hspace{0.05cm}V$.
 
-Führen Sie eine Leermessung durch, aus der Sie das Spektrum des erwarteten Untergrunds **ohne Präparat** bestimmen. Entscheiden Sie wie lange Sie diese Messung durchführen möchten. Dokumentieren und begründen Sie Ihre Entscheidung im Protokoll. 
+Dabei werden $U_{1}$ und $U_{3}$ von Hand geregelt. Für die Variation von $U_{2}$ werden drei Betriebsformen angeboten: 
 
-#### Aufgabe 2.2: Bestimmung der Impulshöhenspektren verschiedener Präparate  
+- Eine (schnelle) Sägezahnspannung zur oszillographischen Aufnahme von $I_{\mathrm{A}}$; 
+- Eine (langsame) lineare Rampe für die Aufzeichnung der Kurve als einem einmaligen Ereignis, z.B. mit der Speicherfunktion des Oszilloskops; oder 
+- Eine über ein Potentiometer von Hand einstellbare Gleichspannung für eine punktweise Aufnahme von $I_{\mathrm{A}}$ (Bezeichnung MAN.). 
 
-- Fügen Sie Ihrem Protokoll ein Diagramm des Spektrums für jedes Präparat ($_{\hphantom{0}55}^{137}\mathrm{Cs}$, $_{27}^{60}\mathrm{Co}$ und $_{11}^{22}\mathrm{Na}$) mit geeigneten Achsenbeschriftungen und Labels zu, so dass Sie die Spektren den Präparaten eindeutig zuordnen können. 
-- Versuchen Sie **wirklich alle** charakteristischen Merkmale der jeweilgen Spektren zu klassifizieren und mit den damit assoziierten Prozessen im Photondetektor zu identifizieren. Sie können hierzu die matplotlib Funktion [annotate()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.annotate.html) verwenden. Ein Beispiel hierfür finden Sie [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gammaspektroskopie/tools/Annotations.ipynb). 
-- Sie können die *cursor*-Funktion der graphischen Oberfläche dazu benutzen, um für jede Struktur die Kanäle der zentrale Position sowie des Bereichs zu bestimmen, in dem die entsprechende Struktur zu erkennen ist. Den Bereich können Sie bei der Bearbeitung der fogenden Aufgaben dazu nutzen, die Bereiche zu definieren, auf die Sie die Anpassung entsprechender Modelle einschränken möchten. Er sollte daher nach Möglichkeit etwa 2–3 Standardabweichungen ensprechen. **Notieren Sie sich die entsprechenden Kanäle für jede Struktur, die sie bestimmen möchten.**
-- Sie können diese Spektren, für die erste Einreichung Ihres Protokolls (als Version v1) zunächst, **wie gemessen**, ins Protokoll aufnehmen. Auf der $x$–Achse sollten also die Kanäle des MCA oder entsprechende Histogramm-Bins stehen und das Spektrum sollte nicht auf den erwarteten Untergrund korrigiert sein. 
-- **Die Primärdaten zur Erzeugung dieser Spektrum sollten Sie unbedingt vorhalten.** Für Ihre weitere Auswertung sollten Sie die Spketren dann sukzessive verbessern, indem Sie das erwartete Untergrundspektrum von den rohen Spektren subtrahieren und Ihre Kalibration aus **Aufgabe 2.3** auf die $x$-Achse anwenden, um Ihre Sprektren entsprechend aufzubereiten.
+Die Sägezahnspannung empfiehlt sich zum Kennenlernen der Apparatur und beim Einstellen von $\vartheta$, $U_{1}$ und $U_{3}$. Um die Verhältnisse im quasi-stationären Zustand aufzuzeichnen, wird das Speicheroszilloskop am besten mit der linearen Rampe ausgelöst. Der Unterschied zur Darstellung mit Hilfe der Sägezahnspannung sollte deutlich sichtbar werden. 
 
-#### Aufgabe 2.3: Energie-Kalibration des Detektors 
+Für die Darstellung von $I_{A}(U_{2})$ empfiehlt sich der XY-Betrieb des Oszilloskops. Die Daten können als ($U_{2}$-$I_{A}$-Wertepaare per USB-Stick auf dem Jupyter-Server übertragen und anschließend weiter analysiert werden.
 
-- Nehmen Sie nun eine Kalibration von MCA-Kanälen (bzw. Histogramm-Bins) auf bekannte Photonenergien $E_{\gamma}$ vor. **Nutzen Sie hierzu alle Photonenergien, die Ihnen durch die Präparate zugänglich sind, verwenden Sie aber mindestens vier Punkte.**
-- Sie können als Datenpunkte $i$ die Photopeaks, die Compton-Kanten und in einem Fall auch den Single-Escape Peak der Spektren für die Kalibration verwenden. Passen Sie an die entsprechenden Strukturen geeignete Modelle an, aus denen Sie für jeden Punkt $i$ die Energie $E_{\gamma}^{(i)}$ extrahieren können. 
-- Für den Single-Escape und den Photopeak bietet sich eine [Normalverteilung](https://de.wikipedia.org/wiki/Normalverteilung) an, für die Compton-Kante die [Error function](https://en.wikipedia.org/wiki/Error_function). Beide sind aufgrund der statistischen Natur der zugrundeliegenden Prozesse sehr gut legitimiert. Aus allen Modellen sollten Sie einen Erwartungswert und eine Standardabweichung (für die spätere Verwendung in **Aufgabe 2.4**) bestimmen können.
-- Entsprechende Beispiele für die Anpassung entsprechender Modelle finden Sie [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/tree/main/Gammaspektroskopie/tools). Beachten Sie, dass den eigentlichen Strukturen noch zusätzlich spektrale Komponenten aus überlagerten Prozessen unterliegen können, die Sie ggf. mit Hilfe eines zusätzlichen Polynom-Anteils in Ihrem Modell berücksichtigen können.
-- Fügen Sie Ihrem Protokoll eine entsprechende Kalibrationskurve zu und passen Sie ein geeignetes Modell an diese Kurve an. 
-- Sie können grundsätzlich von einem linearen Verlauf der Kalibrationskurve ausgehen. Nicht-Linearitäten können Sie z.B. dadurch testen, dass Sie ein Polynom höherer Ordnung anpassen und zeigen, dass die entsprechenden Parameter nach der Anpassung, im Rahmen ihrer aus der Anpassung bestimmten Unsicherheiten, mit Null verträglich sind. Beachten Sie auch den $\chi^{2}$-Wert der jeweiligen Anpassung. **Fügen Sie Ihrem Protokoll eine entsprechende Diskussion bei.**
+#### Aufgabe 1.2: Effekt der Steuerparameter an der Röhre
 
-#### Aufgabe 2.4: Relative Energie-Auflösung des Detektors
+Steuerparameter an der Röhre sind $\vartheta$, $U_{1}$, $U_{2}$, $U_{3}$. In **Abbildung 5** ist gezeigt, welche Effekte die einzelnen Steuerparameter haben sollten:
 
-- Bestimmen Sie die relative Energieauflösung $\Delta E_{\gamma}/E_{\gamma}$ des Detektors als Funktion von $E_{\gamma}$ und fügen Sie Ihrem Protokoll eine entsprechende Darstellung zu. 
+<img src="../figures/OptimierungFranckHertz.png" width="800" style="zoom:80%;"/>
 
-- Verwenden Sie hierzu am besten die Anpassungen der Normalverteilungen an die vorhandenen Photopeaks und ggf. den Single-Escape Peak in den Spektren, aus denen Sie die Erwartungswerte $\mu_{i}$ und Standardabweichungen $\sigma_{i}$ am einfachsten bestimmen können. Verwenden Sie dann entweder direkt $\sigma_{i}$ oder die daraus ermittelte [Halbwertsbreite](https://de.wikipedia.org/wiki/Halbwertsbreite) als Maß für die Energieauflösung des Detektors. 
+**Abbildung 5**: (Effekt der Steuerparameter $\vartheta$, $U_{1}$ und $U_{3}$)
 
-- Als erwarteten Verlauf der relativen Energieauflösung können Sie z.B. das folgende Modell annehmen: 
+---
+
+Auf der $x$-Achse sind jeweils ansteigende Werte von $U_{2}$ gezeigt. Steigt $I_{A}$ mit nunehmenden Werten von $U_{2}$ sprunghaft an (siehe **Abbildung (a)**) kommt es zur Gasentladung. Dieser Vorgang ist i.a. von fahlblauem Leuchten der Röhre begleitet. Sie sollten eine unkontrollierte Gasentladung unbedingt vermeiden, um die Röhre nicht zu beschädigen. Schalten Sie in diesem Fall $U_{2}$ sofort ab und erhöhen Sie dann $\vartheta$, um die freie Weglänge der Elektronen zu reduzieren. 
+
+Das Raumladungsgitter G2 befindet sich dicht hinter K. Durch $U_{1}$ kommt es zwischen K und G1 daher zu hohen elektrischen Feldern, deren Funktion es ist die Raumladungswolke um K abzusaugen, so dass weitere Elektronen aus K nachrücken können. Die Spannung $U_{1}$ reguliert damit effektiv den Elektronenstrom durch die Röhre und die Steigung von $I_{A}$ als Funktion von $U_{2}$.  In **Abbildung 5 (b)** geht $I_{A}$ bereits weit vor Erreichen des Maximalwertes von $U_{2}$ (auf der $x$-Achse) in die Sättigung der Messanordnung, $U_{1}$ sollte nach unten geregelt werden. In **Abbildung 5 (c)** sollte $U_{1}$ nach oben geregelt werden. Bleibt der Verlauf von $I_{A}$ selbst bei maximaler Einstellung von $U_{1}\approx 5\hspace{0.05cm}\mathrm{V}$ flach regeln Sie $\vartheta$ nach unten, um die mittlere freie Weglänge der Elektronen auf dem Weg durch die Röhre zu erhöhen. 
+
+Die Höhe von $U_{3}$ reguliert die Ausprägung der beobachteten Minima und Maxima. Gleichzeitig wird $I_{A}$ für steigende Werte von $U_{3}$ reduziert. Ohne besondere Optimierung von $U_{3}$ könnte $I_{A}$, bei geeigneter Einstellung von $U_{1}$ so aussehen, wie in **Abbildung 5 (d)** gezeigt. Von **Abbildung 5 (d)** zu **(f)** gelangen Sie, indem Sie vorsichtig abwechselnd $U_{1}$ und $U_{3}$ erhöhen. Von **Abbildung 5 (e)** zu **(f)** gelangrn Sie, indem Sie vorsichtig abwechselnd $U_{1}$ und $U_{3}$ reduzieren.  
+
+**Nehmen Sie sich ausreichend Zeit das Wechselspiel der Steuerparameter zu studieren. Protokollieren Sie schließlich die Einstellungen, zu den entsprechenden Darstellungen gewissenhaft.**
+
+### Aufgabe 2: Charakterisierung der Röhre
+
+#### Aufgabe 2.1: Bestimmung der Spannungsdifferenz $\Delta U_{B}$ und der effektiven Kontaktspannung $U_{\mathrm{th.}}$
+
+Einen schematischen Verlauf von $I_{A}$ als Funktion von $U_{B}$ ist in **Abbildung 2** hier gezeigt. Die Differenzen $\Delta U_{B}$ lassen sich sowohl aus den Maxima, als auch aus den Minima des Verlaufs bestimmen. Im Versuch sollten Sie bis zu fünf Maxima bestimmen können. 
+
+Tragen Sie in einem ersten Diagramm D1 zunächst $I_{A}$ gegen $U_{1}+U_{2}$ auf. Das erste Maximum der Verteilung $U_{B}^{(1)}$ liegt bei einem Wert von $U_{1}+U_{2}$ der größer ist als $\Delta U_{B}$, danach sollten alle weiteren Maxima den gleichen Abstand $\Delta U_{B}$ zueinander aufweisen. Nach Gleichung **(1)** hier entspricht der Differenzbetrag zwischen $U_{B}^{(1)}$ und $\Delta U_{B}$ der effektiven Kontaktspannung $U_{\mathrm{th.}}$. Sie können zur gleichzeitigen Bestimmung von $\Delta U_{B}$ und $U_{th.}$ dann z.B. wie folgt vorgehen: 
+
+- Bestimmen Sie die Lage, der $N$ Maxima aus Ihrer Messung mit entsprechender Unsicherheit, z.B. aus der Anpassung einer Normalverteilung auf einer geeignet gewählten Untergrundfunktion. 
+
+- Tragen Sie daraufhin in einem zweiten Diagramm D2 die Indizes der Maxima ($i=1\ldots N$) auf der $x$-Achse gegen die Lagen des $i$ Maxima auf der $y$-Achse auf. An D2 können Sie ein Modell der Form
+
   ```math
   \begin{equation*}
-  \begin{split}
-  \frac{\Delta E_{\gamma}}{E_{\gamma}}(A, B, C) 
-  &= \frac{A}{\sqrt{E_{\gamma}}}\oplus\frac{B}{E_{\gamma}} \oplus C \\
-  &=\sqrt{\frac{A^{2}}{E_{\gamma}}+\frac{B^{2}}{E^{2}_{\gamma}}+C^{2}} \\
-  \end{split}
-  \end{equation*}
-  ```
-  
-  wobei $A$, $B$ und $C$ freie Parameter des Modells sind. Der Term zu $A $ entspricht dem Auflösungsverhalten aufgrund der zugrunde liegenden statistischen Prozesse. Beachten Sie, dass durchaus auch andere funktionale Zusammenhänge zur Auflösung beitragen können, die im oben angegebenen Modell mit den Parametern $B$ und $C$ verbunden sind.  Dabei kann es sich um Unsicherheiten aufgrund der Digitalisierung, Signalübertragung und anderen Quellen handeln. 
-
-- Die erwartete Anzahl $\mu_{N_{\mathrm{e}}}$ der Elektronen an der Photokathode des im Photodetektor verbauten Photomultipliers können Sie dann aus Gleichung (**(4)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gammaspektroskopie/doc/Hinweise-Gammaspektroskopie.md)) anschätzen. **Nutzen Sie hierzu nur den Anteil der Auflösung der wirklich zum $1/\sqrt{E_{\gamma}}$-Verlauf gehört.** Fügen Sie Ihrem Protokoll eine entsprechende Darstellung zu.  
-
-### Aufgabe 3: Detektorakzeptanz
-
-- In die Akzeptanz des Detektors gehen Größen, wie die apparative Nachweiseffizienz $\epsilon$ aber auch die geometrische Akzeptanz $\Alpha$ des Detektors ein. Für isotrope Abstrahlung erwarten Sie für $\Alpha$ die Abhängigkeit
-  ```math
-  \begin{equation*}
-  \Alpha\propto\frac{1}{d^{2}},
+  U_{B}^{(i)}(\Delta U_{B}, U_{\mathrm{th.}}) = \Delta U_{B}\cdot i + U_{\mathrm{th.}}
   \end{equation*}
   ```
 
-  wenn $d$ der Abstand des Präparats vom Detektor ist.
+   anpassen, aus dem Sie $\Delta U_{B}$ und $U_{\mathrm{th.}}$ gleichzeitig bestimmen können. Für die Anpassung mit Hilfe eines XYFits aus dem Programmpaket kafe2 können Sie den Indizes auf der $x$-Achse eine sehr kleine Unsicherheit von $10^{-3}$ zuordnen.  
 
-- Bestimmen Sie die Rate aufgezeichneter Photonen für $_{\hphantom{0}55}^{137}\mathrm{Cs}$ bei fünf verschiedenen Abständen des Präparats von der Detektorstirnfläche und überprüfen Sie den erwarteten Zusammenhang. Stellen Sie die Datenpunkte in einem Diagramm dar und passen Sie ein geeignetes Modell daran an. 
+Kalibrieren Sie für Ihre Auswertung mit Hilfe von $U_{\mathrm{th.}}$ die $x$-Achsen aller aufgenommenen Diagramme entsprechend auf $U_{B}$. 
 
-- Den Effekt von Untergrundprozessen können Sie als konstante Rate in diesem Modell berücksichtigen. 
+#### Aufgabe 2.2: Verlauf des Anodenstroms $I_{\mathrm{G2}}$
 
-- Denn Effekt von pileup können Sie abschätzen, wenn Sie die untergrundkorrigierte Anzahl an Einträgen rechts des Photoleaks zählen, oder wenn Sie die Änderung der Rate als Funktion fon $d^{2}$ zu sätzlich als Funktion von $E_{\gamma}$ bestimmen.   
+Das Schottky-Langmuirschen [Raumladungsgesetz](https://de.wikipedia.org/wiki/Raumladungsgesetz) gilt streng genommen nur für evakuierte Dioden. Die Spannung $U_{3}$ ist für diese Aufgabe irrelevant. Regeln Sie daher sowohl $U_{1}$ als auch $U_{3}$ auf Null. 
+
+Bestimmen Sie $I_{\mathrm{G2}}$ für eine geeignet hohe Anzahl, mindestens aber für 10 verschiedene Werte von $U_{2}$. Nehmen Sie sowohl für $I_{\mathrm{G2}}$ als auch für $U_{2}$ geeignete Unsicherheiten an.
+
+Passen Sie an den resultierenden Kurvenverlauf ein Modell der Form
+
+```math
+\begin{equation*}
+I_{\mathrm{G2}}(\kappa,\,) = \kappa\,\left(U_{2}+U_{\mathrm{th.}}\right)^{\gamma}
+\end{equation*}
+```
+
+an, wobei $\kappa$, $U_{\mathrm{th.}}$ und $\gamma$ freie Parameter der Anpassung sind. Geben Sie in Ihrer Auswertung den auf die Anzahl der Freiheitsgrade normierten $\chi^{2}$-Wert oder den $p$-Wert der Anpassung an. Innerhalb der resultierenden Unsicherheiten sollte $U_{\mathrm{th.}}$ mit dem aus **Aufgabe 2.1** ermittelten Wert und $\gamma$ mit dem Wert 3/2 übereinstimmen.  
+
+### Aufgabe 3: Höhere Anregungen von $\mathrm{Hg}$
+
+#### Aufgabe 3.1: Beobachtung höherer Anregungen von $\mathrm{Hg}$
+
+Beim Betrieb der Röhre, wie für **Aufgabe 2** kommt es kaum zu Anregungen höherer Energiezustände, weil die Elektronen zwischen den unelastischen Stößen nicht genug kinetische Energie aufnehmen können. Um dies zu erreichen müssen Sie die Röhre in einem anderen Modus betreiben. 
+
+- Legen Sie hierzu G1 und G2 auf das gleiche Potential $U_{2}$. In einer solchen Konfiguration verwenden Sie G1 als Anode und den Raum zwischen G1 und G2 als spannungsfreien **Driftraum**. 
+- Senken Sie außerdem ggf. $\vartheta$, um $\lambda$ zu erhöhen. Durch den geringen Abstand zwischen K und G1 ist die Stoßwahrscheinlichkeit dort gering. 
+- Im Driftraum ist sie durch die längere Driftstrecke erhöht.  
+- Die beobachtbaren Strukturen sollten sich durch ganzzahlige Linearkombinationen der am häufigsten stattfinden Übergänge mit den niedrigsten Energieüberträgen ($`6^{1}\mathrm{S}_{0}\to 6^{3}\mathrm{P}_{1}`$ und $`6^{1}\mathrm{S}_{0}\to 6^{1}\mathrm{P}_{1}`$) erklären lassen. 
+
+#### Aufgabe 3.2: Ionisierungsenergie von $\mathrm{Hg}$
+
+- Für diese Aufgabe besteht das Ziel darin eine kontrollierte Gasentladung einzuleiten.   
+- Nehmen Sie $I_{\mathrm{G2}}$ als Funktion von $U_{2}$ auf. Tun Sie dies, per Hand in geeigneten Schritten, um mindestens 10 Messpunkte zwischen $U_{2}=0$ und $30\hspace{0.05cm}\mathrm{V}$ zu erhalten. 
+- Zusätzlich können Sie ggf. $\vartheta$ reduzieren, um $\lambda$ weiter zu erhöhen.
+- Sobald Ionisation einsetzt sollten Sie einen deutlichen Anstieg in $I_{\mathrm{G2}}$ feststellen.
+- Passen Sie ein geeignetes Modell an die Daten an, um den Punkt des Anstiegs mit entsprechender Unsicherheit abzuschätzen. Dies erreichen Sie z.B. durch die Anpassung zweier Geraden. Lassen Sie dabei den Übergangsbereich aus, da Sie dort aufgrund von Auflösungseffekten keinen linearen Verlauf erwarten. Sie können den Schnittpunkt der beiden Geraden als Abschätzung für die Ionisierungsenergie von $\mathrm{Hg}$ verwenden. Schätzen Sie die Unsicherheiten für diese Art der Bestimmung geeignet ab. 
+
+### Aufgabe 4: Bestimmung der mittleren Energie für die Anregung von $\mathrm{Ne}$ durch Elektronenstoß
+
+- Bei den vorherrschenden Anregungen handelt es sich um eine Gruppe von Niveaus, die in einem etwa $0,5\hspace{0.05cm}\mathrm{eV}$ breiten Energiebereich liegen. Das zugehörige emittierte Licht ist rot. Wenn Sie die Beschleunigungsspannung erhöhen, sollten Sie die Verlagerung und die Vermehrung von Leuchtschichten im Stoßraum beobachten können. 
+- Für diesen Versuchsteil benutzen Sie eine spezielle Röhre mit indirekter Kathodenheizung, planparalleler Elektrodenanordnung und $\mathrm{Ne}$-Füllung. Die Kontaktspannung zwischen der $\mathrm{BaO}$-Kathode und der Metallanode mindert die angelegte Spannung um etwa $2,5\,\mathrm{V}$. Die Schaltung entspricht der der Franck-Hertz-$\mathrm{Hg}$-Röhre. 
+- Die Franck-Hertz-$\mathrm{Ne}$-Röhre ist nur einmal vorhanden, Sie müssen sie also mit den anderen Gruppen gemeinsam benutzen. Weil die Schaltung bereits fertig aufgebaut ist und Wartezeiten für das Aufheizen oder Abkühlen in diesem Fall entfallen, benötigen Sie aber nur wenig Zeit für diese Aufgabe. 
+- Die Röhre sollte nicht in der für **Aufgabe 3** modifizierten Schaltung betrieben werden.
 
 # Navigation
 
-[Main](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/tree/main/Gammaspektroskopie)
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/tree/main/Franck_Hertz_Versuch)
