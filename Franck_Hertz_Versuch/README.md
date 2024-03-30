@@ -52,8 +52,8 @@ Erhöht man $U_{2}$ schrittweise beobachtet man eine zunehmende Spannung $U_{A}$
 
 # Navigation
 
-- Mehr Informationen zu den **Grundlagen des Franck-Hertz-Versuchs** finden Sie in der Datei [Hinweise-Franck-Hertz.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Franck_Hertz_Versuch/doc/Hinweise-Franck-Hertz.md).
-- Mehr Informationen zur **mittleren freien Weglänge der Elektronen** und zum Energieverlust der Elektronen in der Franck-Hertz-$\mathrm{Hg}$-Röhre finden Sie in der Datei [Hinweise-mittlere-freie-Weglaenge.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Franck_Hertz_Versuch/doc/Hinweise-mittlere-freie-Weglaenge.md).
-- Mehr Informationen zu den **diskreten Energieniveaus** von $\mathrm{Hg}$ finden Sie in der Datei [Hinweise-unelastischer-Stoss.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Franck_Hertz_Versuch/doc/Hinweise-unelastischer-Stoss.md). 
-- Wichtige Hinweise und **Tipps zur Versuchsdurchführung** finden Sie in der Datei [Hinweise-Versuchsdurchfuehrung.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Franck_Hertz_Versuch/doc/Hinweise-Versuchsdurchfuehrung.md).
-- Technische Details zu den Versuchsaufbauten finden Sie in der Datei [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Franck_Hertz_Versuch/Datenblatt.md).
+- [Hinweise-Franck-Hertz.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Franck_Hertz_Versuch/doc/Hinweise-Franck-Hertz.md): Weitere Informationen zu den **Grundlagen des Franck-Hertz-Versuchs**.
+- [Hinweise-mittlere-freie-Weglaenge.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Franck_Hertz_Versuch/doc/Hinweise-mittlere-freie-Weglaenge.md): Weitere Informationen zur **mittleren freien Weglänge der Elektronen** und zum Energieverlust der Elektronen in der Franck-Hertz-$\mathrm{Hg}$-Röhre.
+- [Hinweise-unelastischer-Stoss.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Franck_Hertz_Versuch/doc/Hinweise-unelastischer-Stoss.md): Mehr Informationen zu den **diskreten Energieniveaus** von $\mathrm{Hg}$. 
+- [Hinweise-Versuchsdurchfuehrung.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Franck_Hertz_Versuch/doc/Hinweise-Versuchsdurchfuehrung.md): Wichtige Hinweise und **Tipps zur Versuchsdurchführung**.
+- [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Franck_Hertz_Versuch/Datenblatt.md): Technische Details zu den Versuchsaufbauten.
