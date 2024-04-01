@@ -14,7 +14,7 @@ Im Versuch Gammaspektroskopie treten sowohl $\beta$- als auch $\gamma$-Strahlung
 
 - $\gamma$-Strahlung: $\mathcal{O}(\mathrm{MeV})$;
 - Röntgenstrahlen: $\mathcal{O}(\mathrm{keV})$;
-- Sichtbares Licht, blau ($\lambda_{\mathrm{blau}}=400\,\mathrm{nm}$): $3\,\mathrm{eV}$;
+- Sichtbares Licht, blau ($\lambda_{\mathrm{blau}}=\SI{400}{\nm}$): $3\,\mathrm{eV}$;
 - Sichtbares Licht, rot ($\lambda_{\mathrm{rot}}=800\,\mathrm{nm}$): $1.5\,\mathrm{eV}$.
 
 Die Energie der $\gamma$-Strahlung, die für Vorgänge in der Kernphysik charakteristisch ist, liegt also drei Größenordnungen über der Energie der Röntgenstrahlung, die für Vorgänge in der Atomphysik charakteristisch ist, und sechs Größenordnungen über der Energie sichtbaren Lichts, das unser Alltagsleben bestimmt. Die Skalen erklären sich aus der Kleinheit des Kerns, in dem neben der starken Kernkraft, auch sehr starke elektromagnetische Kräfte wirken. Das Verhältnis Kern- zu Atomausdehnung von $\approx1000$ erklärt den Unterschied zwischen $\gamma$- und Röntgenstrahlung. 
@@ -33,7 +33,7 @@ Wie diese Zerfälle genau ablaufen lernen Sie in den Experimentalphysik-Vorlesun
 
 Die Elektronen und Positronen der entstehenden $\beta$-Strahlung können durch dünne Metallschichten bereits hinreichend abgeschirmt werden. Sie haben für diesen Versuch keine Bedeutung. Für diesen Versuch von Relevanz sind die entstehenden $\gamma$-Strahlen mit den folgenden Energien: 
 
-- 0.96617 MeV (aus dem Zerfall von Cäsium-137),
+- 0.6617 MeV (aus dem Zerfall von Cäsium-137),
 - 1.1732 MeV (aus dem Zerfall von Cobald-60),
 - 1.3325 MeV (aus dem Zerfall von Cobald-60),
 - 1.2745 MeV (aus dem Zerfall von Na-22).
