@@ -1,6 +1,6 @@
 # Hinweise für den Franck-Hertz-Versuch
 
-## Versuchsdurchführung
+## Versuchsdurchführung [2/4]
 
 ### Aufgabe 1: Messanordnung
 

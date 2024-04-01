@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Gammaspektroskopie
 
-## Versuchsdurchführung
+## Versuchsdurchführung [3/4]
 
 ### Aufgabe 2: Charakterisierung der $\mathrm{Hg}$-Röhre
 

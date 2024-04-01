@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Gammaspektroskopie
 
-## Versuchsdurchführung
+## Versuchsdurchführung [4/4]
 
 ### Aufgabe 3: Höhere Anregungen von $\mathrm{Hg}$
 
