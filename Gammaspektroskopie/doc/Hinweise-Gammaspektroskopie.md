@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Gammaspektroskopie
 
-## Gammaspektroskopie
+## Gammaspektroskopie [1/4]
 
 ### Spektrum, Histogramm und Dichte
 

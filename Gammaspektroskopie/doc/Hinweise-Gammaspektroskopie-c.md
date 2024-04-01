@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Gammaspektroskopie
 
-## Gammaspektroskopie
+## Gammaspektroskopie [4/4]
 
 ### Eigenschaften des Gammaspektrums
 

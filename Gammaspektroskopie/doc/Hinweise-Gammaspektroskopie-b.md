@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Gammaspektroskopie
 
-## Gammaspektroskopie
+## Gammaspektroskopie [3/4]
 
 ### Zufall und Statistik
 

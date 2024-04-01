@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Gammaspektroskopie
 
-## Gammaspektroskopie
+## Gammaspektroskopie [2/4]
 
 #### Auslesekette
 
