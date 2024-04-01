@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Gammaspektroskopie
 
-## Wechselwirkung von Photonen mit Materie
+## Wechselwirkung von Photonen mit Materie [1/2]
 
 Es gibt drei Arten, auf die ein Photon $\gamma$ mit der Energie $E_{\gamma}$ mit Materie in Wechselwirkung treten kann: 
 

@@ -1,6 +1,6 @@
 # Hinweise für den Versuch Gammaspektroskopie
 
-## Wechselwirkung von Photonen mit Materie
+## Wechselwirkung von Photonen mit Materie [2/2]
 
 ### Compton-Effekt
 
