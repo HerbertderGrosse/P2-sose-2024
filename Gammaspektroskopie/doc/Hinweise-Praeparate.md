@@ -21,11 +21,11 @@ Die Energie der $\gamma$-Strahlung, die für Vorgänge in der Kernphysik charakt
 
 ### Radioaktive Quellen für diesen Versuch
 
-Für diesen Versuch verwenden wir drei in Technik, Medizin und Lehre häufig verwendete radioaktive Quellen, [Cäsium-137](https://en.wikipedia.org/wiki/Caesium-137) ($`^{137}_{55}\mathrm{Cs}`$), [Cobald-60](https://en.wikipedia.org/wiki/Cobalt-60) ($`^{60}_{27}\mathrm{Co}`$) und [Natrium-22](https://en.wikipedia.org/wiki/Isotopes_of_sodium) ($`^{22}_{11}\mathrm{Na}`$). Cäsium zerfällt durch $\beta^{-}$-Strahlung in Barium, Cobald in Nickel und Natrium durch $\beta^{+}$-Strahlung in Neon. In allen drei Fällen treten angeregte Zustände der Tochterkerne auf, die durch anschließende $\gamma$-Strahlung in ihren Grundzustand übergehen. Die relevanten Zerfallsschemata und weitere Details zu den Zerfällen können Sie **Abbildung 1** entnehmen:
+Für diesen Versuch verwenden wir drei in Technik, Medizin und Lehre häufig verwendete radioaktive Quellen, [Cäsium-137](https://en.wikipedia.org/wiki/Caesium-137) ($`^{137}_{55}\mathrm{Cs}`$), [Cobalt-60](https://en.wikipedia.org/wiki/Cobalt-60) ($`^{60}_{27}\mathrm{Co}`$) und [Natrium-22](https://en.wikipedia.org/wiki/Isotopes_of_sodium) ($`^{22}_{11}\mathrm{Na}`$). Cäsium zerfällt durch $\beta^{-}$-Strahlung in Barium, Cobalt in Nickel und Natrium durch $\beta^{+}$-Strahlung in Neon. In allen drei Fällen treten angeregte Zustände der Tochterkerne auf, die durch anschließende $\gamma$-Strahlung in ihren Grundzustand übergehen. Die relevanten Zerfallsschemata und weitere Details zu den Zerfällen können Sie **Abbildung 1** entnehmen:
 
 <img src="../figures/Quellen.png" width="1200" style="zoom:100%;" />
 
-**Abbildung 1** (Zerfallsschemata von (links) Cäsium-137, (mitte) Cobald-60 und (rechts) Natrium-22)
+**Abbildung 1** (Zerfallsschemata von (links) Cäsium-137, (mitte) Cobalt-60 und (rechts) Natrium-22)
 
 ---
 
