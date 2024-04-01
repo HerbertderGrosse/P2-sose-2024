@@ -14,8 +14,8 @@ Im Versuch Gammaspektroskopie treten sowohl $\beta$- als auch $\gamma$-Strahlung
 
 - $\gamma$-Strahlung: $\mathcal{O}(\mathrm{MeV})$;
 - Röntgenstrahlen: $\mathcal{O}(\mathrm{keV})$;
-- Sichtbares Licht, blau ($\lambda_{\mathrm{blau}}=400\,\mathrm{nm}$): $3\,\mathrm{eV}$;
-- Sichtbares Licht, rot ($\lambda_{\mathrm{rot}}=800\,\mathrm{nm}$): $1.5\,\mathrm{eV}$.
+- Sichtbares Licht, blau ($\lambda_{\mathrm{blau}}=400 \mathrm{nm}$): $3 \mathrm{eV}$;
+- Sichtbares Licht, rot ($\lambda_{\mathrm{rot}}=800 \mathrm{nm}$): $1.5 \mathrm{eV}$.
 
 Die Energie der $\gamma$-Strahlung, die für Vorgänge in der Kernphysik charakteristisch ist, liegt also drei Größenordnungen über der Energie der Röntgenstrahlung, die für Vorgänge in der Atomphysik charakteristisch ist, und sechs Größenordnungen über der Energie sichtbaren Lichts, das unser Alltagsleben bestimmt. Die Skalen erklären sich aus der Kleinheit des Kerns, in dem neben der starken Kernkraft, auch sehr starke elektromagnetische Kräfte wirken. Das Verhältnis Kern- zu Atomausdehnung von $\approx1000$ erklärt den Unterschied zwischen $\gamma$- und Röntgenstrahlung. 
 
