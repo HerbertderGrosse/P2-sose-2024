@@ -217,10 +217,10 @@ $$
 \begin{split}
 &\Delta p_{\mathrm{ges}}= \Delta p_{1} + \Delta p_{2}; \\
 &\\
-&\frac{q_{pV}}{L_{\mathrm{ges}}} = \frac{q_{pV}}{L_{1}} + \frac{q_{pV}}{L_{2}};
+&\frac{q_{pV}}{L_{\mathrm{ges}}} = \frac{q_{pV}}{L_{1}} + \frac{q_{pV}}{L_{2}};\\
 &\\
 &\\
-&\frac{1}{L_{\mathrm{ges}}} = \frac{1}{L_{1}} + \frac{1}{L_{2}}.
+&\frac{1}{L_{\mathrm{ges}}} = \frac{1}{L_{1}} + \frac{1}{L_{2}}.\\
 \end{split}
 \end{equation*}
 $$
