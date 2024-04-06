@@ -1,0 +1,124 @@
+# Hinweise für den Versuch Vakuum
+
+## Aufgabe 1: Versuchsaufbau
+
+### Aufgabe 1.1: Orientierung und Beschreibung des Versuchsaufbaus
+
+- Folgen sie hierzu jeweils den Leitungen und identifizieren Sie die verwendeten Elemente mit den Schaltelementen aus **Abbildung 1** hier. Für den weiteren Verlauf des Versuchs sollten Sie eine gute Übersicht über den Aufbau der Apparaturen haben.
+
+- Sie sollten den Versuchsaufbau wie im folgenden Zustand vorfinden:  
+
+  - Alle Apparaturen sind bei Atmosphärendruck belüftet. 
+  - Das VS ist mit Indium bestückt.
+  - Die Glasglocke wurde von alten Aufdampfbelägen gereinigt. 
+
+  Vermerken Sie den Zustand des Experiments in Ihrem Protokoll entsprechend. Dies ist Bestandteil eines pfleglichen Umgangs mit dem Versuchsaufbau und einer guten Protokollführung. 
+
+- Die drei Versuchsaufbauten sind fast gleich; **Apparatur 44** ist als einzige mit der Gasentladungsröhre für **Aufgabe 1.2** ausgestattet, dafür fehlt dort die Möglichkeit zur Messung der Überschlagsfestigkeit für **Aufgabe 6**.
+
+
+### Aufgabe 1.2: Gasentladung (Demonstrationsversuch)
+
+- Bei diesem Versuchsteil handelt es sich um einen Demonstrationsversuch, den alle Gruppen gemeinsam mit Ihrem:r Tutor:in durchführen. 
+- Evakuieren Sie den RZ und die Gasentladungsröhre gemeinsam mit Hilfe der DSP. Dabei sollten die Ventile V1 und V2 geöffnet sein. 
+- Die TMP bleibt für diesen Versuchsteil außer Betrieb. 
+- Das Hochspannungsgerät zur Erzeugung der Gasentladungen sollte zu jedem Zeitpunkt eingeschaltet sein. 
+- Schließen Sie nach dieser Aufgabe das Ventil zur Gasentladungsröhre für alle folgenden Aufgaben.
+
+## Aufgabe 2: Druckabhängige Saugleistung und Saugvermögen der DSP
+
+
+
+### Hinweise zur Durchführung
+
+Den Verlauf von $\ln\left(p/p_{0}\right)(t)$ bei T1 nehmen Sie hier als Konsistenzmessung relativ zu Aufgabe 2. Beachten Sie, dass Sie die Apparatur in der Zwischenzeit belüftet, geöffnet und wieder geschlossen haben. 
+
+Beachten Sie für Ihre Diskussion der Druckverläufe bei T1 und T2 Abb. 1.1 im Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf). Sie können für den Vergleich mit der Erwartung die Gleichungen (1.28) aus dem Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf) verwenden. Versuchen Sie abzuschätzen welche Art von Strömung an der Ansaugöffnung vorherrscht.  
+
+## Aufgabe 4: Druckabhängige Saugleistung der TMP
+
+### Hinweise zur Durchführung
+
+In diesem Fall genügt der Auftrag von $S^{\prime}(p)$ und eine sorgfältige Diskussion dessen, was Sie beobachten. Beachten Sie, dass für diese Aufgabe zwei Pumpen im Einsatz sind. 
+
+
+
+### Hinweise zur Durchführung
+
+Im Experiment messen Sie die *Saugleistung* (die vom Druck in der Apparatur abhängt) möglichst nah an der Ansaugöffnung der Pumpe. (Beachten Sie hierzu die Anmerkungen zu Aufgabe 3.) Sie steigt während die Pumpe anläuft an, nimmt einen nahezu konstanten Wert an, sobald sie der maximalen Absaugkapazität —und damit dem Saugvermögen der Pumpe— entspricht und fällt wieder ab, sobald andere Größen, wie z.B. Lecks in der Apparatur oder die Dampfdruckkurve von Schmier- und/oder Dichtungsmitteln den Druckverlauf im erzeugten Vakuum dominieren.  
+
+Tragen Sie die Größe 
+
+```math
+S^{\prime}(p) = -\frac{\ln(p/p_{0})\,V}{t-t_{0}}
+```
+
+als Funktion von $p$ auf. Die Größe $S^{\prime}(p)$ sollte dem zuvor beschriebenen Verlauf folgen, im Maximum deutlich abflachen und dann über einen weiten Bereich von $p$ unabhängig sein. Sie können $S$ aus dem Mittelwert $\bar{S}^{\prime}$ der Messpunkte bestimmen, für die dies der Fall ist. Eine Abschätzung für die Unsicherheit auf $\bar{S}^{\prime}$ erhalten Sie aus der [Stichprobenvarianz](https://de.wikipedia.org/wiki/Stichprobenvarianz_(Sch%C3%A4tzfunktion)) ($s^{2}(S^{\prime})$) der Messpunkte, die Sie für die Berechnung von $\bar{S}^{\prime}$verwendet haben:
+
+```math
+\Delta S = \sqrt{\frac{s^{2}\left[S^{\prime}\right]}{n}},
+```
+
+wobei $n$ der Anzahl der verwendeten Messpunkte entspricht. Beachten Sie die Bessel-Korrektur bei der Berechnung von $s^{2}\left[S^{\prime}\right]$ für die Stichprobe, aus der Sie gleichzeitig $\bar{S}^{\prime}$ bestimmt haben.
+
+Für die Messpunkte in $p$ für die $S^{\prime}$ von $p$ unabhängig ist sollte der Verlauf von $p(t)$ exponentiell abfallen, woraus Sie durch die Anpassung eines geeigneten Modells ebenfalls $S$ und $\Delta S$ bestimmen können.
+
+## Aufgabe 3: Strömungsleitwert eines dünnen Metallrohrs
+
+### Prinzip der Messung
+
+Der $pV$-Durchfluss durch ein beliebiges Leitungselement ist durch den Zusammenhang
+
+```math
+q_{pV} = L\left(p_{2}-p_{1}\right)
+```
+
+gegeben, wobei $p_{1}$ dem Druck vor und $p_{2}$ dem Druck hinter dem Leitungselement entsprechen. Den Proportionalitätsfaktor $L$ bezeichnet man als **Strömungsleitwert**. Der Kehrwert von $L$ wird als Strömungswiderstand bezeichnet. 
+
+Eine Pumpe schließt nur selten direkt an die zu evakuierende Apparatur an. Ist dies nicht der Fall, ist das Saugvermögen der Pumpe durch den Gesamtleitwert der verbindenden Leitungselemente reduziert. 
+
+Nimmt man an, dass sich die Temperatur des Gases während des Durchflusses durch das (die) Leitungselement(e) nicht wesentlich ändert, so dass also der $pV$-Durchfluss durch das (die) Leitungselement(e) konstant ist, so erhält man für das effektive Saugvermögen $S_{\mathrm{eff}}$ hinter dem (den) Leitungselement(en) den Zusammenhang 
+
+```math
+\begin{equation*}
+\begin{split}
+&q_{pV} = p_{1}\,S = p_{2}\,S_{\mathrm{eff}};\\
+&\\
+&S_{\mathrm{eff}} = \frac{p_{1}}{p_{2}}\,S.
+\end{split}
+\end{equation*}
+```
+
+Für $S_{\mathrm{eff}}$ folgt also:
+
+```math
+\begin{equation*}
+\begin{split}
+&L = \frac{q_{pV}}{p_{2}-p_{1}} = \frac{p_{1}}{p_{2}-p_{1}}S = \frac{p_{2}}{p_{2}-p_{1}}S_{\mathrm{eff}};\\
+&\\
+&\frac{p_{2}}{p_{1}} = \frac{S}{L}+1;\\
+&\\
+&\frac{S_{\mathrm{eff}}}{L} = \left(1-\frac{p_{1}}{p_{2}}\right) = \left(1-\frac{L}{S+L}\right) = \frac{S}{S+L}; \\
+&\left(S+L\right)\,S_{\mathrm{eff}} = S\,L; \\
+&\\
+&\frac{S+L}{S\,L} = \frac{1}{S_{\mathrm{eff}}} \\
+&\\
+&\frac{1}{L} + \frac{1}{S} = \frac{1}{S_{\mathrm{eff}}} \\
+&\\
+&S_{\mathrm{eff}} = \left(\frac{1}{L} + \frac{1}{S}\right)^{-1} \\
+\end{split}
+\end{equation*}
+```
+
+### Hinweise zur Durchführung
+
+Den Verlauf von $\ln\left(p/p_{0}\right)(t)$ bei T1 nehmen Sie hier als Konsistenzmessung relativ zu Aufgabe 2. Beachten Sie, dass Sie die Apparatur in der Zwischenzeit belüftet, geöffnet und wieder geschlossen haben. 
+
+Beachten Sie für Ihre Diskussion der Druckverläufe bei T1 und T2 Abb. 1.1 im Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf). Sie können für den Vergleich mit der Erwartung die Gleichungen (1.28) aus dem Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf) verwenden. Versuchen Sie abzuschätzen welche Art von Strömung an der Ansaugöffnung vorherrscht.  
+
+## Aufgabe 4: Druckabhängige Saugleistung der TMP
+
+### Hinweise zur Durchführung
+
+In diesem Fall genügt der Auftrag von $S^{\prime}(p)$ und eine sorgfältige Diskussion dessen, was Sie beobachten. Beachten Sie, dass für diese Aufgabe zwei Pumpen im Einsatz sind. 
+
