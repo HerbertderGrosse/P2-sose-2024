@@ -12,7 +12,7 @@ Viskose Strömung liegt generell dann vor, wenn die [mittlere freie Weglänge](h
 
 ### Hoch- und Ultrahochvakuum ($\lt 10^{-3}\ \mathrm{mbar}$) 
 
-Hier liegt [molekulare Strömung](https://de.wikipedia.org/wiki/Molekulare_Str%C3%B6mung) vor, in der sich die Teilchen des Fluids ohne gegenseitige Behinderung frei bewegen können. Die Wahrscheinlichkeit eines Teilchen mit den Begrenzungen der Leitung zu stoßen ist deutlich höher, als die Wahrscheinlichkeit der Teilchen untereinander zu stoßen. In diesem Fall ist $\lambda$ sehr viel größer als der Durchmesser $d$ der Leitung. Da sie so geringen Einfluss aufeinander haben kann man dem Strom der Teilchen des Fluids keine eindeutige Richtung mehr zuordnen. In diesem Druckbereich hängen viele charakteristische Eigenschaften von Leitungen nicht mehr vom Druck, sondern v.a. von der Oberfläche der Leitungen ab. Teilchen des Fluids können von den Begrenzungen der Leitung absorbiert und nach langen Zeiträumen erst wieder abgegeben werden.
+Hier liegt [molekulare Strömung](https://de.wikipedia.org/wiki/Molekulare_Str%C3%B6mung) vor, in der sich die Teilchen des Fluids ohne gegenseitige Behinderung frei bewegen können. Die Wahrscheinlichkeit eines Teilchen mit den Begrenzungen der Leitung zu stoßen ist deutlich höher, als die Wahrscheinlichkeit der Teilchen untereinander zu stoßen. In diesem Fall ist $\lambda$ sehr viel größer als der Durchmesser der Leitung. Da sie so geringen Einfluss aufeinander haben kann man dem Strom der Teilchen des Fluids keine eindeutige Richtung mehr zuordnen. In diesem Druckbereich hängen viele charakteristische Eigenschaften von Leitungen nicht mehr vom Druck, sondern v.a. von der Oberfläche der Leitungen ab. Teilchen des Fluids können von den Begrenzungen der Leitung absorbiert und nach langen Zeiträumen erst wieder abgegeben werden.
 
 ### Feinvakuum ($10^{-3}$ bis $1\ \mathrm{mbar}$) 
 
@@ -115,7 +115,7 @@ $$
 \dot{V}\equiv S
 \end{equation*}
 $$
-durch die Ansaugöffnung einer Pumpe als **Saugvermögen**. Je nach Druck ($p$) und Temperatur ($T$) verändert sich die Stoffmenge ($n$) des geförderten Gases bei gleichem Volumendurchfluss.
+durch die Ansaugöffnung einer Pumpe als **Saugvermögen**. Je nach Druck und Temperatur ($T$) verändert sich die Stoffmenge ($n$) des geförderten Gases bei gleichem Volumendurchfluss.
 
 Die Menge eines Gases kann durch seine Masse $m$ abgeschätzt werden. Bei Gasen gebräuchlicher ist jedoch die Angabe durch das Produkt $pV$, das nach der idealen Gasgleichung 
 
@@ -144,7 +144,7 @@ q_{pV} = \frac{\mathrm{d}(pV)}{\mathrm{dt}}
 $$
 angegeben wird. Beachten Sie dass $q_{pV}$ zwar zu $q_{m}$ proportional, aber nicht damit identisch ist. Der $pV$-Durchfluss wird in Einheiten einer Leistung angegeben.   
 
-Die **Saugleistung** einer Pumpe wird durch $q_{pV}$ an der Ansaugöffnung der Pumpe angegeben. Bei konstantem Druck $p$ gilt der einfache Zusammenhang 
+Die **Saugleistung** einer Pumpe wird durch $q_{pV}$ an der Ansaugöffnung der Pumpe angegeben. Bei konstantem Druck gilt der einfache Zusammenhang 
 
 $$
 \begin{equation*}
@@ -218,7 +218,6 @@ $$
 &\Delta p_{\mathrm{ges}}= \Delta p_{1} + \Delta p_{2}; \\
 &\\
 &\frac{q_{pV}}{L_{\mathrm{ges}}} = \frac{q_{pV}}{L_{1}} + \frac{q_{pV}}{L_{2}};\\
-&\\
 &\\
 &\frac{1}{L_{\mathrm{ges}}} = \frac{1}{L_{1}} + \frac{1}{L_{2}}.\\
 \end{split}
