@@ -10,7 +10,7 @@ Hier liegt viskose oder [Kontinuumsströmung](https://de.wikipedia.org/wiki/Kont
 
 Viskose Strömung liegt generell dann vor, wenn die [mittlere freie Weglänge](https://de.wikipedia.org/wiki/Mittlere_freie_Wegl%C3%A4nge) $\lambda$ der Teilchen sehr viel kleiner als der Durchmesser der Leitung ist. Die Bewegungsrichtung der Teilchen im Fluid entspricht der makroskopischen Bewegungsrichtung des Fluids.
 
-### Hoch- und Ultrahochvakuum ($\lt 10^{-3}\ \mathrm{mbar}$) 
+### Hoch- ($\lt 10^{-3}\ \mathrm{mbar}$) und Ultrahochvakuum ($\lt 10^{-8}\ \mathrm{mbar}$) 
 
 Hier liegt [molekulare Strömung](https://de.wikipedia.org/wiki/Molekulare_Str%C3%B6mung) vor, in der sich die Teilchen des Fluids ohne gegenseitige Behinderung frei bewegen können. Die Wahrscheinlichkeit eines Teilchen mit den Begrenzungen der Leitung zu stoßen ist deutlich höher, als die Wahrscheinlichkeit der Teilchen untereinander zu stoßen. In diesem Fall ist $\lambda$ sehr viel größer als der Durchmesser der Leitung. Da sie so geringen Einfluss aufeinander haben kann man dem Strom der Teilchen des Fluids keine eindeutige Richtung mehr zuordnen. In diesem Druckbereich hängen viele charakteristische Eigenschaften von Leitungen nicht mehr vom Druck, sondern v.a. von der Oberfläche der Leitungen ab. Teilchen des Fluids können von den Begrenzungen der Leitung absorbiert und nach langen Zeiträumen erst wieder abgegeben werden.
 
@@ -171,13 +171,13 @@ $$
 wobei $V$ dem Volumen der evakuierten Apparatur entspricht. Für eine Pumpe, die ein Gas aus einer Apparatur hinreichend großen Volumens $V$, ohne weiteren Wärmeaustausch absaugt, erwartet man also einen exponentiellen Verlauf des Drucks 
 
 $$
-\begin{equation*}
+\begin{equation}
 \begin{split}
 &\ln\left(\frac{p}{p_{0}}\right) = -\frac{S}{V}\left(t-t_{0}\right)\\
 &\\
 &p(t) = p_{0}\,\exp\left(-\frac{S}{V}\left(t-t_{0}\right)\right),
 \end{split}
-\end{equation*}
+\end{equation}
 $$
 wobei $p_{0}$ dem Anfangs- (z.B. Umgebungs-)druck zum Zeitpunkt $t_{0}$ zu Beginn des Pumpvorgangs entspricht. 
 
@@ -185,9 +185,9 @@ wobei $p_{0}$ dem Anfangs- (z.B. Umgebungs-)druck zum Zeitpunkt $t_{0}$ zu Begin
 
 Den Proportionalitätsfaktor 
 $$
-\begin{equation}
+\begin{equation*}
 L=\frac{\pi\,R^{4}\,\overline{p}}{8\,\eta\,L}
-\end{equation}
+\end{equation*}
 $$
 in Gleichung **(4)** bezeichnet man als **Strömungsleitwert**. Der Kehrwert von $L$ wird als **Strömungswiderstand** bezeichnet. Beide lassen sich über den Zusammenhang 
 $$
@@ -197,7 +197,9 @@ q_{pV}\propto\Delta p
 $$
 allgemein definieren. Dabei gilt Gleichung **(5)** nur für viskose Fluide. Für molekulare Strömungen ergibt sich der Zusammenhang: 
 $$
+\begin{equation}
 L = \sqrt{\frac{\pi\,k_{B}\,T}{18\,M_{m}}}\,\frac{R^{3}}{8\,L},
+\end{equation}
 $$
 wobei $k_{B}$ der Boltzmann-Konstanten und $T$ der Temperatur (in $\mathrm{K}$) entsprechen. Der Leitwert wird also vom Druck unabhängig und $R$ geht nur noch in dritter Potenz ein.  
 

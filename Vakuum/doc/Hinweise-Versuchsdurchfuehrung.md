@@ -4,121 +4,153 @@
 
 ### Aufgabe 1.1: Orientierung und Beschreibung des Versuchsaufbaus
 
-- Folgen sie hierzu jeweils den Leitungen und identifizieren Sie die verwendeten Elemente mit den Schaltelementen aus **Abbildung 1** hier. Für den weiteren Verlauf des Versuchs sollten Sie eine gute Übersicht über den Aufbau der Apparaturen haben.
+- Folgen Sie hierzu den Leitungen und identifizieren Sie die verwendeten Elemente mit den Schaltelementen aus **Abbildung 1** hier. Für den weiteren Verlauf des Versuchs sollten Sie eine gute Übersicht über den Aufbau der Apparaturen haben.
 
-- Sie sollten den Versuchsaufbau wie im folgenden Zustand vorfinden:  
+- Sie sollten den Versuchsaufbau im folgenden Zustand vorfinden:  
 
   - Alle Apparaturen sind bei Atmosphärendruck belüftet. 
-  - Das VS ist mit Indium bestückt.
+  - VS ist mit Indium bestückt.
   - Die Glasglocke wurde von alten Aufdampfbelägen gereinigt. 
 
-  Vermerken Sie den Zustand des Experiments in Ihrem Protokoll entsprechend. Dies ist Bestandteil eines pfleglichen Umgangs mit dem Versuchsaufbau und einer guten Protokollführung. 
+  Vermerken Sie den Zustand des Experiments entsprechend in Ihrem Protokoll. 
 
-- Die drei Versuchsaufbauten sind fast gleich; **Apparatur 44** ist als einzige mit der Gasentladungsröhre für **Aufgabe 1.2** ausgestattet, dafür fehlt dort die Möglichkeit zur Messung der Überschlagsfestigkeit für **Aufgabe 6**.
+- Die drei Versuchsaufbauten sind nicht gleich; **Apparatur 44** ist als einzige mit der Gasentladungsröhre für **Aufgabe 1.2** ausgestattet, dafür fehlt dort die Möglichkeit zur Messung der Überschlagsfestigkeit für **Aufgabe 3.2**.
 
 
 ### Aufgabe 1.2: Gasentladung (Demonstrationsversuch)
 
 - Bei diesem Versuchsteil handelt es sich um einen Demonstrationsversuch, den alle Gruppen gemeinsam mit Ihrem:r Tutor:in durchführen. 
-- Evakuieren Sie den RZ und die Gasentladungsröhre gemeinsam mit Hilfe der DSP. Dabei sollten die Ventile V1 und V2 geöffnet sein. 
-- Die TMP bleibt für diesen Versuchsteil außer Betrieb. 
+- Evakuieren Sie RZ und die Gasentladungsröhre gemeinsam mit Hilfe der DSP. Dabei sollten die Ventile V1 und V2 geöffnet sein. Die TMP bleibt für diesen Versuchsteil außer Betrieb. 
 - Das Hochspannungsgerät zur Erzeugung der Gasentladungen sollte zu jedem Zeitpunkt eingeschaltet sein. 
 - Schließen Sie nach dieser Aufgabe das Ventil zur Gasentladungsröhre für alle folgenden Aufgaben.
 
-## Aufgabe 2: Druckabhängige Saugleistung und Saugvermögen der DSP
+## Aufgabe 2: Saugvermögen und Strömungsleitwert
 
+### Aufgabe 2.1: Saugvermögen der DSP
 
+- Nehmen Sie hierzu fünf Minuten lang alle fünf Sekunden einen Messpunkt **bei T1** auf und stellen Sie $p(t)$ geeignet graphisch dar. Schätzen Sie hierzu geeignete Unsicherheiten auf $t$ und $p$ ab.
+- Nutzen Sie zur Bestimmung von $S$ Gleichung **(5)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/doc/Hinweise-Vakuum.md), wobei $t_{0}$ der Zeit zu Beginn der Evakuation und $V$ dem Volumen der **gesamten Apparatur** entsprechen. 
+- Diskutieren Sie Ihre Ergebnisse. Sie sollten abhängig von $p$ grob drei Bereiche identifizieren können:
+  - **Bereich I**: Hier nimmt $S(p)$ mit abnehmendem Druck zu;
+  - **Bereich II**: hier gilt über einen großen Druckbereich $S(p)\approx const.$;
+  - **Bereich III**: Hier nimmt $S(p)$ mit abnehmendem Druck wieder ab (das Grob- geht ins Fein- und Hochvakuum über).
+  - In **Bereich II** ist Gleichung **(5)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/doc/Hinweise-Vakuum.md) über einen Druckbereich von mehreren Größenordnungen anwendbar. Stellen Sie $p(t)$, eingeschränkt auf diesen Bereich als Funktion der Zeit dar und passen Sie das Modell eines exponentiellen Verlaufs, wie in Gleichung **(5)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/doc/Hinweise-Vakuum.md) an die Daten an. Gehen Sie bei der Diskussion auf den $\chi^{2}$-Wert dieser Anpassung ein.   
+- Schalten Sie nach der Messung die DSP ab.
 
-### Hinweise zur Durchführung
+### Aufgabe 2.2: Strömungsleitwert eines dünnen Rohrs 
 
-Den Verlauf von $\ln\left(p/p_{0}\right)(t)$ bei T1 nehmen Sie hier als Konsistenzmessung relativ zu Aufgabe 2. Beachten Sie, dass Sie die Apparatur in der Zwischenzeit belüftet, geöffnet und wieder geschlossen haben. 
+- Zeichnen Sie fünf Minuten lang etwa alle fünf Sekunden den zeitlichen Verlauf des Drucks **jeweils bei T1 und T2** auf. 
+- Stellen Sie $p_{1}$ **bei T1** vor und $p_{2}$ **bei T2** hinter dem Rohr als Funktion der Zeit dar. 
+- Bestimmen Sie $S_{1}$ und $S_{2}$. Das zu verwendende Rohr hat einen Innendurchmesser von $d=2\,\mathrm{mm}$. Berücksichtigen Sie bei den Berechnungen, dass sich durch den Austausch des Metallwellschlauchs durch das Rohr das Gesamtvolumen $V$ der Apparatur verändert hat. 
+- Diskutieren Sie Ihre Ergebnisse und vergleichen Sie Ihren Wert für $L$ mit der Erwartung nach der [Knudsen-Gleichung](https://en.wikipedia.org/wiki/Knudsen_equation) (Gleichung **(6)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/doc/Hinweise-Vakuum.md)).
+- Schalten Sie die DSP nach der Messung ab, belüften Sie RZ und tauschen Sie das Metallrohr wieder gegen den Metallwellschlauch aus.
 
-Beachten Sie für Ihre Diskussion der Druckverläufe bei T1 und T2 Abb. 1.1 im Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf). Sie können für den Vergleich mit der Erwartung die Gleichungen (1.28) aus dem Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf) verwenden. Versuchen Sie abzuschätzen welche Art von Strömung an der Ansaugöffnung vorherrscht.  
+### Aufgabe 2.3: Saugvermögen der TMP
 
-## Aufgabe 4: Druckabhängige Saugleistung der TMP
+Diese Aufgabe dient in erster Linie dazu Ihnen die Möglichkeit zu geben, sich mit der TMP, als einer Hochleistungspumpe vertraut zu machen, mit der Sie mit diesem Aufbau Vakua bis zu $10^{-4}\,\mathrm{mbar}$ erzeugen können. 
 
-### Hinweise zur Durchführung
+- Da die TMP bis zur vollen Saugleistung eine Anlaufzeit von ca. $2\,\mathrm{min}$ benötigt, sollten Sie sie nicht erst bei sehr niedrigem Druck einschalten. Die Apparatur sollte vor Beginn dieses Versuchsteils mindestens bis zu einem Druck von $\approx0.2\ \mathrm{mbar}$ teilbelüftet sein. Evakuieren Sie die Apparatur dann mit der DSP und schalten Sie bei einem Druck von $\approx0.08\ \mathrm{mbar}$ die TMP zu. 
+- Halten Sie während des gesamten Vorgangs der Evakuierung das Ventil V3 geöffnet, damit Sie höhere Drucke bei T3 ablesen können. 
+- Lesen Sie bei geeignet niedrigen Drucken den Druck bei IM ab. 
+- Lassen Sie die TMP für den nächsten Versuchsteil eingeschaltet.
 
-In diesem Fall genügt der Auftrag von $S^{\prime}(p)$ und eine sorgfältige Diskussion dessen, was Sie beobachten. Beachten Sie, dass für diese Aufgabe zwei Pumpen im Einsatz sind. 
+## Aufgabe 3: Experimente im Vakuum
 
+### Aufgabe 3.1: Statische Kalibration von T3 
 
+Für diese Aufgabe führen Sie ein einstufiges, statisches Kalibrierungsverfahren, unter Anwendung des Gesetzes von [Boyle-Mariotte](https://en.wikipedia.org/wiki/Boyle%27s_law) durch. Gehen Sie hierzu iterativ, wie folgt vor:
 
-### Hinweise zur Durchführung
+- In der Ausgangssituation sollte V3 geschlossen, B2 geöffnet und RZ mit Hilfe der DSP und der TMP evakuiert sein. 
 
-Im Experiment messen Sie die *Saugleistung* (die vom Druck in der Apparatur abhängt) möglichst nah an der Ansaugöffnung der Pumpe. (Beachten Sie hierzu die Anmerkungen zu Aufgabe 3.) Sie steigt während die Pumpe anläuft an, nimmt einen nahezu konstanten Wert an, sobald sie der maximalen Absaugkapazität —und damit dem Saugvermögen der Pumpe— entspricht und fällt wieder ab, sobald andere Größen, wie z.B. Lecks in der Apparatur oder die Dampfdruckkurve von Schmier- und/oder Dichtungsmitteln den Druckverlauf im erzeugten Vakuum dominieren.  
+- Schließen Sie V2 bei einem Druck von $p\lesssim10^{-4}\,\mathrm{mbar}$ und trennen Sie damit RZ vom Rest der Apparatur ab. Sie können die beiden Pumpen daraufhin abschalten. 
 
-Tragen Sie die Größe 
+  - **Schritt 1:** Schließen Sie B2. Öffnen Sie daraufhin V3 und lesen Sie den sich einstellenden Druck **bei T3** ab. 
+  - **Schritt 2:** Schließen Sie V3 und öffnen Sie daraufhin B2, damit sich im kleineren Referenzvolumen (RV hier) erneut Atmosphärendruck ($p_{0}$) einstellen kann.
 
-```math
-S^{\prime}(p) = -\frac{\ln(p/p_{0})\,V}{t-t_{0}}
-```
+- Wiederholen Sie diesen Vorgang beginnend mit **Schritt 1**, solange bis sich in RZ ein Druck von $p\approx80\,\mathrm{mbar}$ einstellt. Warten Sie jeweils den Druckausgleich im Gleichgewichtszustand ab. 
 
-als Funktion von $p$ auf. Die Größe $S^{\prime}(p)$ sollte dem zuvor beschriebenen Verlauf folgen, im Maximum deutlich abflachen und dann über einen weiten Bereich von $p$ unabhängig sein. Sie können $S$ aus dem Mittelwert $\bar{S}^{\prime}$ der Messpunkte bestimmen, für die dies der Fall ist. Eine Abschätzung für die Unsicherheit auf $\bar{S}^{\prime}$ erhalten Sie aus der [Stichprobenvarianz](https://de.wikipedia.org/wiki/Stichprobenvarianz_(Sch%C3%A4tzfunktion)) ($s^{2}(S^{\prime})$) der Messpunkte, die Sie für die Berechnung von $\bar{S}^{\prime}$verwendet haben:
+- Stellen Sie den Druckverlauf als Funktion der durchgeführten Iterationen $i$ dar und bestimmen Sie das [Verdichtungsverhältnis](https://de.wikipedia.org/wiki/Verdichtungsverh%C3%A4ltnis) 
 
-```math
-\Delta S = \sqrt{\frac{s^{2}\left[S^{\prime}\right]}{n}},
-```
+  ```math
+  \begin{equation*}
+  \epsilon=\frac{\Delta p}{p_{0}}
+  \end{equation*}
+  ```
 
-wobei $n$ der Anzahl der verwendeten Messpunkte entspricht. Beachten Sie die Bessel-Korrektur bei der Berechnung von $s^{2}\left[S^{\prime}\right]$ für die Stichprobe, aus der Sie gleichzeitig $\bar{S}^{\prime}$ bestimmt haben.
+  des Systems. Schätzen Sie für die Messwerte $p_{i}$ geeignete Unsicherheiten ab. Es sollte sich ein perfekter linearer Zusammenhang einstellen. Überlegen Sie sich die Gründe für eventuelle Abweichungen.
 
-Für die Messpunkte in $p$ für die $S^{\prime}$ von $p$ unabhängig ist sollte der Verlauf von $p(t)$ exponentiell abfallen, woraus Sie durch die Anpassung eines geeigneten Modells ebenfalls $S$ und $\Delta S$ bestimmen können.
-
-## Aufgabe 3: Strömungsleitwert eines dünnen Metallrohrs
-
-### Prinzip der Messung
-
-Der $pV$-Durchfluss durch ein beliebiges Leitungselement ist durch den Zusammenhang
-
-```math
-q_{pV} = L\left(p_{2}-p_{1}\right)
-```
-
-gegeben, wobei $p_{1}$ dem Druck vor und $p_{2}$ dem Druck hinter dem Leitungselement entsprechen. Den Proportionalitätsfaktor $L$ bezeichnet man als **Strömungsleitwert**. Der Kehrwert von $L$ wird als Strömungswiderstand bezeichnet. 
-
-Eine Pumpe schließt nur selten direkt an die zu evakuierende Apparatur an. Ist dies nicht der Fall, ist das Saugvermögen der Pumpe durch den Gesamtleitwert der verbindenden Leitungselemente reduziert. 
-
-Nimmt man an, dass sich die Temperatur des Gases während des Durchflusses durch das (die) Leitungselement(e) nicht wesentlich ändert, so dass also der $pV$-Durchfluss durch das (die) Leitungselement(e) konstant ist, so erhält man für das effektive Saugvermögen $S_{\mathrm{eff}}$ hinter dem (den) Leitungselement(en) den Zusammenhang 
-
-```math
+Für den Druck nach einer Iteration gilt: 
+$$
 \begin{equation*}
 \begin{split}
-&q_{pV} = p_{1}\,S = p_{2}\,S_{\mathrm{eff}};\\
+&\bigl(p_{\mathrm{RZ}}+\Delta p\bigr)\,\bigl(V_{\mathrm{RZ}}+V_{\mathrm{RV}}\bigr) = \bigl(n_{\mathrm{RZ}}+n_{\mathrm{RV}}\bigr)\,R\,T; \\
 &\\
-&S_{\mathrm{eff}} = \frac{p_{1}}{p_{2}}\,S.
+&\text{mit:}\\
+&\\
+&n_{\mathrm{RZ}} = \frac{p_{\mathrm{RZ}}\,V_{\mathrm{RZ}}}{R\,T};\qquad
+n_{\mathrm{RV}} = \frac{p_{0}\,V_{\mathrm{RV}}}{R\,T} \\
+&\\
+&\bigl(p_{\mathrm{RZ}}+\Delta p\bigr)\,\bigl(V_{\mathrm{RZ}}+V_{\mathrm{RV}}\bigr) = p_{\mathrm{RZ}}\,V_{\mathrm{RZ}}+p_{0}\,V_{\mathrm{RV}};\\
+&\\
+&V_{\mathrm{RV}} = \frac{\Delta p\,V_{\mathrm{RZ}}}{p_{0}-\left(p_{\mathrm{RZ}}-\Delta p\right)}\approx\frac{\Delta p\,V_{\mathrm{RZ}}}{p_{0}}; \\
+&\\
+&\epsilon=\frac{\Delta p}{p_{0}}\approx\frac{V_{\mathrm{RZ}}}{V_{\mathrm{RV}}}. \\
 \end{split}
 \end{equation*}
-```
+$$
+Vergleichen Sie Ihr Ergebnis mit dieser Erwartung. Beziehen Sie in Ihre Diskussion den $\chi^{2}$-Wert der Anpassung mit ein.  
 
-Für $S_{\mathrm{eff}}$ folgt also:
+### Aufgabe 3.2: Elektrische Durchschlagfestigkeit
 
-```math
+- Schalten Sie hierzu zunächst die TMP aus und evakuieren Sie RZ nur mit Hilfe der DSP. 
+- Schließen Sie nach erreichen des gewünschten Drucks jeweils V1, so dass der Druck in RZ während der sich anschließenden Messung konstant bleibt.
+- Beginnen Sie mit der belüfteten Apparatur bei Atmosphärendruck und erhöhen Sie die Spannung zwischen den KE bis zur Entladung. 
+- Evakuieren Sie daraufhin RZ bis auf halben Atmosphärendruck. Erhöhen Sie die Spannung bis zur Entladung. 
+- Wiederholen Sie diese Vorgehensweise bis Sie einen Druck von $p\approx0.08\ \mathrm{mbar}$ erreicht haben. In diesem Druckbereich wird es zunehmend schwieriger den Druck in RZ konstant zu halten. Um leichter und schneller an weitere Messwerte zu gelangen, evakuieren Sie nun zusätzlich und ohne Unterbrechung mit der TMP bis zu einem Druck von $p\lesssim10^{-4}\ \mathrm{mbar}$. 
+- Schalten Sie die TMP aus und schließen Sie V2. Der Druck in RZ wird nun von selbst steigen. 
+- Nehmen Sie sobald wie möglich (für $U \leq9\ \mathrm{kV}$) weitere Messwerte auf. Die Messreihe endet, wenn ein Druck von $p\approx0.08\ \mathrm{mbar}$ erreicht ist.
+- Diskutieren Sie in Ihrer Auswertung die folgenden Punkte: 
+  - Warum lässt sich der Druck ab einem bestimmten Druckbereich nicht mehr genau einstellen und warum steigt er bei sehr kleinen Werten kontinuierlich an? 
+  - Beschreiben Sie Ihre Beobachtungen in den entsprechenden Druckbereichen. 
+  - Erklären Sie den Verlauf der elektrischen Durchschlagfestigkeit mit Hilfe der mittleren freien Weglänge $\lambda$.
+
+Sie können $\lambda$, wie für den [Franck-Hertz-Versuch](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/tree/main/Franck_Hertz_Versuch), wie folgt abschätzen: 
+$$
 \begin{equation*}
 \begin{split}
-&L = \frac{q_{pV}}{p_{2}-p_{1}} = \frac{p_{1}}{p_{2}-p_{1}}S = \frac{p_{2}}{p_{2}-p_{1}}S_{\mathrm{eff}};\\
+&\lambda = \frac{1}{\sigma\,n} = \frac{R\,T}{\sigma\,p_{\mathrm{RZ}}V_{\mathrm{RZ}}};\\
 &\\
-&\frac{p_{2}}{p_{1}} = \frac{S}{L}+1;\\
+&\text{mit:}\\
 &\\
-&\frac{S_{\mathrm{eff}}}{L} = \left(1-\frac{p_{1}}{p_{2}}\right) = \left(1-\frac{L}{S+L}\right) = \frac{S}{S+L}; \\
-&\left(S+L\right)\,S_{\mathrm{eff}} = S\,L; \\
-&\\
-&\frac{S+L}{S\,L} = \frac{1}{S_{\mathrm{eff}}} \\
-&\\
-&\frac{1}{L} + \frac{1}{S} = \frac{1}{S_{\mathrm{eff}}} \\
-&\\
-&S_{\mathrm{eff}} = \left(\frac{1}{L} + \frac{1}{S}\right)^{-1} \\
+&\sigma= \pi\,R^{2};\qquad R=\sqrt[3]{\frac{3}{4\pi}V};
+\qquad V= \frac{M_{m}(\mathrm{N}_{2})\,f}{N_{A}\,\rho_{\mathrm{fl}}},\\
 \end{split}
 \end{equation*}
-```
+$$
+wobei $N_{A}$ der [Avogradro-Konstanten](https://de.wikipedia.org/wiki/Avogadro-Konstante),  $M_{m}(\mathrm{N}_{2})$ der [molaren Masse](https://de.wikipedia.org/wiki/Molare_Masse), $\rho_{\mathrm{fl}}=807\ \mathrm{g/\ell}$ der Dichte von flüssigem $\mathrm{N}_{2}$ und $f\approx0.74$ dem Füllfaktor der [dichtesten Kugelpackung](https://de.wikipedia.org/wiki/Dichteste_Kugelpackung) entsprechen. Schätzen Sie daraus und aus der Bestimmung der elektrischen Durchschlagfestigkeit den Abstand der KE ab. 
 
-### Hinweise zur Durchführung
+### Aufgabe 3.3: Aufdampfen von Indium
 
-Den Verlauf von $\ln\left(p/p_{0}\right)(t)$ bei T1 nehmen Sie hier als Konsistenzmessung relativ zu Aufgabe 2. Beachten Sie, dass Sie die Apparatur in der Zwischenzeit belüftet, geöffnet und wieder geschlossen haben. 
+Bei dieser Aufgabe dampfen Sie bei verschiedenen Drucken jeweils eine Indium-Schicht durch eine Kreisblende auf eine schwenkbare Plexiglasplatte auf. Es soll jeweils ein Fleck bei einem Druck von 
 
-Beachten Sie für Ihre Diskussion der Druckverläufe bei T1 und T2 Abb. 1.1 im Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf). Sie können für den Vergleich mit der Erwartung die Gleichungen (1.28) aus dem Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf) verwenden. Versuchen Sie abzuschätzen welche Art von Strömung an der Ansaugöffnung vorherrscht.  
+- $p\lesssim10^{-4}\,\mathrm{mbar}$ und 
+- $p\lesssim10^{-3}\,\mathrm{mbar}$ aufgedampft werden. 
 
-## Aufgabe 4: Druckabhängige Saugleistung der TMP
+Beobachten Sie den benötigten Heizstrom und diskutieren Sie die Randschärfe der aufgedampften Flecken. Gehen Sie dabei wie folgt vor: 
 
-### Hinweise zur Durchführung
+- Evakuieren Sie RZ mit der TMP; 
+- schließen Sie V2; 
+- dampfen Sie den ersten Fleck bei minimal erreichbarem Druck ($p\lesssim10^{-4}\,\mathrm{mbar}$) auf; 
+- dampfen Sie den zweiten Fleck bei $p\approx10^{-3}\,\mathrm{mbar}$ auf. 
 
-In diesem Fall genügt der Auftrag von $S^{\prime}(p)$ und eine sorgfältige Diskussion dessen, was Sie beobachten. Beachten Sie, dass für diese Aufgabe zwei Pumpen im Einsatz sind. 
+**Achtung: Die verfügbare Heizleistung reicht aus, um HZ vollständig zu zerstören!** Der Heizstrom darf daher erst sehr langsam nach oben geregelt werden, sobald das gewünschte Vakuum für den ersten Fleck erreicht ist. Beobachten Sie HZ beim Hochregeln des Heizstroms. Es soll zwar glühen, aber nicht schmelzen. 
+
+#### Wiederherstellung des Anfangszustands der Apparatur
+
+Stellen Sie im Anschluss, für Ihre Nachfolger:innen, den Anfgangszustand der Apparatur wieder, wie folgt her: 
+
+- Belüften Sie die Apparatur; 
+- reinigen Sie die Plexiglasplatte und die Glasglocke von eventuellen Aufdampfbelägen; 
+- bestücken Sie HZ mit etwas Indium (lassen Sie die Menge vom Betreuer überprüfen); und 
+- setzen Sie die Glocke wieder auf den Dichtungsring.
 
