@@ -22,7 +22,7 @@ Hier liegt der Übergang zwischen Kontinuumsströmung und molekularer Strömung,
 
 Um die innere Reibung einer viskosen Strömung zu verstehen betrachten wir den Fall zweier übereinander liegender Flächen in einem Fluid, wie in **Abbildung 1** dargestellt: 
 
-($\lt 10^{-3}\ \mathrm{mbar}$) <img src="../figures/Viskositaet.png" width="1000" style="zoom:100%;"/>
+<img src="../figures/Viskositaet.png" width="1000" style="zoom:100%;"/>
 
 **Abbildung 1**: (Übereinandergleitende Schichten eines viskosen Fluids)
 
