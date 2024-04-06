@@ -1,161 +1,63 @@
-# Hinweise für den Versuch Vakuum
+<img src="../figures/Logo_KIT.svg" width="200" style="float:right;" />
 
- 
+# Fakultät für Physik
 
-## Aufgabe 2: Druckabhängige Saugleistung und Saugvermögen der DSP
+## Physikalisches Praktikum P2 für Studierende der Physik
 
-### Prinzip der Messung
+Versuch P2-41, 42, 44 (Stand: April 2024)
 
-Den Volumendurchfluss (Volumenstrom)
+[Raum F1-19](https://labs.physik.kit.edu/img/Praktikum/Lageplan_P2.png)
 
-```math
-\frac{\mathrm{d}V}{\mathrm{d}t} = \dot{V}\equiv S
-```
 
-durch die Ansaugöffnung einer Pumpe bezeichnet man als **Saugvermögen**. Je nach Druck ($p$) und Temperatur ($T$) eines Gases verändert sich die Stoffmenge ($n$) des geförderten Gases bei gleichem Volumendurchfluss.
 
-Die Menge eines Gases kann man durch seine Masse $m$ abschätzen. Bei Gasen gebräuchlicher ist jedoch die Angabe durch das Produkt $pV$, das nach der idealen Gasgleichung 
+# Vakuum
 
-```math
-\begin{equation*}
-\begin{split}
-& p\,V = n\,R\,T = \frac{m}{M_{M}}R\,T; \\
-&\\
-&m = \frac{p\,V}{R\,T}M_{M},
-\end{split}
-\end{equation*}
-```
+## Motivation
 
-bei bekannter Temperatur zur Massenangabe äquivalent ist. Dabei entspricht $M_{M}$ der [molaren Masse](https://de.wikipedia.org/wiki/Molare_Masse) der Gasmoleküle. Für eine Pumpe ist neben dem Volumen- der **Massenfluss**
+Die Abwesenheit von Materie im Raum bezeichnen wir als [Vakuum](https://de.wikipedia.org/wiki/Vakuum). Die Vorstellung von Raum ohne Materie wurde sowohl von Platon, als auch von Aristoteles, der eine "Abneigung der Natur gegen das Leere" postulierte, die später als [*horror vacui*](https://de.wikipedia.org/wiki/Vakuum#Geschichte_der_Erforschung) bekannt wurde, abgelehnt. Auch Descarte, der Namensgeber unseres kartesischen Koordinatensystems, war davon überzeugt, dass es keinen materiefreien Raum geben könne. Die Überzeugungen solcher Autoritäten der frühen Wissenschaft wurden nur mühsam durch Experimente im Laufe der Renaissance widerlegt. Das erste von Menschen geschaffene Vakuum ist 1644 von [Evangelista Torricelli](https://de.wikipedia.org/wiki/Evangelista_Torricelli) überliefert. Populär wurden die 1657 publikumswirksam von [Otto von Guericke](https://de.wikipedia.org/wiki/Otto_von_Guericke) in Szene gesetzten Experimente mit den evakuierten [Magdeburger Halbkugeln](https://de.wikipedia.org/wiki/Magdeburger_Halbkugeln). Noch bis zum Scheitern des [Michelson-Morley Experiments](https://de.wikipedia.org/wiki/Michelson-Morley-Experiment) war man von der Existenz eines allumfassenden Äthers überzeugt, in dem sich das Licht ausbreiten sollte. Der Ausgang des [Rutherford-Experiments](https://de.wikipedia.org/wiki/Rutherford-Streuung) deutete darauf hin, dass sich zwischen dem Atomkern, auf den sich die gesamte Masse des Atoms konzentriert und seiner Hülle im wesentlichen nichts befand. Heute würden wir selbst einen von aller Materie befreiten Raum nicht als "leer" bezeichnen, weil er sowohl elektromagnetische Strahlung, Gravitationswellen, als auch allgemeine Quantenfluktuation beinhalten kann, die z.B. durch den [Casimir-Effekt](https://de.wikipedia.org/wiki/Casimir-Effekt) messbar sind. Im bekannten Universum gibt es kein vollständiges Vakuum. 
 
-```math
-\frac{\mathrm{d}m}{\mathrm{d}t} = \dot{m}\equiv q_{m}
-```
+Heutzutage ist das Vakuum vor allem von technischer Bedeutung. Es schafft wichtige Voraussetzungen in Industrie und Technik, zur Konservierung von Lebensmitteln und in der Forschung. Man unterscheidet zwischen Grob-, Fein-, Hoch- und Ultrahochvakuum. Im interplanetaren Raum herrscht ein Vakuum mit Drücken von $<10^{-18}\,\mathrm{mbar}$ vor. In der [Strahlröhre des LHC](https://home.cern/science/engineering/vacuum-empty-interstellar-space) am CERN in Genf oder im Vakuumtank des [KATRIN Experiments](https://de.wikipedia.org/wiki/KATRIN) herrschen Vakua mit Drücken von $<10^{-10}\,\mathrm{mbar}$ vor.
 
-von Relevanz, der entsprechend auch als **$pV$-Durchfluss**
+## Lehrziele
 
-```math
-q_{pV} = \frac{\mathrm{d}(p\,V)}{\mathrm{dt}}
-```
+Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem Versuch **Vakuum** vermitteln möchten: 
 
-angegeben wird. Beachten Sie dass $q_{pV}$ zwar zu $q_{m}$ proportional, aber nicht damit identisch ist, der $pV$-Durchfluss wird z.B. in Einheiten einer Leistung angegeben.   
+- Sie erhalten Einblicke in die Prinzipien zur Erzeugung und Vermessung von Vakua. Sie lernen mit einer Vakuumapparatur umzugehen, können selbst Hand anlegen und einfache Experimente im Vakuum durchzuführen.
+- Sie lernen den Umgang mit zwei wichtigen Pumpentypen zur Erzeugung von Fein- ($10^{0}-10^{-3}\,\mathrm{mbar}$) und Hochvakua ($10^{-3}-10^{-7}\,\mathrm{mbar}$).
+- Sie untersuchen Gasentladungen und die Durchschlagfestigkeit zweier Kondensatorkugeln bei variierendem Luftdruck.
+- Sie überprüfen den Leitwert eines Metallrohrs und die Saugleistung der verwendeten Pumpen. 
+- Als einfache technische Anwendung dampfen Sie bei variierendem Druck Indium auf eine Plexiglasplatte auf.
 
-Die **Saugleistung** einer Pumpe wird entweder durch $q_{m}$ oder (im Sinne der Namensgebung intuitiver) $q_{pV}$ an der Ansaugöffnung der Pumpe angegeben. Bei konstantem Druck $p$ gilt der einfache Zusammenhang 
+## Versuchsaufbau
 
-```math
-q_{pV} = \left.\frac{\mathrm{d}(p\,V)}{\mathrm{d}t}\right|_{p=const.} = p\frac{\mathrm{d}V}{\mathrm{d}t} = p\,S
-```
+Einen typischer Aufbau der Apparatur für diesen Versuch ist in **Abbildung 1** gezeigt:
 
-Der Begriff der Saugleistung darf nicht mit dem Saugvermögen verwechselt werden. Die Saugleistung gibt die, bei einem realen Saugvorgang, tatsächlich pro Zeiteinheit von der Pumpe abtransportierte Gasmenge an; das Saugvermögen ist die von der Pumpe pro Zeiteinheit *zur Verfügung gestellte* (maximale) "Transportkapazität". Das Saugvermögen entspricht also der maximal möglichen Saugleistung der Pumpe und ist damit eine von Umgebungsparametern unabhängige Kenngröße einer Pumpe.
+<img src="./figures/Vakuum.jpg" width="1000" style="zoom:100%;" />
 
-Wenn wir beim Saugvorgang von einer adiabatischen Zustandsänderung ($\delta Q=0$) ausgehen gilt: 
+**Abbildung 1**: (Ein typischer Aufbau des im P2 verwendeten Versuchs Vakuum)
 
-```math
-\begin{equation*}
-\begin{split}
-\delta Q &= \mathrm{d}(p\,V) = 0;\\
-&\\
-&= p\,\mathrm{d}V  + V\,\mathrm{d}p \\
-&\\
-&= p\,S\,\mathrm{d}t  + V\,\mathrm{d}p;\\
-&\\
-\frac{\mathrm{d}p}{p} &= -\frac{S}{V}\mathrm{d}t,
-\end{split}
-\end{equation*}
-```
+---
 
-wobei $V$ dem Volumen der evakuierten Apparatur entspricht. Für eine Pumpe, die ein Gas aus einer Apparatur hinreichend großen Volumens $V$, ohne weiteren Wärmeaustausch absaugt, würde man also einen exponentiellen Verlauf des Drucks 
+Eine Vakuumapparatur besteht üblicherweise aus dem zu evakuierenden Behälter, dem so genannten Rezipienten (RZ) und einer Pumpe.
 
-```math
-\begin{equation*}
-\begin{split}
-&\ln\left(\frac{p}{p_{0}}\right) = -\frac{S}{V}\left(t-t_{0}\right)\\
-&\\
-&p(t) = p_{0}\,\exp\left(-\frac{S}{V}\left(t-t_{0}\right)\right)
-\end{split}
-\end{equation*}
-```
+Eine Glasglocke (mit $220\ \mathrm{mm}$ Durchmesser und $250\ \mathrm{mm}$ Höhe) auf einem Metallteller mit Gummidichtung bildet den *Rezipienten* (RE) in dem verschiedene Versuche durchgeführt werden können. Darin befinden sich zwei elektrisch aufladbare Kugelelektroden (KE) und ein elektrisch direkt beheizbares Verdampferschiffchen (VS).
 
-erwarten, wobei $p_{0}$ dem Anfangs- (z.B. Umgebungs-)druck zum Zeitpunkt $t_{0}$ zu Beginn des Pumpvorgangs entspricht. 
+Der erreichbare Enddruck wird letztlich durch Lecks und Gasabgabe von den Wänden des Behälters und dem Saugvermögen der Pumpe begrenzt.
 
-Für Ihre Messungen nutzen Sie diese Beziehung aus, um $S$ aus dem Verlauf von $\ln(p/p_{0})$ als Funktion von $p$ abzuschätzen. 
+Text…
 
-### Hinweise zur Durchführung
 
-Im Experiment messen Sie die *Saugleistung* (die vom Druck in der Apparatur abhängt) möglichst nah an der Ansaugöffnung der Pumpe. (Beachten Sie hierzu die Anmerkungen zu Aufgabe 3.) Sie steigt während die Pumpe anläuft an, nimmt einen nahezu konstanten Wert an, sobald sie der maximalen Absaugkapazität —und damit dem Saugvermögen der Pumpe— entspricht und fällt wieder ab, sobald andere Größen, wie z.B. Lecks in der Apparatur oder die Dampfdruckkurve von Schmier- und/oder Dichtungsmitteln den Druckverlauf im erzeugten Vakuum dominieren.  
 
-Tragen Sie die Größe 
+## Wichtige Hinweise
 
-```math
-S^{\prime}(p) = -\frac{\ln(p/p_{0})\,V}{t-t_{0}}
-```
+- Obwohl in diesem Versuch eine splittergeschützte Glasglocke verwendet wird, kann die evakuierte Glasglocke implodieren. **Zum Schutz Ihrer Augen müssen Sie daher beim Arbeiten an der evakuierten
+  Apparatur eine Schutzbrille tragen**.
+- Die hier aufgebaute Apparatur ist sehr empfindlich. Bei fehlerhafter Handhabung können teure Schäden entstehen. Die einzelnen Versuchsteile dürfen daher **nur nach Rücksprache mit dem/der Betreuer:in** gestartet werden dürfen.
+- Beim Arbeiten am Rezipienteninneren decken Sie die Pumpenöffnung mit der bereitliegenden Plastikkappe ab, um Verunreinigungen zu vermeiden. Vor dem Verbinden von Bauteilen mit Hilfe von Dichtungsringen sollten Sie die Ringe und Dichtflächen ebenfalls **sorgfältig reinigen**.
+- Die **Turbomolekularpumpe** darf nur bei einem Vorvakuumdruck von weniger als $0.1\ \mathrm{mbar}$ eingeschaltet werden. Die Apparatur darf erst dann belüftet werden, wenn der Rotor nach dem Abschalten völlig zum Stillstand gekommen ist. Dies dauert einige Minuten. **Ein Lufteinbruch solange der Rotor sich noch bewegt kann die Pumpe zerstören.**
 
-als Funktion von $p$ auf. Die Größe $S^{\prime}(p)$ sollte dem zuvor beschriebenen Verlauf folgen, im Maximum deutlich abflachen und dann über einen weiten Bereich von $p$ unabhängig sein. Sie können $S$ aus dem Mittelwert $\bar{S}^{\prime}$ der Messpunkte bestimmen, für die dies der Fall ist. Eine Abschätzung für die Unsicherheit auf $\bar{S}^{\prime}$ erhalten Sie aus der [Stichprobenvarianz](https://de.wikipedia.org/wiki/Stichprobenvarianz_(Sch%C3%A4tzfunktion)) ($s^{2}(S^{\prime})$) der Messpunkte, die Sie für die Berechnung von $\bar{S}^{\prime}$verwendet haben:
+# Navigation
 
-```math
-\Delta S = \sqrt{\frac{s^{2}\left[S^{\prime}\right]}{n}},
-```
-
-wobei $n$ der Anzahl der verwendeten Messpunkte entspricht. Beachten Sie die Bessel-Korrektur bei der Berechnung von $s^{2}\left[S^{\prime}\right]$ für die Stichprobe, aus der Sie gleichzeitig $\bar{S}^{\prime}$ bestimmt haben.
-
-Für die Messpunkte in $p$ für die $S^{\prime}$ von $p$ unabhängig ist sollte der Verlauf von $p(t)$ exponentiell abfallen, woraus Sie durch die Anpassung eines geeigneten Modells ebenfalls $S$ und $\Delta S$ bestimmen können.
-
-## Aufgabe 3: Strömungsleitwert eines dünnen Metallrohrs
-
-### Prinzip der Messung
-
-Der $pV$-Durchfluss durch ein beliebiges Leitungselement ist durch den Zusammenhang
-
-```math
-q_{pV} = L\left(p_{2}-p_{1}\right)
-```
-
-gegeben, wobei $p_{1}$ dem Druck vor und $p_{2}$ dem Druck hinter dem Leitungselement entsprechen. Den Proportionalitätsfaktor $L$ bezeichnet man als **Strömungsleitwert**. Der Kehrwert von $L$ wird als Strömungswiderstand bezeichnet. 
-
-Eine Pumpe schließt nur selten direkt an die zu evakuierende Apparatur an. Ist dies nicht der Fall, ist das Saugvermögen der Pumpe durch den Gesamtleitwert der verbindenden Leitungselemente reduziert. 
-
-Nimmt man an, dass sich die Temperatur des Gases während des Durchflusses durch das (die) Leitungselement(e) nicht wesentlich ändert, so dass also der $pV$-Durchfluss durch das (die) Leitungselement(e) konstant ist, so erhält man für das effektive Saugvermögen $S_{\mathrm{eff}}$ hinter dem (den) Leitungselement(en) den Zusammenhang 
-
-```math
-\begin{equation*}
-\begin{split}
-&q_{pV} = p_{1}\,S = p_{2}\,S_{\mathrm{eff}};\\
-&\\
-&S_{\mathrm{eff}} = \frac{p_{1}}{p_{2}}\,S.
-\end{split}
-\end{equation*}
-```
-
-Für $S_{\mathrm{eff}}$ folgt also:
-
-```math
-\begin{equation*}
-\begin{split}
-&L = \frac{q_{pV}}{p_{2}-p_{1}} = \frac{p_{1}}{p_{2}-p_{1}}S = \frac{p_{2}}{p_{2}-p_{1}}S_{\mathrm{eff}};\\
-&\\
-&\frac{p_{2}}{p_{1}} = \frac{S}{L}+1;\\
-&\\
-&\frac{S_{\mathrm{eff}}}{L} = \left(1-\frac{p_{1}}{p_{2}}\right) = \left(1-\frac{L}{S+L}\right) = \frac{S}{S+L}; \\
-&\left(S+L\right)\,S_{\mathrm{eff}} = S\,L; \\
-&\\
-&\frac{S+L}{S\,L} = \frac{1}{S_{\mathrm{eff}}} \\
-&\\
-&\frac{1}{L} + \frac{1}{S} = \frac{1}{S_{\mathrm{eff}}} \\
-&\\
-&S_{\mathrm{eff}} = \left(\frac{1}{L} + \frac{1}{S}\right)^{-1} \\
-\end{split}
-\end{equation*}
-```
-
-### Hinweise zur Durchführung
-
-Den Verlauf von $\ln\left(p/p_{0}\right)(t)$ bei T1 nehmen Sie hier als Konsistenzmessung relativ zu Aufgabe 2. Beachten Sie, dass Sie die Apparatur in der Zwischenzeit belüftet, geöffnet und wieder geschlossen haben. 
-
-Beachten Sie für Ihre Diskussion der Druckverläufe bei T1 und T2 Abb. 1.1 im Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf). Sie können für den Vergleich mit der Erwartung die Gleichungen (1.28) aus dem Dokument [Grundlagen der Vakuumtechnik](https://git.scc.kit.edu/etp-lehre/p2-for-students/-/blob/main/Vakuum/VakuumGrundlagen.pdf) verwenden. Versuchen Sie abzuschätzen welche Art von Strömung an der Ansaugöffnung vorherrscht.  
-
-## Aufgabe 4: Druckabhängige Saugleistung der TMP
-
-### Hinweise zur Durchführung
-
-In diesem Fall genügt der Auftrag von $S^{\prime}(p)$ und eine sorgfältige Diskussion dessen, was Sie beobachten. Beachten Sie, dass für diese Aufgabe zwei Pumpen im Einsatz sind. 
-
+- [Hinweise-Vakuum.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/doc/Hinweise-Vakuum.md): **Grundlagen der Strömungslehre und der Vakuumtechnik**.
+- [Hinweise-Versuchsdurchfuehrung.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/doc/Hinweise-Versuchsdurchfuehrung.md): Wichtige Hinweise und **Tipps zur Versuchsdurchführung**.
+- [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/Datenblatt.md): Technische Details zu den Versuchsaufbauten.

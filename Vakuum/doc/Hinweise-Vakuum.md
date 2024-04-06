@@ -280,7 +280,7 @@ Die effektive Saugleistung der Pumpe ergibt sich also durch Serienschaltung mit 
 
 # Navigation
 
-[Main](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/tree/main/Gammaspektroskopie)
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/tree/main/Vakuum)
 
 
 
