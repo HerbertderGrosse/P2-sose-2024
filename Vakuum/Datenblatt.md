@@ -20,9 +20,9 @@ Für die verschiedenen Aufgaben des Versuchs Vakuum stehen Ihnen die folgenden G
 
 - Eine Glasglocke mit $220\ \mathrm{mm}$ Durchmesser und $250\ \mathrm{mm}$ Höhe, auf einem Metallteller mit Gummidichtung (Rezipient, RZ), jeweils mit dem Volumen:
 
-  - **Apparatur 41**: $V_{\mathrm{RZ}} = 10,1\ \mathrm{l}$;
-  - **Apparatur 42**: $V_{\mathrm{RZ}} = 10,0\ \mathrm{l}$;
-  - **Apparatur 44**: $V_{\mathrm{RZ}} = 9,2\ \mathrm{l}$.
+  - **Apparatur 41**: $V_{\mathrm{RZ}} = 10.1\ \mathrm{l}$;
+  - **Apparatur 42**: $V_{\mathrm{RZ}} = 10.0\ \mathrm{l}$;
+  - **Apparatur 44**: $V_{\mathrm{RZ}} = 9.2\ \mathrm{l}$.
 
   Die Volumina der Gesamtapparaturen sind jeweils um $0.5\ \mathrm{l}$ größer. 
 
