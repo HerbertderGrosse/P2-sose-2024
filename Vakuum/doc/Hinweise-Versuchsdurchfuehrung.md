@@ -4,7 +4,7 @@
 
 ### Aufgabe 1.1: Orientierung und Beschreibung des Versuchsaufbaus
 
-- Folgen Sie hierzu den Leitungen und identifizieren Sie die verwendeten Elemente mit den Schaltelementen aus **Abbildung 1** hier. Für den weiteren Verlauf des Versuchs sollten Sie eine gute Übersicht über den Aufbau der Apparaturen haben.
+- Folgen Sie hierzu den Leitungen und identifizieren Sie die verwendeten Elemente mit den Schaltelementen aus **Abbildung 2** [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/README.md). Für den weiteren Verlauf des Versuchs sollten Sie eine gute Übersicht über den Aufbau der Apparatur haben.
 
 - Sie sollten den Versuchsaufbau im folgenden Zustand vorfinden:  
 
@@ -40,16 +40,16 @@
 ### Aufgabe 2.2: Strömungsleitwert eines dünnen Rohrs 
 
 - Zeichnen Sie fünf Minuten lang etwa alle fünf Sekunden den zeitlichen Verlauf des Drucks **jeweils bei T1 und T2** auf. 
-- Stellen Sie $p_{1}$ **bei T1** vor und $p_{2}$ **bei T2** hinter dem Rohr als Funktion der Zeit dar. 
+- Stellen Sie $p_{1}$ (**bei T1**) vor und $p_{2}$ (**bei T2**) hinter dem Rohr als Funktion der Zeit dar. 
 - Bestimmen Sie $S_{1}$ und $S_{2}$. Das zu verwendende Rohr hat einen Innendurchmesser von $d=2\,\mathrm{mm}$. Berücksichtigen Sie bei den Berechnungen, dass sich durch den Austausch des Metallwellschlauchs durch das Rohr das Gesamtvolumen $V$ der Apparatur verändert hat. 
-- Diskutieren Sie Ihre Ergebnisse und vergleichen Sie Ihren Wert für $L$ mit der Erwartung nach der [Knudsen-Gleichung](https://en.wikipedia.org/wiki/Knudsen_equation) (Gleichung **(6)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/doc/Hinweise-Vakuum.md)).
+- Diskutieren Sie Ihre Ergebnisse und vergleichen Sie den von Ihnen bestimmten Wert für $L$ mit der Erwartung nach der [Knudsen-Gleichung](https://en.wikipedia.org/wiki/Knudsen_equation) (Gleichung **(7)** [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/doc/Hinweise-Vakuum.md)).
 - Schalten Sie die DSP nach der Messung ab, belüften Sie RZ und tauschen Sie das Metallrohr wieder gegen den Metallwellschlauch aus.
 
 ### Aufgabe 2.3: Saugvermögen der TMP
 
-Diese Aufgabe dient in erster Linie dazu Ihnen die Möglichkeit zu geben, sich mit der TMP, als einer Hochleistungspumpe vertraut zu machen, mit der Sie mit diesem Aufbau Vakua bis zu $10^{-4}\,\mathrm{mbar}$ erzeugen können. 
+Diese Aufgabe dient in erster Linie dazu Ihnen die Möglichkeit zu geben, sich mit der TMP, als einer Hochleistungspumpe vertraut zu machen. 
 
-- Da die TMP bis zur vollen Saugleistung eine Anlaufzeit von ca. $2\,\mathrm{min}$ benötigt, sollten Sie sie nicht erst bei sehr niedrigem Druck einschalten. Die Apparatur sollte vor Beginn dieses Versuchsteils mindestens bis zu einem Druck von $\approx0.2\ \mathrm{mbar}$ teilbelüftet sein. Evakuieren Sie die Apparatur dann mit der DSP und schalten Sie bei einem Druck von $\approx0.08\ \mathrm{mbar}$ die TMP zu. 
+- Da die TMP bis zur vollen Saugleistung eine Anlaufzeit von ca. $2\,\mathrm{min}$ benötigt, sollte sie nicht erst bei sehr niedrigem Druck eingeschaltet werden. Die Apparatur sollte vor Beginn dieses Versuchsteils mindestens bis zu einem Druck von $\approx0.2\ \mathrm{mbar}$ teilbelüftet sein. Evakuieren Sie die Apparatur dann mit der DSP und schalten Sie bei einem Druck von $\approx0.08\ \mathrm{mbar}$ die TMP zu. 
 - Halten Sie während des gesamten Vorgangs der Evakuierung das Ventil V3 geöffnet, damit Sie höhere Drucke bei T3 ablesen können. 
 - Lesen Sie bei geeignet niedrigen Drucken den Druck bei IM ab. 
 - Lassen Sie die TMP für den nächsten Versuchsteil eingeschaltet.
@@ -58,14 +58,14 @@ Diese Aufgabe dient in erster Linie dazu Ihnen die Möglichkeit zu geben, sich m
 
 ### Aufgabe 3.1: Statische Kalibration von T3 
 
-Für diese Aufgabe führen Sie ein einstufiges, statisches Kalibrierungsverfahren, unter Anwendung des Gesetzes von [Boyle-Mariotte](https://en.wikipedia.org/wiki/Boyle%27s_law) durch. Gehen Sie hierzu iterativ, wie folgt vor:
+Für diese Aufgabe führen Sie ein einstufiges, statisches Kalibrierungsverfahren, unter Anwendung des Gesetzes von [Boyle-Mariotte](https://en.wikipedia.org/wiki/Boyle%27s_law) für T3 durch. Gehen Sie hierzu iterativ, wie folgt vor:
 
 - In der Ausgangssituation sollte V3 geschlossen, B2 geöffnet und RZ mit Hilfe der DSP und der TMP evakuiert sein. 
 
 - Schließen Sie V2 bei einem Druck von $p\lesssim10^{-4}\,\mathrm{mbar}$ und trennen Sie damit RZ vom Rest der Apparatur ab. Sie können die beiden Pumpen daraufhin abschalten. 
 
   - **Schritt 1:** Schließen Sie B2. Öffnen Sie daraufhin V3 und lesen Sie den sich einstellenden Druck **bei T3** ab. 
-  - **Schritt 2:** Schließen Sie V3 und öffnen Sie daraufhin B2, damit sich im kleineren Referenzvolumen (RV hier) erneut Atmosphärendruck ($p_{0}$) einstellen kann.
+  - **Schritt 2:** Schließen Sie V3 und öffnen Sie daraufhin B2, damit sich im kleineren Referenzvolumen (RV [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Vakuum/figures/VakuumSkizze.png)) erneut Atmosphärendruck ($p_{0}$) einstellen kann.
 
 - Wiederholen Sie diesen Vorgang beginnend mit **Schritt 1**, solange bis sich in RZ ein Druck von $p\approx80\,\mathrm{mbar}$ einstellt. Warten Sie jeweils den Druckausgleich im Gleichgewichtszustand ab. 
 
@@ -102,6 +102,8 @@ Vergleichen Sie Ihr Ergebnis mit dieser Erwartung. Beziehen Sie in Ihre Diskussi
 
 ### Aufgabe 3.2: Elektrische Durchschlagfestigkeit
 
+Die elektrische Durchschlagfestigkeit quantifizieren wir durch die Spannung, ab der es zwischen den KE zu elektrischen Entladungen kommt.  
+
 - Schalten Sie hierzu zunächst die TMP aus und evakuieren Sie RZ nur mit Hilfe der DSP. 
 - Schließen Sie nach erreichen des gewünschten Drucks jeweils V1, so dass der Druck in RZ während der sich anschließenden Messung konstant bleibt.
 - Beginnen Sie mit der belüfteten Apparatur bei Atmosphärendruck und erhöhen Sie die Spannung zwischen den KE bis zur Entladung. 
@@ -111,7 +113,7 @@ Vergleichen Sie Ihr Ergebnis mit dieser Erwartung. Beziehen Sie in Ihre Diskussi
 - Nehmen Sie sobald wie möglich (für $U \leq9\ \mathrm{kV}$) weitere Messwerte auf. Die Messreihe endet, wenn ein Druck von $p\approx0.08\ \mathrm{mbar}$ erreicht ist.
 - Diskutieren Sie in Ihrer Auswertung die folgenden Punkte: 
   - Warum lässt sich der Druck ab einem bestimmten Druckbereich nicht mehr genau einstellen und warum steigt er bei sehr kleinen Werten kontinuierlich an? 
-  - Beschreiben Sie Ihre Beobachtungen in den entsprechenden Druckbereichen. 
+  - Beschreiben Sie Ihre Beobachtungen bei der Gasentladung in den entsprechenden Druckbereichen. 
   - Erklären Sie den Verlauf der elektrischen Durchschlagfestigkeit mit Hilfe der mittleren freien Weglänge $\lambda$.
 
 Sie können $\lambda$, wie für den [Franck-Hertz-Versuch](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/tree/main/Franck_Hertz_Versuch), wie folgt abschätzen: 
@@ -134,9 +136,11 @@ wobei $N_{A}$ der [Avogradro-Konstanten](https://de.wikipedia.org/wiki/Avogadro-
 Bei dieser Aufgabe dampfen Sie bei verschiedenen Drucken jeweils eine Indium-Schicht durch eine Kreisblende auf eine schwenkbare Plexiglasplatte auf. Es soll jeweils ein Fleck bei einem Druck von 
 
 - $p\lesssim10^{-4}\,\mathrm{mbar}$ und 
-- $p\lesssim10^{-3}\,\mathrm{mbar}$ aufgedampft werden. 
+- $p\lesssim10^{-3}\,\mathrm{mbar}$ 
 
-Beobachten Sie den benötigten Heizstrom und diskutieren Sie die Randschärfe der aufgedampften Flecken. Gehen Sie dabei wie folgt vor: 
+aufgedampft werden. 
+
+Diskutieren Sie die Randschärfe der aufgedampften Flecken. Gehen Sie dabei wie folgt vor: 
 
 - Evakuieren Sie RZ mit der TMP; 
 - schließen Sie V2; 

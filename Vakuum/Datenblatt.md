@@ -4,7 +4,7 @@ Für die verschiedenen Aufgaben des Versuchs Vakuum stehen Ihnen die folgenden G
 
 - Eine [Drehschieberpumpe](https://de.wikipedia.org/wiki/Drehschieberpumpe) (DSP) mit einem [Saugvermögen](https://de.wikipedia.org/wiki/Vakuum-Komponente#Saugverm%C3%B6gen) (unter Normbedingungen) von $S=2.5\ \mathrm{m^{3}/h}$. 
 
-- Eine [Turbomolekularpumpe](https://de.wikipedia.org/wiki/Turbomolekularpumpe) (TMP) mit einem Saugvermögen $S\geq30\,\mathrm{l/s}$ bei $7200\ \mathrm{min}^{-1}$. Die TMP benötigt ca. $2\ \mathrm{min}$ Hochlaufzeit.
+- Eine [Turbomolekularpumpe](https://de.wikipedia.org/wiki/Turbomolekularpumpe) (TMP) mit einem Saugvermögen von $S\geq30\,\mathrm{l/s}$ bei $7200\ \mathrm{min}^{-1}$. Die TMP benötigt ca. $2\ \mathrm{min}$ Hochlaufzeit.
 
 - Drei [Wärmeleitungs-Vakuummeter](https://de.wikipedia.org/wiki/Pirani-Vakuummeter) (T1–T3) jeweils mit einem Messbereich von $5\times10^{-4}$ bis $10^{3}\ \mathrm{mbar}$. 
 
@@ -26,7 +26,7 @@ Für die verschiedenen Aufgaben des Versuchs Vakuum stehen Ihnen die folgenden G
 
   Die Volumina der Gesamtapparaturen sind jeweils um $0.5\ \mathrm{l}$ größer. 
 
-- Im RZ befinden sich zwei elektrisch aufladbare Kugelelektroden (KE) und ein elektrisch direkt beheizbares Verdampferschiffchen (VS).
+- In RZ befinden sich zwei elektrisch aufladbare Kugelelektroden (KE) und ein elektrisch direkt beheizbares Verdampferschiffchen (VS).
 
 - Das Referenzvolumen (RV) beträgt für alle Apparaturen $V_{\mathrm{RV}}=0.034\ \mathrm{l}$.
 
