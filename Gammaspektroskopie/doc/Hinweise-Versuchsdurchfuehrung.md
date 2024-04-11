@@ -28,7 +28,7 @@ Führen Sie eine Leermessung durch, aus der Sie das Spektrum des erwarteten Unte
 - Fügen Sie Ihrem Protokoll ein Diagramm des Spektrums für jedes Präparat ($_{\hphantom{0}55}^{137}\mathrm{Cs}$, $_{27}^{60}\mathrm{Co}$ und $_{11}^{22}\mathrm{Na}$) mit geeigneten Achsenbeschriftungen und Labels zu, so dass Sie die Spektren den Präparaten eindeutig zuordnen können. 
 - Versuchen Sie **alle** charakteristischen Merkmale der jeweiligen Spektren zu klassifizieren und mit den damit assoziierten Prozessen im Photondetektor zu identifizieren. Sie können hierzu die matplotlib Funktion [annotate()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.annotate.html) verwenden. Ein Beispiel hierfür finden Sie [hier](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Gammaspektroskopie/tools/Annotations.ipynb). 
 - Sie können die *cursor*-Funktion der graphischen Oberfläche dazu benutzen, um für jede Struktur die Kanäle der zentralen Position sowie des Bereichs zu bestimmen, in dem die entsprechende Struktur zu erkennen ist. Den Bereich können Sie bei der Bearbeitung der folgenden Aufgaben dazu nutzen, die Bereiche zu definieren, auf die Sie die Anpassung entsprechender Modelle einschränken möchten. Er sollte daher nach Möglichkeit etwa 2–3 Standardabweichungen entsprechen. **Notieren Sie sich die entsprechenden Kanäle für jede Struktur, die sie bestimmen möchten.**
-- Sie können diese Spektren, für die erste Einreichung Ihres Protokolls (als Version v1) zunächst, **wie gemessen**, ins Protokoll aufnehmen. Auf der $x$–Achse können also die Kanäle des MCA oder entsprechende Histogramm-Bins stehen und das Spektrum muss nicht auf den erwarteten Untergrund korrigiert sein. 
+- Sie können diese Spektren, für die erste Einreichung Ihres Protokolls (als Version v0) zunächst, **wie gemessen**, ins Protokoll aufnehmen. Auf der $x$–Achse können also die Kanäle des MCA oder entsprechende Histogramm-Bins stehen und das Spektrum muss nicht auf den erwarteten Untergrund korrigiert sein. 
 - **Die Primärdaten zur Erzeugung dieser Spektrum sollten Sie unbedingt vorhalten.** Für Ihre weitere Auswertung sollten Sie die Spektren dann aber sukzessive verbessern, indem Sie das erwartete Untergrundspektrum geeignet normiert von den rohen Spektren subtrahieren und Ihre Kalibration aus **Aufgabe 2.3** auf die $x$-Achse anwenden, um Ihre Spektren entsprechend aufzubereiten.
 
 #### Aufgabe 2.3: Energie-Kalibration des Detektors 
@@ -76,7 +76,7 @@ Führen Sie eine Leermessung durch, aus der Sie das Spektrum des erwarteten Unte
 
 - Den Effekt von Untergrundprozessen können Sie als konstante Rate in diesem Modell berücksichtigen. 
 
-- Denn Effekt von pile-up können Sie abschätzen, wenn Sie die auf Untergrund korrigierte Anzahl an Einträgen rechts des Photopeaks zählen, oder wenn Sie die Änderung der Rate als Funktion von $d^{2}$ zu sätzlich als Funktion von $E_{\gamma}$ bestimmen.   
+- Denn Effekt von pile-up können Sie abschätzen, wenn Sie die auf Untergrund korrigierte Anzahl an Einträgen rechts des Photopeaks zählen, oder wenn Sie die Änderung der Rate als Funktion von $d^{2}$ zusätzlich als Funktion von $E_{\gamma}$ bestimmen.   
 
 # Navigation
 

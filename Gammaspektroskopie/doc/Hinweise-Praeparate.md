@@ -34,9 +34,10 @@ Wie diese Zerfälle genau ablaufen lernen Sie in den Experimentalphysik-Vorlesun
 Die Elektronen und Positronen der entstehenden $\beta$-Strahlung können durch dünne Metallschichten bereits hinreichend abgeschirmt werden. Sie haben für diesen Versuch keine Bedeutung. Für diesen Versuch von Relevanz sind die entstehenden $\gamma$-Strahlen mit den folgenden Energien: 
 
 - 0.6617 MeV (aus dem Zerfall von Cäsium-137),
-- 1.1732 MeV (aus dem Zerfall von Cobald-60),
-- 1.3325 MeV (aus dem Zerfall von Cobald-60),
-- 1.2745 MeV (aus dem Zerfall von Na-22).
+- 1.1732 MeV (aus dem Zerfall von Cobalt-60),
+- 1.3325 MeV (aus dem Zerfall von Cobalt-60),
+- 1.2745 MeV (aus dem Zerfall von Na-22)
+- 0.5110 MeV (aus der Annihilation der Positronen der Betastrahlung von Na-22).
 
 Im Rahmen dieses Versuchs werden Sie die $\gamma$-Spektren der oben genannten Quellen charakterisieren und u.a. die oben genannten Energien zur Kalibration Ihres Messaufbaus verwenden. 
 

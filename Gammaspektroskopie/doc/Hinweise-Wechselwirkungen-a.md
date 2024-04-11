@@ -4,13 +4,13 @@
 
 ### Compton-Effekt
 
-Compton-Effekt ist der dominierende Wechselwirkungsprozess für Photonen im Energiebereich von $E_{\gamma}=100\,\mathrm{keV}$ bis $10\,\mathrm{MeV}$ mit Materie. Er wurde 1922 erstmals von [Arthur Compton](https://de.wikipedia.org/wiki/Arthur_Holly_Compton) nachgewiesen, erklärt und untersucht. Compton stellte fest, dass bei der Streuung von Röntgenstrahlung an Graphit, die Wellenlänge $\lambda'$ des gestreuten Lichts größer als die Wellenlänge $\lambda$ des eingestrahlten Lichts ist. Für die Änderung der Wellenlänge gilt der einfache Zusammenhang: 
+Compton-Effekt ist der dominierende Wechselwirkungsprozess für Photonen im Energiebereich von $E_{\gamma}=100\ \mathrm{keV}$ bis $10\ \mathrm{MeV}$ mit Materie. Er wurde 1922 erstmals von [Arthur Compton](https://de.wikipedia.org/wiki/Arthur_Holly_Compton) nachgewiesen, erklärt und untersucht. Compton stellte fest, dass bei der Streuung von Röntgenstrahlung an Graphit, die Wellenlänge $\lambda'$ des gestreuten Lichts größer als die Wellenlänge $\lambda$ des eingestrahlten Lichts ist. Für die Änderung der Wellenlänge gilt der einfache Zusammenhang: 
 $$
 \begin{equation*}
 \begin{split}
 &\Delta\lambda=\lambda'-\lambda = \frac{h}{m_{\mathrm{e}}\,c}\left(1-\cos\theta\right);\\
 &\\
-&\text{with:} \\
+&\text{mit:} \\
 &\\
 &\lambda_{\mathrm{C}} = \frac{h}{m_{\mathrm{e}}\,c}.
 \end{split}
