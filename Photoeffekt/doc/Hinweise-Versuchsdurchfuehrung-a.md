@@ -14,7 +14,7 @@ Gehen Sie zur Bestimmung von $h$ wie folgt vor:
 
 - Nehmen Sie **mindestend drei Messreihen** auf, bestimmen Sie den Messwert $U_{\mathrm{Ph}}^{(i)}$ durch Stichprobenmittelung, und die Unsicherheit $\Delta U_{\mathrm{Ph}}^{(i)}$ aus der Stichprobenvarianz. 
 
-- Stellen Sie die Messpunkte $(U^{(i)}_{\mathrm{Ph}},\ \lambda^{(i)}_{\mathrm{CWR}})$ einschließlich der abgeschätzten Unsicherheiten $(\Delta U^{(i)}_{\mathrm{Ph}},\ \Delta \lambda^{(i)}_{\mathrm{CWR}})$ geeignet dar und passen Sie ein Modell der folgenden Form daran an:
+- Stellen Sie die Messpunkte $`(U^{(i)}_{\mathrm{Ph}},\ \lambda^{(i)}_{\mathrm{CWR}})`$ einschließlich der abgeschätzten Unsicherheiten $`(\Delta U^{(i)}_{\mathrm{Ph}},\ \Delta \lambda^{(i)}_{\mathrm{CWR}})`$ geeignet dar und passen Sie ein Modell der folgenden Form daran an:
 
   ```math
   \begin{equation*}
