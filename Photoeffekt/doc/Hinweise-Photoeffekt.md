@@ -62,7 +62,7 @@ Beim Betrieb der Photozelle kommt es mit der Zeit zu Einlagerungen des Kathodenm
 
 ### Bestimmung von $h$ aus einer anliegenden externen Spannung $U_{o}$
 
-In **Abbildung 2** unten ist eine Schaltung gezeigt, mit der Sie mit dem Elektrometer den Strom der Photozelle $I_{\mathrm{Ph}}$ als Funktion einer anliegenden externen Spannung $U_{o}$ aufnehmen können. Damit Sie auch eine Gegenspannung ($U_{o}<0$) anlegen können, liegt A in diesem Fall nicht mehr auf Masse, $I_{\mathrm{Ph}}$ wird mit Hilfe des Elektrometers als Spannung $U_{\mathrm{Ph}}=I_{\mathrm{Ph}}\,R$ gemessen, die über einen bekannten Arbeitswiderstand $R$ abfällt. 
+In **Abbildung 2** unten ist eine Schaltung gezeigt, mit der Sie mit dem Elektrometer den Strom der Photozelle $I_{\mathrm{Ph}}$ als Funktion einer anliegenden externen Spannung $U_{o}$ aufnehmen können. Damit Sie auch eine Gegenspannung ($`U_{o}<0`$) anlegen können, liegt A in diesem Fall nicht mehr auf Masse, $I_{\mathrm{Ph}}$ wird mit Hilfe des Elektrometers als Spannung $U_{\mathrm{Ph}}=I_{\mathrm{Ph}}\,R$ gemessen, die über einen bekannten Arbeitswiderstand $R$ abfällt. 
 
 Die Kathoden- und Anodenklemmen der Photozelle werden bei einer solchen Schaltung mit einem Arbeitswiderstand von $R=0.1\ \mathrm{G\Omega}$ kurzgeschlossen und eine regelbare externe Spannungsquelle $U_{o}$ zu $R$ parallel geschaltet. Mit Hilfe des Elektrometers kann $I_{\mathrm{Ph}}$ als Funktion von $U_{o}$ untersucht werden. Je nach Polung agiert $U_{o}$ als Beschleunigungs- oder als Gegenspannung. Die Spannung $U_{o}(I_{\mathrm{Ph}}=0)$ ist zu $U_{\mathrm{Ph}}$ aus den obigen Betrachtungen äquivalent, wobei diese Messung nicht durch den Innenwiderstand (ohnehin sehr großen) $R_{i}$ des Elektrometers verfälscht ist.    
 
