@@ -1,8 +1,8 @@
 # Technische Daten und Inventar für den Versuch Vakuum:
 
-Für die verschiedenen Aufgaben des Versuchs Vakuum stehen Ihnen die folgenden Geräte zur Verfügung: 
+Für die verschiedenen Aufgaben des Versuchs **Vakuum** stehen Ihnen die folgenden Geräte zur Verfügung: 
 
-- Eine [Drehschieberpumpe](https://de.wikipedia.org/wiki/Drehschieberpumpe) (DSP) mit einem [Saugvermögen](https://de.wikipedia.org/wiki/Vakuum-Komponente#Saugverm%C3%B6gen) (unter Normbedingungen) von $S=2.5\ \mathrm{m^{3}/h}$. 
+- Eine [Drehschieberpumpe](https://de.wikipedia.org/wiki/Drehschieberpumpe) (DSP) mit einem Saugvermögen (unter Normbedingungen) von $S=2.5\ \mathrm{m^{3}/h}$. 
 
 - Eine [Turbomolekularpumpe](https://de.wikipedia.org/wiki/Turbomolekularpumpe) (TMP) mit einem Saugvermögen von $S\geq30\,\mathrm{l/s}$ bei $7200\ \mathrm{min}^{-1}$. Die TMP benötigt ca. $2\ \mathrm{min}$ Hochlaufzeit.
 
