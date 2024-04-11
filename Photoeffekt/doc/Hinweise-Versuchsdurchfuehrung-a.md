@@ -50,7 +50,7 @@ Gehen Sie zur Bestimmung von $h$ wie folgt vor:
 
   wobei es sich bei $a$ und $I_{0}$ um freie Parameter handelt. 
 
-- Bestimmen Sie die Reduktion der Lichtitensität durch den Graufilter, indem Sie z.B. dem obigen Diagramm ein Panel zufügen, in dem Sie das Verhältnis der gemessenen Werte mit und ohne Graufilter abtragen. Da $I_{\mathrm{Ph}}$ zu Lichtintensität proportional ist ist zu erwarten, dass das Verhältnis $I_{\mathrm{Ph}}^{\mathrm{filter}}/I_{\mathrm{Ph}}$ nicht von $U_{o}$ abhängt. 
+- Bestimmen Sie die Reduktion der Lichtitensität durch den Graufilter, indem Sie z.B. dem obigen Diagramm ein Panel zufügen, in dem Sie das Verhältnis der gemessenen Werte mit und ohne Graufilter abtragen. Da $I_{\mathrm{Ph}}$ zu Lichtintensität proportional ist ist zu erwarten, dass das Verhältnis $I_{\mathrm{Ph}}^{\mathrm{Filter}}/I_{\mathrm{Ph}}$ nicht von $U_{o}$ abhängt. 
 
 - Diskutieren Sie Ihre Ergebnisse einschließlich der $\chi^{2}$-Werte der gewählten Anpassungen und der erhaltenen Unsicherheiten sowohl für die Abschwächung des Graufilters, als auch für den Wert von $U_{o}(I_{\mathrm{Ph}}=0)$. 
 
