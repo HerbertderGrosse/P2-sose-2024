@@ -94,9 +94,9 @@ Beschreiben und begründen Sie Ihre Versuchsplanung, **messen Sie sorgfältig un
 - Aus dem Modell können Sie die Ableitung wie folgt leicht bestimmen: 
 
   ```math
-  \begin{equation}
+  \begin{equation*}
   \dot{T}(t) = a\,b\,t^{b-1}.
-  \end{equation}
+  \end{equation*}
   ```
 
 - Um $\dot{T}$ als Funktion von $T$ zu bestimmen benötigen Sie noch die Umkehrfunktion von Gleichung **(1)** 
