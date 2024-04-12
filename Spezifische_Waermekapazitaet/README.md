@@ -39,7 +39,7 @@ Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem
 
 Einen typischer Aufbau mit den Apparaturen für diesen Versuch ist in **Abbildung 1** gezeigt:
 
-<img src="/home/rwolf/Data/Vorlesungen/2024/students/Spezifische_Waermekapazitaet/figures/Waermekapazitaet.png" width="1000" style="zoom:100%;" />
+<img src="./figures/Waermekapazitaet.png" width="1000" style="zoom:100%;" />
 
 **Abbildung 1**: (Ein typischer Aufbau mit den Apparaturen für die Durchführung des Versuchs Spezifische Wärmekapazität)
 
