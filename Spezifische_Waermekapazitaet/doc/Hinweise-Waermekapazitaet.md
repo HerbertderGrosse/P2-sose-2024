@@ -49,18 +49,6 @@ $$
 \end{equation}
 $$
 
+# Navigation
 
-### Hinweise zur Durchführung:
-
-Bei der Durchführung wird über $\approx 3\,\mathrm{h}$ in einem festen Intervall von $\Delta t = 10\,\mathrm{s}$ ein Wert aufgezeichnet. Sie sollten deutlich über $100$ Datenpunkte erhalten und können $\dot{T}$ ruhig durch einen Differenzenquotienten benachbarter Messpunkte approximieren. Bestimmen Sie diesen als Funktion von $T$, $\dot{T}(T)$. 
-
-Bei der Auswertung sollten Sie berücksichtigen, dass dem System auch aus der Umgebung Wärme zugeführt wird, die in den gleichen Zeitintervallen zu einer Temperaturänderung $\Delta T_{\mathrm{U}}$ des Hohlzylinders führt. Durch die Ihnen zur Verfügung gestellte Nullmessung können Sie $\dot{T}_{\mathrm{U}}(T)$ bestimmen und $\dot{T}(T)$ in Gleichung (1) entsprechend korrigieren:
-
-```math
-\begin{equation*}
-\dot{T}(T) = \lim\limits_{\Delta t\to0}\left(\frac{\Delta T - \Delta T_{\mathrm{U}}}{\Delta t}\right) = \dot{T}^{(0)}(T) - \dot{T}_{\mathrm{U}}(T).
-\end{equation*}
-```
-
-
-
+[Main](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/tree/main/Spezifische_Waermekapazitaet)
