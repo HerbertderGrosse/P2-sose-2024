@@ -1,4 +1,4 @@
-<img src="/home/rwolf/Data/Vorlesungen/2024/students/figures/Logo_KIT.svg" width="200" style="float:right;" />
+<img src="../figures/Logo_KIT.svg" width="200" style="float:right;" />
 
 # Fakultät für Physik
 
