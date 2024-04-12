@@ -1,69 +1,62 @@
-# Hinweise für den Versuch: "Spezifische Wärmekapazität" 
+<img src="/home/rwolf/Data/Vorlesungen/2024/students/figures/Logo_KIT.svg" width="200" style="float:right;" />
 
-## Hinweise zum Ablauf
+# Fakultät für Physik
 
-Dieser Versuch wird **nicht von allen Studierenden**, sondern nur von den Gruppen 1–20 durchgeführt. Die Vorbesprechung des Versuchs findet an jedem Praktikumstag zwischen 14:00–14:30 statt.
+## Physikalisches Praktikum P2 für Studierende der Physik
 
-**Beachten Sie**: Für diesen Versuch benötigen Sie einen USB-Datenträger zum Datentransfer. 
+Versuch P2-33, 34, 35 (Stand: April 2024)
 
-##  Aufgabe 1: Spezifische Wärmekapazität
+[Raum F1-10](https://labs.physik.kit.edu/img/Praktikum/Lageplan_P2.png)
 
-### Prinzip der Messung
 
-Bei diesem Versuch sollen Sie die spezifische Wärmekapazität eines Metalls, wie z.B. Aluminium mit Hilfe der bekannten spezifischen Wärmekapazität von Wasser ($c_{\mathrm{H_{2}O}}=4,18\,\mathrm{kJ/(kg\,K)}$) bestimmen. die spezifische Wärmekapazität ist definiert als
 
-```math
+# Spezifische Wärmekapazität
+
+## Motivation
+
+Im Jahr 1819 veröffentlichten [Pierre Dulong](https://de.wikipedia.org/wiki/Pierre_Louis_Dulong) und [Alexis Petit](https://de.wikipedia.org/wiki/Alexis_Th%C3%A9r%C3%A8se_Petit) nach eingehenden Untersuchungen die Vermutung, dass die [molare Wärmekapazität](https://de.wikipedia.org/wiki/Molare_W%C3%A4rmekapazit%C3%A4t) für alle aus einzelnen Atomen zusammengesetzten Festkörper den gleichen Wert 
+
+$$
 \begin{equation*}
-c = \frac{1}{m}\frac{\partial Q}{\partial T},
+C_{M} = 3\ R=24.9\ \mathrm{J\,mol^{-1}K^{-1}}
 \end{equation*}
-```
+$$
 
-wobei $m$ der Masse des zu untersuchenden Materials, $\partial Q$ der Änderung der Wärmemenge und $\partial T$ der Änderung der Temperatur entsprechen.
+haben könnte, wobei $R$ der idealen Gaskonstanten entspricht. Diese Vermutung konnte später durch eine entsprechende Vorhersage aus der [statistischen Thermodynamik](https://de.wikipedia.org/wiki/Statistische_Thermodynamik) erklärt werden. Eine Konsequenz dieser Vorhersage war, dass $C_{M}$ für einatomige Festkörper konstant sein sollte. Später stellte sich jedoch heraus, dass $C_{M}$ bei sehr tiefen Temperaturen ($T$) eine deutliche $T$-Abhängigkeit aufwies und und gegen Null strebte, ein Verhalten, dass im Rahmen der statistischen Thermodynamik nicht zu erklären war. Albert Einstein ([*Annalen der Physik*, 22 (1907)](http://echo.mpiwg-berlin.mpg.de/MPIWG:7BQGFZHC)) konnte dieses Phänomen als erster unter der Annahme erklären, dass Schwingungen im Festkörper, ganz so wie Strahlung in einem [Schwarzen Körper](https://de.wikipedia.org/wiki/Schwarzer_K%C3%B6rper) nur in Energiequanten aufgenommen und abgegeben werden können ([Einsteinmodell](https://de.wikipedia.org/wiki/Einsteinmodell)). Dieses Modell wurde 1912 von [Peter Debye](https://de.wikipedia.org/wiki/Debye-Modell) weiter verfeinert. Mit diesem Versuch haben Sie die Möglichkeit mit einfachsten Mitteln die Aussagen des Dulong-Petit Gesetzes für verschiedene Festkörper experimentell nachzuprüfen und mit Hilfe von [Flüssigstickstoff](https://de.wikipedia.org/wiki/Fl%C3%BCssigstickstoff) den Temperaturverlauf von $C_{M}$ an Aluminium zu untersuchen. Damit weisen Sie eine weitere Bruchstelle der klassischen Physik und einen der ersten Quanteneffekte des Festkörperphysik im Praktikum selbst nach. 
 
-Hierzu bringen Sie das gegebene Metall ($\mathrm{M}$, mit der Temperatur $T_{\mathrm{M}}$ und Masse $m_{\mathrm{M}}$) in ein Wärmebad aus Wasser (mit der Temperatur $T_{\mathrm{H_{2}O}}\neq T_{\mathrm{M}}$ und Masse $m_{\mathrm{H_{2}O}}$) und warten, bis sich eine Mischtemperatur $T_{\mathrm{Mix}}$ einstellt. Die Temperatur $T_{\mathrm{Mix}}$ stellt sich durch den Übergang von Wärme $\partial Q$ von einem zum anderen Material ein. 
-```math
-\begin{equation*}
-\begin{split}
-&c_{\mathrm{H_{2}O}}\,m_{\mathrm{H_{2}O}}\left(T_{\mathrm{H_{2}O}}-T_{\mathrm{Mix}}\right) = c_{\mathrm{M}}\,m_{\mathrm{M}}\left(T_{\mathrm{M}}-T_{\mathrm{Mix}}\right) \\
-&\\
-&c_{\mathrm{M}} = c_{\mathrm{H_{2}O}}\frac{m_{\mathrm{H_{2}O}}\left(T_{\mathrm{H_{2}O}}-T_{\mathrm{Mix}}\right)}{m_{\mathrm{M}}\left(T_{\mathrm{M}}-T_{\mathrm{Mix}}\right)} \\
-\end{split}
-\end{equation*}
-```
+## Lehrziele
 
-Eine wichtige Voraussetzung dieser Messung ist, dass kein weiterer Wärmeaustausch mit der Umgebung stattfindet. 
+Wir listen im Folgenden die wichtigsten **Lehrziele** auf, die wir Ihnen mit dem Versuch **Spezifische Wärmekapazität** vermitteln möchten: 
+
+- Sie üben sich in der sorgfältigen Planung, Dokumentation und Durchführung einfacher Experimente zur Bestimmung der [spezifischen Wärmekapazität](https://de.wikipedia.org/wiki/Spezifische_W%C3%A4rmekapazit%C3%A4t) verschiedener Metalle.
+- Sie üben sich im gewissenhaften und exakten Experimentieren, sowie in der Abschätzung und Minimierung systematischer Effekte bei der Planung und Durchführung Ihrer Experimente.
+- Sie untersuchen den Einfluss der Umgebung auf Experimente, die mit Wärme zu tun haben ([Wärmegang](https://de.wikipedia.org/wiki/W%C3%A4rme%C3%BCbergangskoeffizient)).
+- Sie untersuchen die Abhängigkeit der spezifischen Wärmekapazität von der Temperatur, ein Phänomen, das im Rahmen der klassischen Thermodynamik nicht erklärt werden kann. 
+- Sie üben sich im verantwortungsvollen Umgang mit [Flüssigstickstoff](https://de.wikipedia.org/wiki/Fl%C3%BCssigstickstoff) und führen ein Experiment bei tiefen Temperaturen durch. 
+- Sie nutzen dabei den [thermoelektrischen (Peletier) Effekt](https://de.wikipedia.org/wiki/Thermoelektrizit%C3%A4t) zur Temperaturmessung.  
+
+## Versuchsaufbau
+
+Einen typischer Aufbau mit den Apparaturen für diesen Versuch ist in **Abbildung 1** gezeigt:
+
+<img src="/home/rwolf/Data/Vorlesungen/2024/students/Spezifische_Waermekapazitaet/figures/Waermekapazitaet.png" width="1000" style="zoom:100%;" />
+
+**Abbildung 1**: (Ein typischer Aufbau mit den Apparaturen für die Durchführung des Versuchs Spezifische Wärmekapazität)
 
 ---
 
-## Aufgabe 2: Spezifische Wärmekapazität als Funktion der Temperatur
+Für die Durchführung des Versuchs stehen Ihnen mehrere Metalle in Form von Zylindern oder Granulaten zur Verfügung. Mit einer Heizplatte oder Eis können Sie die Metallgemenge oder Wasser erhitzen oder abkühlen. In einem Dewargefäß, dass Sie als thermisches Kalorimeter nutzen, bestimmen Sie mit Hilfe verschiedener Thermometer Mischtemperaturen von geeigneten Metall-Wasser-Gemischen. Die Planung, der grundsätzliche Aufbau und der konkrete Versuchsablauf bleibt Ihnen überlassen. 
 
-### Prinzip der Messung
+In einem zweiten Teil des Versuchs kühlen Sie einen Aluminium-Hohlzylinder (AL) auf die Sidetemperatur von Flüssigstickstoff ab und erwärmen ihn im Anschluss wieder unter kontrollierten Bedingungen. Nach Anwendung verschiedener Korrektur- und Kalibrationsschritte bestimmen Sie den Temperaturverlauf der spezifischen Wärmekapazität von Aluminium und überprüfen u.a. die Konsistenz Ihrer  Messungen.  
 
-Da dem Aluminium-Hohlzylinder durch die Heizspule Wärme ($\Delta Q$) zugeführt, jedoch keine Arbeit verrichtet wird geht $\Delta Q$ vollständig in innere Energie ($\Delta U$) über:
+## Wichtige Hinweise
 
-```math
-\begin{equation*}
-P_{\mathrm{H}}\,\Delta t = \Delta Q = \Delta U = c_{\mathrm{Al}}(T)\,m_{\mathrm{Al}}\,\Delta T,
-\end{equation*}
-```
+- **Der Umgang mit Flüssigstickstoff erfordert besondere Vorsicht! Spritzer von flüssigem Stickstoff auf der Haut können bereits zu schweren Verbrennungen führen.** Tragen Sie daher immer Schutzhandschuhe und eine Schutzbrille im Umgang mit Flüssigstickstoff!
+- Werfen Sie keine Gegenstände in die Dewargefäße und gehen Sie achtsam damit um. Da diese aus Glas bestehen können Sie leicht zerstört werden.
+- Um die Daten von **Aufgabe 2** auf das Jupyter-notebook zu überspielen benötigen Sie einen USB-Stick. 
 
-wobei $P_{\mathrm{H}}$ der Heizleistung der Spule, $m_{\mathrm{Al}}$ der Masse des Hohlzylinders und $\Delta T$ der Temperaturänderung im Zeitintervall $\Delta t$ entsprechen. Daraus ergibt sich 
+# Navigation
 
-```math
-c_{\mathrm{Al}}(T) = \frac{P_{\mathrm{H}}}{m_{\mathrm{Al}}\, \dot{T}^{(0)}(T)}; \qquad \text{mit: }\dot{T}^{(0)}(T) = \lim\limits_{\Delta t\to0}\left(\frac{\Delta T}{\Delta t}\right). \qquad\text{(1)}
-```
-
-### Hinweise zur Durchführung:
-
-Bei der Durchführung wird über $\approx 3\,\mathrm{h}$ in einem festen Intervall von $\Delta t = 10\,\mathrm{s}$ ein Wert aufgezeichnet. Sie sollten deutlich über $100$ Datenpunkte erhalten und können $\dot{T}$ ruhig durch einen Differenzenquotienten benachbarter Messpunkte approximieren. Bestimmen Sie diesen als Funktion von $T$, $\dot{T}(T)$. 
-
-Bei der Auswertung sollten Sie berücksichtigen, dass dem System auch aus der Umgebung Wärme zugeführt wird, die in den gleichen Zeitintervallen zu einer Temperaturänderung $\Delta T_{\mathrm{U}}$ des Hohlzylinders führt. Durch die Ihnen zur Verfügung gestellte Nullmessung können Sie $\dot{T}_{\mathrm{U}}(T)$ bestimmen und $\dot{T}(T)$ in Gleichung (1) entsprechend korrigieren:
-
-```math
-\begin{equation*}
-\dot{T}(T) = \lim\limits_{\Delta t\to0}\left(\frac{\Delta T - \Delta T_{\mathrm{U}}}{\Delta t}\right) = \dot{T}^{(0)}(T) - \dot{T}_{\mathrm{U}}(T).
-\end{equation*}
-```
-
-
-
+- [Hinweise-Waermekapazitaet.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Spezifische_Waermekapazitaet/doc/Hinweise-Waermekapazitaet.md): **Grundlagen des Versuchs**.
+- [Hinweise-Versuchsdurchfuehrung.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Spezifische_Waermekapazitaet/doc/Hinweise-Versuchsdurchfuehrung.md): Wichtige Hinweise und **Tipps zur Versuchsdurchführung**.
+- [Datenblatt.md](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Spezifische_Waermekapazitaet/Datenblatt.md): **Wichtige technische Details** zu den Versuchsaufbauten.
