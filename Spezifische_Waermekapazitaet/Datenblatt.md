@@ -9,7 +9,7 @@ Für die verschiedenen Aufgaben des Versuchs **Spezifisch Wärmekapazität** ste
 - Eine Präzisionswaage. 
 - Diverse Aluminium-, Messing- und Kupferzylinder, sowie Aluminium-, Blei-, Zinn- und Kupfergranulat. 
 - Verschiedene weitere Messzylinder, [Erlenmeyerkolben](https://de.wikipedia.org/wiki/Erlenmeyerkolben), Bechergläser und Dewargefäße.
-- Ein Aluminium-Hohlzylinder ($m_{\mathrm{Al}}=338\ \mathrm{g}$) mit eingebauter Heizwicklung ($I_{\mathrm{max}}=2\ \mathrm{A}$) und einem eingebauten $\mathrm{NiCr}$-$\mathrm{Ni}$-[Thermoelement](https://de.wikipedia.org/wiki/Thermoelement). Die Thermospannung als Funktion der Temperatur finden Sie im Verzeichnis *params* in diesem gitlab-Repository (Dateiname: [`calibration.csv`](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Spezifische_Waermekapazitaet/params/calibration.csv)). Die Stromversorgung für den Heizdraht liefert bis zu $5\ \mathrm{A}$ bei max. $16\ \mathrm{V}$.
+- Ein Aluminium-Hohlzylinder ($m_{\mathrm{Al}}=338\ \mathrm{g}$) mit eingebauter Heizwicklung ($I_{\mathrm{max}}=2\ \mathrm{A}$) und einem eingebauten $\mathrm{NiCr}$-$\mathrm{Ni}$-[Thermoelement](https://de.wikipedia.org/wiki/Thermoelement). Die Thermospannung als Funktion der Temperatur finden Sie im Verzeichnis *params* in diesem gitlab-Repository (Dateiname: [calibration.csv](https://gitlab.kit.edu/kit/etp-lehre/p2-praktikum/students/-/blob/main/Spezifische_Waermekapazitaet/params/calibration.csv)). Die Stromversorgung für den Heizdraht liefert bis zu $5\ \mathrm{A}$ bei max. $16\ \mathrm{V}$.
 - Ein Edelstahl- und ein Nalgene-Isolierbehälter.
 - Ein Computer mit Picoscope TC08, als Datenlogger.
 - Schutzbrillen, Schutzhandschuhe und Pinzetten.
